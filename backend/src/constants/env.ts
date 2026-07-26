@@ -17,3 +17,4 @@ const nodeEnvSchema = z
 
 export const PORT = getEnv("PORT", "3000")
 export const NODE_ENV = nodeEnvSchema.parse(getEnv("NODE_ENV"))
+export const DATABASE_URL = getEnv("DATABASE_URL")
