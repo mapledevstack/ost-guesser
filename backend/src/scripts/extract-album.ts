@@ -19,14 +19,21 @@ await fs.mkdir(outputDir, {
 })
 
 for (const album of albums) {
+  const outputPath = path.join(outputDir, `${album.id}.json`)
+
+  try {
+    await fs.access(outputPath)
+    console.log(`Skipping "${album.id}" (already exists)`)
+    continue
+  } catch {
+    // Doesn't exist, extract it.
+  }
+
   console.log(`Extracting "${album.id}"...\n`)
 
   const playlist = await getPlaylistDetails(album.youtubePlaylistId)
-
   const videoIds = await getPlaylistVideoIds(album.youtubePlaylistId)
-
   const videos = await getVideosDetails(videoIds)
-
   const clips = await generateClips(videoIds)
 
   const tracks = videos.map((video) => ({
@@ -40,11 +47,7 @@ for (const album of albums) {
     tracks,
   }
 
-  const outputPath = path.join(outputDir, `${album.id}.json`)
-
   await fs.writeFile(outputPath, JSON.stringify(extractedAlbum, null, 2))
 
-  console.log(`\nSaved ${outputPath}`)
+  console.log(`Saved ${outputPath}`)
 }
-
-console.log("Extraction complete!")
