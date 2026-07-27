@@ -51,14 +51,44 @@ const createClip = async (videoId: string, input: string, start: number) => {
   await execAsync(
     `ffmpeg -ss ${start} -i "${input}" -t ${CLIP_DURATION} -c:a libmp3lame "${output}" -y`,
   )
+
+  return {
+    videoId,
+    file: `${videoId}.mp3`,
+    startTime: start,
+    duration: CLIP_DURATION,
+  }
+}
+
+const clipExists = async (videoId: string) => {
+  const file = path.join(CLIPS_DIR, `${videoId}.mp3`)
+
+  try {
+    await fs.access(file)
+    return true
+  } catch {
+    return false
+  }
 }
 
 export const generateClips = async (videoIds: string[]) => {
   await ensureDirectories()
 
+  const clips = []
+
   for (const videoId of videoIds) {
     try {
       console.log(`Generating clip for ${videoId}`)
+
+      if (await clipExists(videoId)) {
+        console.log(`Skipping ${videoId}: clip already exists`)
+        clips.push({
+          videoId,
+          file: `${videoId}.mp3`,
+          // no startTime unless you store it somewhere
+        })
+        continue
+      }
 
       const duration = await getVideoDuration(videoId)
 
@@ -71,7 +101,9 @@ export const generateClips = async (videoIds: string[]) => {
 
       const rawFile = await downloadAudio(videoId)
 
-      await createClip(videoId, rawFile, start)
+      const clip = await createClip(videoId, rawFile, start)
+
+      clips.push(clip)
 
       await fs.rm(rawFile)
 
@@ -80,4 +112,6 @@ export const generateClips = async (videoIds: string[]) => {
       console.error(`Failed generating clip for ${videoId}`, error)
     }
   }
+
+  return clips
 }
