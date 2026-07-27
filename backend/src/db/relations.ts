@@ -1,31 +1,54 @@
-import { relations } from "drizzle-orm/_relations"
-import { albums, artists, trackArtists, tracks } from "./schema.js"
+import { defineRelations } from "drizzle-orm"
+import * as schema from "./schema.js"
 
-export const albumRelations = relations(albums, ({ many }) => ({
-  tracks: many(tracks),
+const relations = defineRelations(schema, (r) => ({
+  albums: {
+    tracks: r.many.tracks({
+      from: r.albums.id,
+      to: r.tracks.albumId,
+    }),
+  },
+
+  tracks: {
+    album: r.one.albums({
+      from: r.tracks.albumId,
+      to: r.albums.id,
+    }),
+
+    trackArtists: r.many.trackArtists({
+      from: r.tracks.id,
+      to: r.trackArtists.trackId,
+    }),
+
+    artists: r.many.artists({
+      from: r.tracks.id.through(r.trackArtists.trackId),
+      to: r.artists.id.through(r.trackArtists.artistId),
+    }),
+  },
+
+  artists: {
+    trackArtists: r.many.trackArtists({
+      from: r.artists.id,
+      to: r.trackArtists.artistId,
+    }),
+
+    tracks: r.many.tracks({
+      from: r.artists.id.through(r.trackArtists.artistId),
+      to: r.tracks.id.through(r.trackArtists.trackId),
+    }),
+  },
+
+  trackArtists: {
+    track: r.one.tracks({
+      from: r.trackArtists.trackId,
+      to: r.tracks.id,
+    }),
+
+    artist: r.one.artists({
+      from: r.trackArtists.artistId,
+      to: r.artists.id,
+    }),
+  },
 }))
 
-export const tracksRelations = relations(tracks, ({ one, many }) => ({
-  album: one(albums, {
-    fields: [tracks.albumId],
-    references: [albums.id],
-  }),
-
-  trackArtists: many(trackArtists),
-}))
-
-export const artistsRelations = relations(tracks, ({ many }) => ({
-  trackArtists: many(trackArtists),
-}))
-
-export const trackArtistsRelations = relations(trackArtists, ({ one }) => ({
-  track: one(tracks, {
-    fields: [trackArtists.trackId],
-    references: [tracks.id],
-  }),
-
-  artist: one(artists, {
-    fields: [trackArtists.artistId],
-    references: [artists.id],
-  }),
-}))
+export default relations
