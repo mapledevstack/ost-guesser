@@ -2,6 +2,7 @@ import albumsJson from "../data/albums.json" with { type: "json" }
 import { AlbumsSchema } from "../schema/album.schema.js"
 import {
   getPlaylistDetails,
+  getPlaylistVideoIds,
   getVideosDetails,
 } from "../services/youtube.service.js"
 
@@ -22,7 +23,8 @@ if (!album) {
 }
 
 const playlist = await getPlaylistDetails(album.youtubePlaylistId)
-const videos = await getVideosDetails(album.youtubePlaylistId)
+const videosIds = await getPlaylistVideoIds(album.youtubePlaylistId)
+const videos = await getVideosDetails(videosIds)
 
 console.log(JSON.stringify(playlist, null, 2))
 console.log(JSON.stringify(videos, null, 2))

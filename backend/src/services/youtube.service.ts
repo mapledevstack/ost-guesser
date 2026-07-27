@@ -82,11 +82,9 @@ export const getPlaylistVideoIds = async (playlistId: string) => {
 }
 
 export const getVideosDetails = async (
-  playlistId: string,
+  videosIds: string[],
 ): Promise<YoutubeSongs> => {
   const url = new URL(`${API_BASE_URL}/videos`)
-
-  const videosIds = await getPlaylistVideoIds(playlistId)
 
   url.searchParams.set("part", "snippet")
   url.searchParams.set("id", videosIds.join(","))
