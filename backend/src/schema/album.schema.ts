@@ -2,7 +2,7 @@ import z from "zod"
 
 export const AlbumSchema = z.object({
   id: z.string(),
-  youtubePlaylistId: z.string(),
+  slug: z.string(),
 })
 
 export const AlbumsSchema = z.array(AlbumSchema)
