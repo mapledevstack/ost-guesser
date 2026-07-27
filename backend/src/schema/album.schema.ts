@@ -19,6 +19,7 @@ const PlaylistSchema = z.object({
 const CreditsSchema = z.object({
   composers: z.array(z.string()),
   arrangers: z.array(z.string()),
+  performers: z.array(z.string()),
 })
 
 const ClipSchema = z.object({
@@ -35,8 +36,9 @@ const TrackSchema = z.object({
 
 export const ExtractedAlbumSchema = z.object({
   id: z.string(),
-  youtubePlaylistId: z.string(),
-  playlist: PlaylistSchema,
+  slug: z.string(),
+  title: z.string(),
+  cover: z.url(),
   tracks: z.array(TrackSchema),
 })
 

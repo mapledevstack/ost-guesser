@@ -1,11 +1,8 @@
 {
-  "id": "at-dreams-edge",
-  "youtubePlaylistId": "OLAK5uy_nEqZV4bO18GapEozDGLCqTw8ymESqwwpU",
-  "playlist": {
-    "id": "OLAK5uy_nEqZV4bO18GapEozDGLCqTw8ymESqwwpU",
-    "title": "At Dream's Edge",
-    "thumbnailUrl": "https://i9.ytimg.com/s_p/OLAK5uy_nEqZV4bO18GapEozDGLCqTw8ymESqwwpU/maxresdefault.jpg?sqp=CLy-nNMGir7X7AMICKfppNEGEAE=&rs=AOn4CLAyO-D1f6HaQKKJFAFK1WIKzsdX8g&v=1781085351"
-  },
+  "id": "OLAK5uy_nEqZV4bO18GapEozDGLCqTw8ymESqwwpU",
+  "slug": "at-dreams-edge",
+  "title": "At Dream's Edge",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_nEqZV4bO18GapEozDGLCqTw8ymESqwwpU/maxresdefault.jpg?sqp=CLjNndMGir7X7AMICKfppNEGEAE=&rs=AOn4CLDLVoRiT53ZuqNy6kZT1IAJritT9Q&v=1781085351",
   "tracks": [
     {
       "youtubeId": "8RDBpJs4XDk",

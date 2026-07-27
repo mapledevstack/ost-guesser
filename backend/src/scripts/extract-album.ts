@@ -43,7 +43,9 @@ for (const album of albums) {
 
   const extractedAlbum = {
     ...album,
-    playlist,
+    id: playlist.id,
+    title: playlist.title,
+    cover: playlist.thumbnailUrl,
     tracks,
   }
 
