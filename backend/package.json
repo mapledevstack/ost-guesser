@@ -8,7 +8,7 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "test": "vitest",
-    "import": "tsx src/scripts/extract-album.ts"
+    "extract-albums": "tsx src/scripts/extract-album.ts"
   },
   "keywords": [],
   "author": "",
