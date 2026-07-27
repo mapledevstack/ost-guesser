@@ -1,5 +1,6 @@
 import albumsJson from "../data/albums.json" with { type: "json" }
 import { AlbumsSchema } from "../schema/album.schema.js"
+import { generateClips } from "../services/clip.service.js"
 import {
   getPlaylistDetails,
   getPlaylistVideoIds,
@@ -21,10 +22,12 @@ if (!album) {
   console.error(`Album ${albumId} not found`)
   process.exit(1)
 }
+const videosIds = await getPlaylistVideoIds(album.youtubePlaylistId)
 
 const playlist = await getPlaylistDetails(album.youtubePlaylistId)
-const videosIds = await getPlaylistVideoIds(album.youtubePlaylistId)
 const videos = await getVideosDetails(videosIds)
 
-console.log(JSON.stringify(playlist, null, 2))
-console.log(JSON.stringify(videos, null, 2))
+await generateClips(videosIds)
+
+// console.log(JSON.stringify(playlist, null, 2))
+// console.log(JSON.stringify(videos, null, 2))
