@@ -16,7 +16,15 @@ const ensureDirectories = async () => {
 }
 
 const getRandomStart = (duration: number) => {
-  return Math.floor(Math.random() * (duration - CLIP_DURATION))
+  const maxStart = duration - CLIP_DURATION
+
+  if (maxStart <= 0) {
+    return 0
+  }
+
+  const earliestStart = Math.min(duration * 0.4, maxStart)
+
+  return Math.floor(earliestStart + Math.random() * (maxStart - earliestStart))
 }
 
 const getVideoDuration = async (videoId: string) => {
