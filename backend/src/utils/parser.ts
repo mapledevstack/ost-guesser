@@ -7,6 +7,7 @@ export const parseYoutubeDescription = (description: string) => {
   const credits = {
     composers: [] as string[],
     arrangers: [] as string[],
+    performers: [] as string[],
   }
 
   for (const line of lines) {
@@ -19,6 +20,10 @@ export const parseYoutubeDescription = (description: string) => {
     }
 
     if (key === "Arranger") {
+      credits.arrangers.push(value)
+    }
+
+    if (key === "Performers") {
       credits.arrangers.push(value)
     }
   }
