@@ -1,10 +1,20 @@
 import { OK } from "../constants/http.js"
 import { searchQuerySchema } from "../schema/game.schema.js"
-import { getDailyGameService, searchService } from "../services/game.service.js"
+import {
+  getDailyGameService,
+  getEndlessGameService,
+  searchService,
+} from "../services/game.service.js"
 import catchErrors from "../utils/catchErrors.js"
 
 export const getDailyGameController = catchErrors(async (_req, res) => {
   const clipUrl = await getDailyGameService()
+
+  return res.status(OK).json(clipUrl)
+})
+
+export const getEndlessGameController = catchErrors(async (_req, res) => {
+  const clipUrl = await getEndlessGameService()
 
   return res.status(OK).json(clipUrl)
 })

@@ -1,8 +1,29 @@
 import db from "../index.js"
 import { sql } from "drizzle-orm"
+import { dailyGames } from "../schema.js"
+import { tracks } from "../schema.js"
 
 export const getDailyGameByDate = async (date: string) => {
   return db.query.dailyGames.findFirst({ where: { date } })
+}
+
+type createDailyGameType = typeof dailyGames.$inferInsert
+
+export const createDailyGame = (data: createDailyGameType) =>
+  db.insert(dailyGames).values(data)
+
+export const getRandomTrack = async () => {
+  const [track] = await db
+    .select({ id: tracks.id })
+    .from(tracks)
+    .orderBy(sql`random()`)
+    .limit(1)
+
+  if (!track) {
+    throw new Error("No tracks found")
+  }
+
+  return track
 }
 
 export const searchEntities = async (query: string) => {
