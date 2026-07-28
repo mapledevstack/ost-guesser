@@ -1,4 +1,4 @@
-import type { ExtractedAlbum } from "../../schema/album.schema.js"
+import type { ExtractedAlbum } from "../../schema/playlist.schema.js"
 import db from "../index.js"
 import { trackArtists } from "../schema.js"
 

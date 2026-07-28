@@ -2,7 +2,7 @@ import fs from "fs/promises"
 import path from "path"
 
 import albumsJson from "../data/albums.json" with { type: "json" }
-import { AlbumsSchema } from "../schema/album.schema.js"
+import { AlbumsSchema } from "../schema/playlist.schema.js"
 import { generateClips } from "../services/clip.service.js"
 import {
   getPlaylistDetails,

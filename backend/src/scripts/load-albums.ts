@@ -1,6 +1,6 @@
 import fs from "node:fs/promises"
 import path from "node:path"
-import { ExtractedAlbumSchema } from "../schema/album.schema.js"
+import { ExtractedAlbumSchema } from "../schema/playlist.schema.js"
 
 export const loadAlbums = async () => {
   const directory = path.join(process.cwd(), "src/data/extracted")

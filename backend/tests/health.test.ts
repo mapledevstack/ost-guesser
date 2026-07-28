@@ -5,9 +5,9 @@ import { OK } from "../src/constants/http.js"
 
 describe("GET /health", () => {
   it("should return healthy status", async () => {
-    const response = await request(app).get("/health")
+    const response = await request(app).get("/api/v1")
 
-    expect(response.status).toBe(OK)
-    expect(response.body.message).toBe("healthy!")
+    expect(response.statusCode).toBe(OK)
+    expect(response.body.status).toBe("healthy!")
   })
 })

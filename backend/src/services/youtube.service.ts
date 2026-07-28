@@ -1,7 +1,7 @@
 import { ERROR_CODES } from "../constants/appErrorCodes.js"
 import { YOUTUBE_API_KEY } from "../constants/env.js"
 import { INTERNAL_SERVER_ERROR } from "../constants/http.js"
-import type { YoutubeSongs } from "../schema/songs.schema.js"
+import type { YoutubeSongs } from "../schema/videos.schema.js"
 import {
   PlaylistDetailSchema,
   YouTubePlaylistDetailsResponseSchema,

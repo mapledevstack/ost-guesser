@@ -1,8 +1,8 @@
-import seedAlbums from "./seed/albums.js"
+import seedAlbums from "./seed/albums.seed.js"
 import { loadAlbums } from "../scripts/load-albums.js"
-import seedTracks from "./seed/tracks.js"
-import seedArtists from "./seed/artists.js"
-import seedTrackArtists from "./seed/trackArtists.js"
+import seedTracks from "./seed/tracks.seed.js"
+import seedArtists from "./seed/artists.seed.js"
+import seedTrackArtists from "./seed/trackArtists.seed.js"
 
 async function main() {
   const albums = await loadAlbums()

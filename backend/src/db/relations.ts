@@ -13,6 +13,7 @@ const relations = defineRelations(schema, (r) => ({
     album: r.one.albums({
       from: r.tracks.albumId,
       to: r.albums.id,
+      optional: false,
     }),
 
     trackArtists: r.many.trackArtists({
@@ -42,11 +43,13 @@ const relations = defineRelations(schema, (r) => ({
     track: r.one.tracks({
       from: r.trackArtists.trackId,
       to: r.tracks.id,
+      optional: false,
     }),
 
     artist: r.one.artists({
       from: r.trackArtists.artistId,
       to: r.artists.id,
+      optional: false,
     }),
   },
 }))
