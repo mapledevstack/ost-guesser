@@ -1,4 +1,13 @@
-import { pgEnum, pgTable, primaryKey, text, uuid } from "drizzle-orm/pg-core"
+import {
+  pgEnum,
+  pgTable,
+  primaryKey,
+  text,
+  uuid,
+  integer,
+  date,
+  timestamp,
+} from "drizzle-orm/pg-core"
 
 export const artistRoleEnum = pgEnum("artist_role", [
   "composer",
@@ -43,3 +52,27 @@ export const trackArtists = pgTable(
     }),
   ],
 )
+
+export const users = pgTable("users", {
+  id: uuid().defaultRandom().primaryKey(),
+
+  googleId: text().notNull().unique(),
+  email: text().notNull().unique(),
+
+  displayName: text().notNull(),
+  avatarUrl: text().notNull(),
+
+  gamesPlayed: integer().notNull().default(0),
+  totalScore: integer().notNull().default(0),
+
+  currentStreak: integer().notNull().default(0),
+  bestStreak: integer().notNull().default(0),
+
+  lastPlayedDate: date(),
+
+  createdAt: timestamp({ withTimezone: true }).defaultNow().notNull(),
+  updatedAt: timestamp({ withTimezone: true })
+    .defaultNow()
+    .$onUpdate(() => new Date())
+    .notNull(),
+})
