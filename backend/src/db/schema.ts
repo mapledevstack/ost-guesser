@@ -76,3 +76,10 @@ export const users = pgTable("users", {
     .$onUpdate(() => new Date())
     .notNull(),
 })
+
+export const dailyGames = pgTable("daily_games", {
+  date: date("date").primaryKey(),
+  trackId: text()
+    .notNull()
+    .references(() => tracks.id),
+})

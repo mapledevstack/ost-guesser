@@ -32,3 +32,5 @@ export const YOUTUBE_API_KEY = getEnv("YOUTUBE_API_KEY")
 
 export const GOOGLE_CLIENT_ID = getEnv("GOOGLE_CLIENT_ID")
 export const GOOGLE_CLIENT_SECRET = getEnv("GOOGLE_CLIENT_SECRET")
+
+export const SUPABASE_URL = getEnv("SUPABASE_URL")

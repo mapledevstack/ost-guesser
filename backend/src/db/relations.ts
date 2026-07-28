@@ -25,6 +25,11 @@ const relations = defineRelations(schema, (r) => ({
       from: r.tracks.id.through(r.trackArtists.trackId),
       to: r.artists.id.through(r.trackArtists.artistId),
     }),
+
+    daily_games: r.many.dailyGames({
+      from: r.tracks.id,
+      to: r.dailyGames.trackId,
+    }),
   },
 
   artists: {
@@ -49,6 +54,14 @@ const relations = defineRelations(schema, (r) => ({
     artist: r.one.artists({
       from: r.trackArtists.artistId,
       to: r.artists.id,
+      optional: false,
+    }),
+  },
+
+  dailyGames: {
+    track: r.one.tracks({
+      from: r.dailyGames.trackId,
+      to: r.tracks.id,
       optional: false,
     }),
   },
