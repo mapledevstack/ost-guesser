@@ -38,6 +38,7 @@ for (const album of albums) {
 
   const tracks = videos.map((video) => ({
     ...video,
+    character: null,
     clip: clips.find((clip) => clip.videoId === video.youtubeId) ?? null,
   }))
 

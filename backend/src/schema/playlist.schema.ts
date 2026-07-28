@@ -32,6 +32,7 @@ const TrackSchema = z.object({
   title: z.string(),
   credits: CreditsSchema,
   clip: ClipSchema,
+  character: z.string().nullable(),
 })
 
 export const ExtractedAlbumSchema = z.object({

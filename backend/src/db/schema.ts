@@ -18,6 +18,7 @@ export const tracks = pgTable("tracks", {
     .notNull()
     .references(() => albums.id),
   title: text().notNull(),
+  character: text(),
 })
 
 export const artists = pgTable("artists", {

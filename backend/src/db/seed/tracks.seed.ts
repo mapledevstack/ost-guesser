@@ -8,6 +8,7 @@ const seedTracks = async (extractedAlbums: ExtractedAlbum[]) => {
       id: track.youtubeId,
       albumId: album.id,
       title: track.title,
+      character: track.character,
     })),
   )
 

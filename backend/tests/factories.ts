@@ -45,6 +45,7 @@ export const createTrack = async (overrides: Partial<NewTrack> = {}) => {
     id: crypto.randomUUID(),
     title: "Test Track",
     albumId: "",
+    character: null,
     ...overrides,
   }
 
