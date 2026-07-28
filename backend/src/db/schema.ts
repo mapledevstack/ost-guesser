@@ -59,8 +59,8 @@ export const users = pgTable("users", {
   googleId: text().notNull().unique(),
   email: text().notNull().unique(),
 
-  displayName: text().notNull(),
-  avatarUrl: text().notNull(),
+  displayName: text(),
+  avatarUrl: text(),
 
   gamesPlayed: integer().notNull().default(0),
   totalScore: integer().notNull().default(0),

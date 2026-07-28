@@ -4,7 +4,11 @@ import z from "zod"
 const getEnv = (key: string, defaultValue?: string): string => {
   const value = process.env[key] ?? defaultValue
 
-  if (value === undefined) {
+  if (!value) {
+    if (defaultValue !== undefined) {
+      return defaultValue
+    }
+
     throw new Error(`Missing environment variable: ${key}`)
   }
 
@@ -17,10 +21,10 @@ const nodeEnvSchema = z
 
 export const PORT = getEnv("PORT", "3000")
 export const NODE_ENV = nodeEnvSchema.parse(getEnv("NODE_ENV"))
+export const CLIENT_URL = getEnv("CLIENT_URL", "http://localhost:5173")
+export const API_URL = getEnv("API_URL", "http://localhost:3000")
 export const DATABASE_URL = getEnv("DATABASE_URL")
 export const YOUTUBE_API_KEY = getEnv("YOUTUBE_API_KEY")
 
 export const GOOGLE_CLIENT_ID = getEnv("GOOGLE_CLIENT_ID")
 export const GOOGLE_CLIENT_SECRET = getEnv("GOOGLE_CLIENT_SECRET")
-
-export const SESSION_SECRET = getEnv("SESSION_SECRET")

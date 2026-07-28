@@ -1,13 +1,8 @@
 import type { RequestHandler } from "express"
-import passport from "passport"
-
-export const googleAuthController: RequestHandler = (req, res, next) => {
-  passport.authenticate("google", {
-    scope: ["profile", "email"],
-  })(req, res, next)
-}
+import { CLIENT_URL } from "../constants/env.js"
 
 export const googleCallbackController: RequestHandler = (req, res) => {
-  // req.user is available
-  // res.redirect(...)
+  console.log("user", req.user)
+
+  res.redirect(CLIENT_URL)
 }

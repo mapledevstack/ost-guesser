@@ -7,25 +7,10 @@ import trackRoutes from "./routes/tracks.routes.js"
 import passport from "passport"
 import authRoutes from "./routes/auth.routes.js"
 import "./config/passport.js"
-import { SESSION_SECRET } from "./constants/env.js"
-import session from "express-session"
 
 const app = express()
 app.use(express.json())
 app.use(morgan("dev"))
-
-app.use(
-  session({
-    secret: SESSION_SECRET,
-    resave: false,
-    saveUninitialized: false,
-    cookie: {
-      secure: false, // true in production with HTTPS
-      httpOnly: true,
-      sameSite: "lax",
-    },
-  }),
-)
 
 app.use(passport.initialize())
 
