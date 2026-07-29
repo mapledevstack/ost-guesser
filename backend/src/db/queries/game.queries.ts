@@ -2,6 +2,7 @@ import db from "../index.js"
 import { sql } from "drizzle-orm"
 import { dailyGames } from "../schema.js"
 import { tracks } from "../schema.js"
+import { DATABASE_URL } from "../../constants/env.js"
 
 export const getDailyGameByDate = async (date: string) => {
   return db.query.dailyGames.findFirst({ where: { date } })

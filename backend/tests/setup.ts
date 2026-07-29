@@ -9,7 +9,8 @@ beforeEach(async () => {
       track_artists,
       tracks,
       artists,
-      albums
+      albums,
+      users
     RESTART IDENTITY CASCADE
   `)
 })

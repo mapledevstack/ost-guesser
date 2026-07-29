@@ -1,13 +1,19 @@
 import type { InferInsertModel } from "drizzle-orm"
 import db from "../src/db/index.js"
-import { albums, artists, trackArtists, tracks } from "../src/db/schema.js"
+import {
+  albums,
+  artists,
+  trackArtists,
+  tracks,
+  users,
+} from "../src/db/schema.js"
 
 type NewAlbum = InferInsertModel<typeof albums>
 
 export const createAlbum = async (overrides: Partial<NewAlbum> = {}) => {
   const album = {
     id: crypto.randomUUID(),
-    title: "Test Album",
+    title: `Test Album ${Date.now()}`,
     cover: "cover.jpg",
     ...overrides,
   }
@@ -25,7 +31,7 @@ type NewArtist = InferInsertModel<typeof artists>
 
 export const createArtist = async (overrides: Partial<NewArtist> = {}) => {
   const artist = {
-    name: "Test Artist",
+    name: `Test Artist ${Date.now()}`,
     ...overrides,
   }
 
@@ -43,7 +49,7 @@ type NewTrack = InferInsertModel<typeof tracks>
 export const createTrack = async (overrides: Partial<NewTrack> = {}) => {
   const track = {
     id: crypto.randomUUID(),
-    title: "Test Track",
+    title: `Test Track ${Date.now()}`,
     albumId: "",
     character: null,
     ...overrides,
@@ -80,4 +86,23 @@ export const createTrackArtist = async (
   }
 
   return createdTrackArtist
+}
+
+type NewUser = InferInsertModel<typeof users>
+
+export const createUser = async (overrides: Partial<NewUser> = {}) => {
+  const user: NewUser = {
+    id: crypto.randomUUID(),
+    googleId: crypto.randomUUID(),
+    email: `test${Date.now()}@gmail.com`,
+    ...overrides,
+  }
+
+  const [createdUser] = await db.insert(users).values(user).returning()
+
+  if (!createdUser) {
+    throw new Error("Failed to create user")
+  }
+
+  return createdUser
 }

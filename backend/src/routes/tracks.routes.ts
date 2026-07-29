@@ -5,4 +5,4 @@ const router = Router()
 
 router.get("/:trackId", getTrackController)
 
-export default Router
+export default router
