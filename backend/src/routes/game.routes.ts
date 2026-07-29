@@ -1,5 +1,6 @@
 import { Router } from "express"
 import {
+  completeDailyGameController,
   getDailyGameController,
   getEndlessGameController,
   searchController,
@@ -7,8 +8,11 @@ import {
 
 const router = Router()
 
-router.get("/daily", getDailyGameController)
-router.get("/endless", getEndlessGameController)
 router.get("/search", searchController)
+
+router.get("/daily", getDailyGameController)
+router.post("/daily/complete", completeDailyGameController)
+
+router.get("/endless", getEndlessGameController)
 
 export default router

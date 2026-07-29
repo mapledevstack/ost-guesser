@@ -5,6 +5,13 @@ import {
   getRandomTrack,
   searchEntities,
 } from "../db/queries/game.queries.js"
+import type { CompleteDailyGameType } from "../schema/game.schema.js"
+
+export const searchService = async (query: string) => {
+  const { rows } = await searchEntities(query)
+
+  return rows
+}
 
 export const getDailyGameService = async () => {
   const today = new Intl.DateTimeFormat("en-CA").format(new Date())
@@ -30,16 +37,14 @@ export const getDailyGameService = async () => {
   return { clipUrl }
 }
 
+export const completeDailyGame = async ({
+  guesses,
+}: CompleteDailyGameType) => {}
+
 export const getEndlessGameService = async () => {
   const track = await getRandomTrack()
 
   const clipUrl = `${SUPABASE_URL}/${track.id}.mp3`
 
   return { clipUrl }
-}
-
-export const searchService = async (query: string) => {
-  const { rows } = await searchEntities(query)
-
-  return rows
 }
