@@ -4,7 +4,7 @@ import {
   primaryKey,
   text,
   uuid,
-  integer,
+  jsonb,
   date,
   timestamp,
 } from "drizzle-orm/pg-core"
@@ -62,13 +62,23 @@ export const users = pgTable("users", {
   displayName: text(),
   avatarUrl: text(),
 
-  gamesPlayed: integer().notNull().default(0),
-  totalScore: integer().notNull().default(0),
-
-  currentStreak: integer().notNull().default(0),
-  bestStreak: integer().notNull().default(0),
-
-  lastPlayedDate: date(),
+  gameStats: jsonb()
+    .notNull()
+    .default({
+      daily: {
+        gamesPlayed: 0,
+        currentStreak: 0,
+        bestStreak: 0,
+        score: 0,
+      },
+      endless: {
+        gamesPlayed: 0,
+        totalScore: 0,
+        bestScore: 0,
+        currentStreak: 0,
+        bestStreak: 0,
+      },
+    }),
 
   createdAt: timestamp({ withTimezone: true }).defaultNow().notNull(),
   updatedAt: timestamp({ withTimezone: true })
