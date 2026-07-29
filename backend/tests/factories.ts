@@ -106,3 +106,16 @@ export const createUser = async (overrides: Partial<NewUser> = {}) => {
 
   return createdUser
 }
+
+export const createSampleData = async () => {
+  const album = await createAlbum()
+  const track = await createTrack({ albumId: album.id })
+  const artist = await createArtist()
+
+  await createTrackArtist({
+    trackId: track.id,
+    artistId: artist.id,
+  })
+
+  return { album, track, artist }
+}
