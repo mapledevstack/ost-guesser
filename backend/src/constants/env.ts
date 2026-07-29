@@ -23,7 +23,8 @@ export const PORT = getEnv("PORT", "3000")
 export const NODE_ENV = nodeEnvSchema.parse(getEnv("NODE_ENV"))
 export const CLIENT_URL = getEnv("CLIENT_URL", "http://localhost:5173")
 export const API_URL = getEnv("API_URL", "http://localhost:3000")
-export const DATABASE_URL = getEnv("DATABASE_URL")
+export const DATABASE_URL =
+  NODE_ENV === "test" ? getEnv("DATABASE_TEST_URL") : getEnv("DATABASE_URL")
 
 export const JWT_SECRET = getEnv("JWT_SECRET")
 export const JWT_REFRESH_SECRET = getEnv("JWT_REFRESH_SECRET")
