@@ -8,7 +8,7 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "test": "cross-env NODE_ENV=test vitest --reporter=verbose",
-    "extract-albums": "tsx src/scripts/extract-album.ts",
+    "extract-albums": "tsx src/scripts/extract-albums.ts",
     "seed": "tsx src/db/seed.ts",
     "db:push": "drizzle-kit push",
     "db:push:test": "cross-env NODE_ENV=test drizzle-kit push",

@@ -30,6 +30,11 @@ const relations = defineRelations(schema, (r) => ({
       from: r.tracks.id,
       to: r.dailyGames.trackId,
     }),
+
+    gameSessions: r.many.gameSessions({
+      from: r.tracks.id,
+      to: r.gameSessions.trackId,
+    }),
   },
 
   artists: {
@@ -63,6 +68,51 @@ const relations = defineRelations(schema, (r) => ({
       from: r.dailyGames.trackId,
       to: r.tracks.id,
       optional: false,
+    }),
+
+    gameSessions: r.many.gameSessions({
+      from: r.dailyGames.date,
+      to: r.gameSessions.dailyGameDate,
+    }),
+  },
+
+  users: {
+    gameSessions: r.many.gameSessions({
+      from: r.users.id,
+      to: r.gameSessions.userId,
+    }),
+  },
+
+  guests: {
+    gameSessions: r.many.gameSessions({
+      from: r.guests.id,
+      to: r.gameSessions.guestId,
+    }),
+  },
+
+  gameSessions: {
+    user: r.one.users({
+      from: r.gameSessions.userId,
+      to: r.users.id,
+      optional: true,
+    }),
+
+    guest: r.one.guests({
+      from: r.gameSessions.guestId,
+      to: r.guests.id,
+      optional: true,
+    }),
+
+    track: r.one.tracks({
+      from: r.gameSessions.trackId,
+      to: r.tracks.id,
+      optional: false,
+    }),
+
+    dailyGame: r.one.dailyGames({
+      from: r.gameSessions.dailyGameDate,
+      to: r.dailyGames.date,
+      optional: true,
     }),
   },
 }))

@@ -1,8 +1,7 @@
 import db from "../index.js"
 import { sql } from "drizzle-orm"
-import { dailyGames } from "../schema.js"
+import { dailyGames, guests } from "../schema.js"
 import { tracks } from "../schema.js"
-import { DATABASE_URL } from "../../constants/env.js"
 
 export const getDailyGameByDate = async (date: string) => {
   return db.query.dailyGames.findFirst({ where: { date } })
@@ -25,6 +24,10 @@ export const getRandomTrack = async () => {
   }
 
   return track
+}
+
+export const ensureGuestExists = async (guestId: string) => {
+  await db.insert(guests).values({ id: guestId }).onConflictDoNothing()
 }
 
 export const searchEntities = async (query: string) => {

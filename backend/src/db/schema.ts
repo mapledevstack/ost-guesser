@@ -7,6 +7,7 @@ import {
   jsonb,
   date,
   timestamp,
+  integer,
 } from "drizzle-orm/pg-core"
 
 export const artistRoleEnum = pgEnum("artist_role", [
@@ -53,6 +54,22 @@ export const trackArtists = pgTable(
   ],
 )
 
+const defaultGameStats = {
+  daily: {
+    gamesPlayed: 0,
+    currentStreak: 0,
+    bestStreak: 0,
+    score: 0,
+  },
+  endless: {
+    gamesPlayed: 0,
+    totalScore: 0,
+    bestScore: 0,
+    currentStreak: 0,
+    bestStreak: 0,
+  },
+}
+
 export const users = pgTable("users", {
   id: uuid().defaultRandom().primaryKey(),
 
@@ -63,22 +80,24 @@ export const users = pgTable("users", {
   avatarUrl: text(),
 
   gameStats: jsonb()
+    .$type<typeof defaultGameStats>()
     .notNull()
-    .default({
-      daily: {
-        gamesPlayed: 0,
-        currentStreak: 0,
-        bestStreak: 0,
-        score: 0,
-      },
-      endless: {
-        gamesPlayed: 0,
-        totalScore: 0,
-        bestScore: 0,
-        currentStreak: 0,
-        bestStreak: 0,
-      },
-    }),
+    .default(defaultGameStats),
+
+  createdAt: timestamp({ withTimezone: true }).defaultNow().notNull(),
+  updatedAt: timestamp({ withTimezone: true })
+    .defaultNow()
+    .$onUpdate(() => new Date())
+    .notNull(),
+})
+
+export const guests = pgTable("guests", {
+  id: uuid().primaryKey(),
+
+  gameStats: jsonb()
+    .$type<typeof defaultGameStats>()
+    .notNull()
+    .default(defaultGameStats),
 
   createdAt: timestamp({ withTimezone: true }).defaultNow().notNull(),
   updatedAt: timestamp({ withTimezone: true })
@@ -92,4 +111,29 @@ export const dailyGames = pgTable("daily_games", {
   trackId: text()
     .notNull()
     .references(() => tracks.id),
+})
+
+export const gameModeEnum = pgEnum("game_mode", ["daily", "endless"])
+
+export const gameStatusEnum = pgEnum("game_status", ["playing", "won", "lost"])
+
+export const gameSessions = pgTable("game_sessions", {
+  id: uuid().defaultRandom().primaryKey(),
+
+  mode: gameModeEnum().notNull(),
+
+  userId: uuid().references(() => users.id),
+  guestId: uuid().references(() => guests.id),
+
+  trackId: text()
+    .notNull()
+    .references(() => tracks.id),
+
+  dailyGameDate: date().references(() => dailyGames.date),
+
+  guessCount: integer().notNull().default(0),
+
+  status: gameStatusEnum().notNull().default("playing"),
+
+  createdAt: timestamp({ withTimezone: true }).defaultNow().notNull(),
 })

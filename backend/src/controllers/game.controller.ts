@@ -1,13 +1,13 @@
 import { OK } from "../constants/http.js"
+import { GameModeSchema } from "../schema/auth.schema.js"
 import {
-  CompleteDailyGameSchema,
+  GuessGameRequestSchema,
   searchQuerySchema,
 } from "../schema/game.schema.js"
 import {
-  completeDailyGame,
-  getDailyGameService,
-  getEndlessGameService,
   searchService,
+  processGuess,
+  startGameService,
 } from "../services/game.service.js"
 import catchErrors from "../utils/catchErrors.js"
 
@@ -19,24 +19,28 @@ export const searchController = catchErrors(async (req, res) => {
   return res.status(OK).json(results)
 })
 
-export const getDailyGameController = catchErrors(async (_req, res) => {
-  const clipUrl = await getDailyGameService()
+export const startGameController = catchErrors(async (req, res) => {
+  const mode = GameModeSchema.parse(req.params.mode)
+  const playerIdentity = req.auth
 
-  return res.status(OK).json(clipUrl)
-})
-
-export const completeDailyGameController = catchErrors(async (req, res) => {
-  const { guesses } = CompleteDailyGameSchema.parse(req.body)
-
-  const result = await completeDailyGame({
-    auth: req.auth,
-    guesses,
+  const { sessionId, clipUrl } = await startGameService({
+    mode,
+    playerIdentity,
   })
 
-  res.json(result)
+  return res.status(OK).json({ sessionId, clipUrl })
 })
-export const getEndlessGameController = catchErrors(async (_req, res) => {
-  const clipUrl = await getEndlessGameService()
 
-  return res.status(OK).json(clipUrl)
+export const guessGameController = catchErrors(async (req, res) => {
+  const mode = GameModeSchema.parse(req.params.mode)
+  const playerIdentity = req.auth
+  const { sessionId, guess } = GuessGameRequestSchema.parse(req.body)
+
+  const result = await processGuess({
+    sessionId,
+    guess,
+    playerIdentity,
+  })
+
+  return res.status(OK).json(result)
 })
