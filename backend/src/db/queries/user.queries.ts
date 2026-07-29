@@ -1,3 +1,4 @@
+import { eq } from "drizzle-orm"
 import { INTERNAL_SERVER_ERROR } from "../../constants/http.js"
 import appAssert from "../../utils/appAssert.js"
 import db from "../index.js"
@@ -23,4 +24,22 @@ export const getUserById = async (id: string) => {
   return db.query.users.findFirst({
     where: { id },
   })
+}
+
+export const updateUser = async (
+  id: string,
+  values: {
+    displayName?: string
+    avatarUrl?: string
+  },
+) => {
+  const [user] = await db
+    .update(users)
+    .set(values)
+    .where(eq(users.id, id))
+    .returning()
+
+  appAssert(user, INTERNAL_SERVER_ERROR, "Failed to update user")
+
+  return user
 }

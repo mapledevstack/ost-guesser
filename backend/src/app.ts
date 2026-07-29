@@ -12,6 +12,7 @@ import gameRoutes from "./routes/game.routes.js"
 import { CLIENT_URL } from "./constants/env.js"
 import cookieParser from "cookie-parser"
 import resolveIdentity from "./middleware/resolveIdentity.js"
+import userRoutes from "./routes/user.routes.js"
 
 const app = express()
 app.use(express.json())
@@ -24,6 +25,7 @@ app.use(passport.initialize())
 app.get("/api/v1", (_, res) => res.status(OK).json({ status: "healthy!" }))
 
 app.use("/api/v1/auth", authRoutes)
+app.use("/api/v1/users", userRoutes)
 app.use("/api/v1/tracks", trackRoutes)
 app.use("/api/v1/game", resolveIdentity, gameRoutes)
 
