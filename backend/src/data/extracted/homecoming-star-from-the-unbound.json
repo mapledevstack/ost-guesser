@@ -1,0 +1,24 @@
+{
+  "id": "OLAK5uy_l9-BrqGiGD0BtF8-VRcGTAsplHaaQZIZg",
+  "slug": "homecoming-star-from-the-unbound",
+  "title": "Album - Homecoming Star from the Unbound",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_l9-BrqGiGD0BtF8-VRcGTAsplHaaQZIZg/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICMDu4dEGEAE=&rs=AOn4CLA3R_fvHaiwaUDWtHuUqMOvIxEntw&v=1782085440",
+  "tracks": [
+    {
+      "youtubeId": "DbUL7XoWXLM",
+      "title": "Homecoming Star from the Unbound",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "DbUL7XoWXLM",
+        "file": "DbUL7XoWXLM.mp3",
+        "startTime": 263,
+        "duration": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "OLAK5uy_k_xVz_x5g-r359DUAjVtEU3sUGxNooVQI",
+  "slug": "decensus-ad-nihilum-original-game-soundtrack",
+  "title": "Album - Decensus Ad Nihilum",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_k_xVz_x5g-r359DUAjVtEU3sUGxNooVQI/maxresdefault.jpg?sqp=CPiZqtMGir7X7AMICJPisNAGEAE=&rs=AOn4CLCUzNquV5dRLSCEsa04LSiwtWujxw&v=1779183891",
+  "tracks": [
+    {
+      "youtubeId": "H6fSsLmIhW4",
+      "title": "Decensus Ad Nihilum (Feat. kahoca from Empty old City)",
+      "credits": {
+        "composers": [
+          "Justin Phillips"
+        ],
+        "arrangers": [
+          "Justin Phillips"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "H6fSsLmIhW4",
+        "file": "H6fSsLmIhW4.mp3",
+        "startTime": 154,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "6H4NnBLkpHc",
+      "title": "Decensus Ad Nihilum (Instrumental)",
+      "credits": {
+        "composers": [
+          "Justin Phillips"
+        ],
+        "arrangers": [
+          "Justin Phillips"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "6H4NnBLkpHc",
+        "file": "6H4NnBLkpHc.mp3",
+        "startTime": 85,
+        "duration": 24
+      }
+    }
+  ]
+}

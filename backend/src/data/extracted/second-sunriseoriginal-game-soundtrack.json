@@ -1,0 +1,267 @@
+{
+  "id": "OLAK5uy_kxACwwVpdXpP4IsW9YxVR1fp0dsc_Kb2A",
+  "slug": "second-sunriseoriginal-game-soundtrack",
+  "title": "Album - Second Sunrise",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_kxACwwVpdXpP4IsW9YxVR1fp0dsc_Kb2A/maxresdefault.jpg?sqp=CNSlqtMGir7X7AMICOT_pssGEAE=&rs=AOn4CLCRXStdmNZ_nH-H3P82AomZZQnESQ&v=1768538084",
+  "tracks": [
+    {
+      "youtubeId": "wJe3gCKt0M0",
+      "title": "The Day the Starlight Arrived",
+      "credits": {
+        "composers": [
+          "白天"
+        ],
+        "arrangers": [
+          "baitian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "K8RLEI1iw7A",
+      "title": "A Feast by Warm Fires",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "K8RLEI1iw7A",
+        "file": "K8RLEI1iw7A.mp3",
+        "startTime": 43,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "A8U3J5IBN7k",
+      "title": "From Far, Far Away",
+      "credits": {
+        "composers": [
+          "钟熙贤"
+        ],
+        "arrangers": [
+          "markmilian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "A8U3J5IBN7k",
+        "file": "A8U3J5IBN7k.mp3",
+        "startTime": 47,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Uz_qi0GRS8E",
+      "title": "Stars, the Sun, and Everything in Between",
+      "credits": {
+        "composers": [
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Uz_qi0GRS8E",
+        "file": "Uz_qi0GRS8E.mp3",
+        "startTime": 68,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Ksea_LHAqu0",
+      "title": "Beneath Frozen Soil",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Ksea_LHAqu0",
+        "file": "Ksea_LHAqu0.mp3",
+        "startTime": 69,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "4PbUu_F9kQ4",
+      "title": "The Shaper",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "4PbUu_F9kQ4",
+        "file": "4PbUu_F9kQ4.mp3",
+        "startTime": 124,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ufmha4XwN2g",
+      "title": "Red Alert Mornye is Furious",
+      "credits": {
+        "composers": [
+          "马鑫驰"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ufmha4XwN2g",
+        "file": "ufmha4XwN2g.mp3",
+        "startTime": 89,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "C-jNG3PuEjc",
+      "title": "The Second Sunrise",
+      "credits": {
+        "composers": [
+          "任麒霖"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "C-jNG3PuEjc",
+        "file": "C-jNG3PuEjc.mp3",
+        "startTime": 29,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ha8anEm3a9E",
+      "title": "Crash and Burn",
+      "credits": {
+        "composers": [
+          "王越"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ha8anEm3a9E",
+        "file": "ha8anEm3a9E.mp3",
+        "startTime": 14,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "0vCBO9ts5Ac",
+      "title": "If this is Goodbye",
+      "credits": {
+        "composers": [
+          "刘俊佚"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "0vCBO9ts5Ac",
+        "file": "0vCBO9ts5Ac.mp3",
+        "startTime": 74,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "mPrJh0KXUvk",
+      "title": "Starlight Shall Not Fall",
+      "credits": {
+        "composers": [
+          "刘俊佚"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "mPrJh0KXUvk",
+        "file": "mPrJh0KXUvk.mp3",
+        "startTime": 77,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "PPBitaawXvo",
+      "title": "A New Sun",
+      "credits": {
+        "composers": [
+          "刘俊佚",
+          "白天"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "PPBitaawXvo",
+        "file": "PPBitaawXvo.mp3",
+        "startTime": 43,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ZnJUdYSfevc",
+      "title": "Venture into the Unknown (I.R.I.S cover)",
+      "credits": {
+        "composers": [
+          "任以诺",
+          "王越"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ZnJUdYSfevc",
+        "file": "ZnJUdYSfevc.mp3",
+        "startTime": 47,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "SRDQ-lloDI0",
+      "title": "The Day the Starlight Arrived (Instrumental)",
+      "credits": {
+        "composers": [
+          "白天"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "SRDQ-lloDI0",
+        "file": "SRDQ-lloDI0.mp3",
+        "startTime": 175,
+        "duration": 24
+      }
+    }
+  ]
+}

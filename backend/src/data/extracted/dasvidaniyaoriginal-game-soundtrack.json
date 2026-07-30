@@ -1,0 +1,40 @@
+{
+  "id": "OLAK5uy_mD_O5PbJ-jWx2REQaWK0pwBV5A974C0Ng",
+  "slug": "dasvidaniyaoriginal-game-soundtrack",
+  "title": "Album - Dasvidaniya",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_mD_O5PbJ-jWx2REQaWK0pwBV5A974C0Ng/maxresdefault.jpg?sqp=CPiZqtMGir7X7AMICP7RsNAGEAE=&rs=AOn4CLBa-P_TPNuHRDyiPc7Xy4twkkVk9w&v=1779181822",
+  "tracks": [
+    {
+      "youtubeId": "qPhnd1ax49Y",
+      "title": "Dasvidaniya",
+      "credits": {
+        "composers": ["Justin Phillips"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Denia",
+      "clip": {
+        "videoId": "qPhnd1ax49Y",
+        "file": "qPhnd1ax49Y.mp3",
+        "startTime": 115,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "lKSVEEAmO1E",
+      "title": "Dasvidaniya (Instrumental)",
+      "credits": {
+        "composers": ["Justin Phillips"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Denia",
+      "clip": {
+        "videoId": "lKSVEEAmO1E",
+        "file": "lKSVEEAmO1E.mp3",
+        "startTime": 130,
+        "duration": 24
+      }
+    }
+  ]
+}

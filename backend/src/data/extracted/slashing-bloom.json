@@ -1,0 +1,56 @@
+{
+  "id": "OLAK5uy_lgFchgum-0YELlMlgIq3WT3d5ebMyFV7s",
+  "slug": "slashing-bloom",
+  "title": "Album - Slashing Bloom",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lgFchgum-0YELlMlgIq3WT3d5ebMyFV7s/maxresdefault.jpg?sqp=CKyqqtMGir7X7AMICNHrtckGEAE=&rs=AOn4CLCA6JdlBLBV664qwPPJMkGdr_xraA&v=1764586961",
+  "tracks": [
+    {
+      "youtubeId": "9piDtCdMtTA",
+      "title": "切り咲く",
+      "credits": {
+        "composers": ["Aira"],
+        "arrangers": ["Aira"],
+        "performers": []
+      },
+      "character": "Chisa",
+      "clip": {
+        "videoId": "9piDtCdMtTA",
+        "file": "9piDtCdMtTA.mp3",
+        "startTime": 145,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "6XOJ2-KNvx0",
+      "title": "切り咲く (English Ver.)",
+      "credits": {
+        "composers": ["Aira"],
+        "arrangers": ["Aira"],
+        "performers": []
+      },
+      "character": "Chisa",
+      "clip": {
+        "videoId": "6XOJ2-KNvx0",
+        "file": "6XOJ2-KNvx0.mp3",
+        "startTime": 166,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "nMkVp30pC5s",
+      "title": "切り咲く (Instrumental)",
+      "credits": {
+        "composers": ["Aira"],
+        "arrangers": ["Aira"],
+        "performers": []
+      },
+      "character": "Chisa",
+      "clip": {
+        "videoId": "nMkVp30pC5s",
+        "file": "nMkVp30pC5s.mp3",
+        "startTime": 88,
+        "duration": 24
+      }
+    }
+  ]
+}

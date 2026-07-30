@@ -1,0 +1,152 @@
+{
+  "id": "OLAK5uy_kAMPJejJikHa77S3ogVrML2ix3TmTAfuM",
+  "slug": "ego",
+  "title": "Album - Ego",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_kAMPJejJikHa77S3ogVrML2ix3TmTAfuM/maxresdefault.jpg?sqp=COjIqtMGir7X7AMICOvEqr0GEAE=&rs=AOn4CLBJBO-mxNi8Zmgn0DXbAJ5a7GYeJw&v=1739235947",
+  "tracks": [
+    {
+      "youtubeId": "YOy9D14kT58",
+      "title": "A Glance Backward",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "YOy9D14kT58",
+        "file": "YOy9D14kT58.mp3",
+        "startTime": 52,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "x432n3dtEIo",
+      "title": "Dancer amid the Blooms",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "x432n3dtEIo",
+        "file": "x432n3dtEIo.mp3",
+        "startTime": 48,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "3qnYX1TBIU8",
+      "title": "Fickleness of Life",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "3qnYX1TBIU8",
+        "file": "3qnYX1TBIU8.mp3",
+        "startTime": 82,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "KNdmj9vb1po",
+      "title": "Seed of Purity",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "KNdmj9vb1po",
+        "file": "KNdmj9vb1po.mp3",
+        "startTime": 29,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "qdIHrA3trpQ",
+      "title": "Vortex",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "qdIHrA3trpQ",
+        "file": "qdIHrA3trpQ.mp3",
+        "startTime": 32,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "WBYaEW8bQg0",
+      "title": "When the Camellia Bleeds",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "WBYaEW8bQg0",
+        "file": "WBYaEW8bQg0.mp3",
+        "startTime": 26,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "UOiiUbGo5EI",
+      "title": "Before I Wither",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "UOiiUbGo5EI",
+        "file": "UOiiUbGo5EI.mp3",
+        "startTime": 32,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "YJR5QPOEV98",
+      "title": "Fleeting Sorrow",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "YJR5QPOEV98",
+        "file": "YJR5QPOEV98.mp3",
+        "startTime": 42,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "oaVWtc2rbBI",
+      "title": "Everlasting Longing",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "oaVWtc2rbBI",
+        "file": "oaVWtc2rbBI.mp3",
+        "startTime": 61,
+        "duration": 24
+      }
+    }
+  ]
+}

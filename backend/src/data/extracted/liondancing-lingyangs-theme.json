@@ -1,0 +1,24 @@
+{
+  "id": "OLAK5uy_muC-2lASxbRde1SqHwfs33GRr1EXLj3h8",
+  "slug": "liondancing-lingyangs-theme",
+  "title": "Album - Liondancing - Lingyang's Theme",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_muC-2lASxbRde1SqHwfs33GRr1EXLj3h8/maxresdefault.jpg?sqp=COzPqtMGir7X7AMICMOxrb0GEAE=&rs=AOn4CLB-hzS_kQ9SrBXac9uJ3aBGNRV1FA&v=1739282627",
+  "tracks": [
+    {
+      "youtubeId": "3D0H-rZs1l0",
+      "title": "Liondancing - Lingyang's Theme",
+      "credits": {
+        "composers": ["PelleK"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Lingyang",
+      "clip": {
+        "videoId": "3D0H-rZs1l0",
+        "file": "3D0H-rZs1l0.mp3",
+        "startTime": 110,
+        "duration": 24
+      }
+    }
+  ]
+}

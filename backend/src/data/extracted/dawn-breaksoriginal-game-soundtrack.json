@@ -1,0 +1,502 @@
+{
+  "id": "OLAK5uy_lbRPs7qqzeXbWmQXqhF51W3k-4_qnwSfs",
+  "slug": "dawn-breaksoriginal-game-soundtrack",
+  "title": "Album - Dawn Breaks（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lbRPs7qqzeXbWmQXqhF51W3k-4_qnwSfs/maxresdefault.jpg?sqp=CISvqtMGir7X7AMICKDkp8cGEAE=&rs=AOn4CLASpyrqqvZYgZ0BEicTn15GA1AjJg&v=1760162336",
+  "tracks": [
+    {
+      "youtubeId": "Vd_zk_wj9b0",
+      "title": "Chasing Daylight",
+      "credits": {
+        "composers": [
+          "王越",
+          "任以诺"
+        ],
+        "arrangers": [
+          "YUE.STEVEN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Vd_zk_wj9b0",
+        "file": "Vd_zk_wj9b0.mp3",
+        "startTime": 106,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "A9HJ6DaPrkU",
+      "title": "Firebound Angel",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou",
+          "Martín Arroyo"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "A9HJ6DaPrkU",
+        "file": "A9HJ6DaPrkU.mp3",
+        "startTime": 268,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "PhpbVnpPvBk",
+      "title": "Praise Upon the Path of Light",
+      "credits": {
+        "composers": [
+          "钟熙贤"
+        ],
+        "arrangers": [
+          "markmilian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "PhpbVnpPvBk",
+        "file": "PhpbVnpPvBk.mp3",
+        "startTime": 74,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "IVzs3alVa7g",
+      "title": "Ode to the Indomitable",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "IVzs3alVa7g",
+        "file": "IVzs3alVa7g.mp3",
+        "startTime": 142,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ufQqaAXkWWY",
+      "title": "Judgment Day",
+      "credits": {
+        "composers": [
+          "李楠枫"
+        ],
+        "arrangers": [
+          "Fonze"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ufQqaAXkWWY",
+        "file": "ufQqaAXkWWY.mp3",
+        "startTime": 46,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "xH7f2hdcu90",
+      "title": "Dread in the Valley of Shadows",
+      "credits": {
+        "composers": [
+          "徐康仪"
+        ],
+        "arrangers": [
+          "Koimoon"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "xH7f2hdcu90",
+        "file": "xH7f2hdcu90.mp3",
+        "startTime": 78,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ZXyU-TmWpec",
+      "title": "The Perils of Undercurrents",
+      "credits": {
+        "composers": [
+          "刘俊佚"
+        ],
+        "arrangers": [
+          "劣白Leo"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ZXyU-TmWpec",
+        "file": "ZXyU-TmWpec.mp3",
+        "startTime": 47,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "rxT37jF5ZSQ",
+      "title": "Hellstride",
+      "credits": {
+        "composers": [
+          "刘俊佚"
+        ],
+        "arrangers": [
+          "劣白Leo"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "rxT37jF5ZSQ",
+        "file": "rxT37jF5ZSQ.mp3",
+        "startTime": 43,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "qfOw7iXvZxc",
+      "title": "Hate Born of Delusion",
+      "credits": {
+        "composers": [
+          "马鑫驰"
+        ],
+        "arrangers": [
+          "马鑫驰"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "qfOw7iXvZxc",
+        "file": "qfOw7iXvZxc.mp3",
+        "startTime": 30,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "bh0z-hRXUrc",
+      "title": "Harbinger of the Tide",
+      "credits": {
+        "composers": [
+          "刘俊佚"
+        ],
+        "arrangers": [
+          "劣白Leo"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "bh0z-hRXUrc",
+        "file": "bh0z-hRXUrc.mp3",
+        "startTime": 23,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ayj0Tu2nVK4",
+      "title": "The Punisher and the Punished",
+      "credits": {
+        "composers": [
+          "徐康仪"
+        ],
+        "arrangers": [
+          "Koimoon"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ayj0Tu2nVK4",
+        "file": "ayj0Tu2nVK4.mp3",
+        "startTime": 27,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "OoEFNtXWZ8Y",
+      "title": "Where Memories Converge",
+      "credits": {
+        "composers": [
+          "朱思思"
+        ],
+        "arrangers": [
+          "Ream雨舒"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "OoEFNtXWZ8Y",
+        "file": "OoEFNtXWZ8Y.mp3",
+        "startTime": 45,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "KweJd_wr1rc",
+      "title": "The Way Out",
+      "credits": {
+        "composers": [
+          "朱思思"
+        ],
+        "arrangers": [
+          "Ream雨舒"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "KweJd_wr1rc",
+        "file": "KweJd_wr1rc.mp3",
+        "startTime": 48,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "wxH5-ggY8o4",
+      "title": "Origin of the Islands",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "wxH5-ggY8o4",
+        "file": "wxH5-ggY8o4.mp3",
+        "startTime": 161,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "CklU7iJiHVI",
+      "title": "A Burning Oath, a Blazing Hunt",
+      "credits": {
+        "composers": [
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "caplNkxNY6U",
+      "title": "The Dying Wind",
+      "credits": {
+        "composers": [
+          "吴越"
+        ],
+        "arrangers": [
+          "盖盖Nyan"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "caplNkxNY6U",
+        "file": "caplNkxNY6U.mp3",
+        "startTime": 18,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "UJoqIqi8yug",
+      "title": "From Chaos to Order",
+      "credits": {
+        "composers": [
+          "马鑫驰"
+        ],
+        "arrangers": [
+          "马鑫驰"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "UJoqIqi8yug",
+        "file": "UJoqIqi8yug.mp3",
+        "startTime": 16,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "qaMUY-cJM3M",
+      "title": "Wish of the Hopeful",
+      "credits": {
+        "composers": [
+          "马鑫驰"
+        ],
+        "arrangers": [
+          "马鑫驰"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "qaMUY-cJM3M",
+        "file": "qaMUY-cJM3M.mp3",
+        "startTime": 54,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "dEpiJUsoZlU",
+      "title": "In the Aftermath",
+      "credits": {
+        "composers": [
+          "金圣权"
+        ],
+        "arrangers": [
+          "Jing",
+          "再定义"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "dEpiJUsoZlU",
+        "file": "dEpiJUsoZlU.mp3",
+        "startTime": 24,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "DrAljuAszmA",
+      "title": "Blood as Fuel",
+      "credits": {
+        "composers": [
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "DrAljuAszmA",
+        "file": "DrAljuAszmA.mp3",
+        "startTime": 53,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "lBPqJC7jg8A",
+      "title": "Should Darkness Lie Ahead",
+      "credits": {
+        "composers": [
+          "吴越"
+        ],
+        "arrangers": [
+          "盖盖Nyan"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "lBPqJC7jg8A",
+        "file": "lBPqJC7jg8A.mp3",
+        "startTime": 54,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "CFxJwsNaVhI",
+      "title": "A Fire That Never Dies",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "CFxJwsNaVhI",
+        "file": "CFxJwsNaVhI.mp3",
+        "startTime": 90,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Lznw_S7Gzeg",
+      "title": "All the Stars",
+      "credits": {
+        "composers": [
+          "徐康仪"
+        ],
+        "arrangers": [
+          "Koimoon"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Lznw_S7Gzeg",
+        "file": "Lznw_S7Gzeg.mp3",
+        "startTime": 37,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "W4RrcqvN5E0",
+      "title": "Even When Divinity Remains Silent",
+      "credits": {
+        "composers": [
+          "钟熙贤"
+        ],
+        "arrangers": [
+          "markmilian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "W4RrcqvN5E0",
+        "file": "W4RrcqvN5E0.mp3",
+        "startTime": 40,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "_82_sGO6XvM",
+      "title": "Chasing Daylight (Instrumental)",
+      "credits": {
+        "composers": [
+          "王越",
+          "任以诺"
+        ],
+        "arrangers": [
+          "YUE.STEVEN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "OLAK5uy_nnB7QFHAoWP2tpiluKPysf5GfOGWxoiZk",
+  "slug": "fleet-snowfluffs-practice-time-original-game-soundtrack",
+  "title": "Album - Fleet Snowfluff's Practice Time",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_nnB7QFHAoWP2tpiluKPysf5GfOGWxoiZk/maxresdefault.jpg?sqp=CKijqtMGir7X7AMICJumpswGEAE=&rs=AOn4CLBLiFL6xiim6-CU1X3d5u2Pkv0snw&v=1770623771",
+  "tracks": [
+    {
+      "youtubeId": "sv3YtuidrQA",
+      "title": "Fleet Snowfluff's Practice Time",
+      "credits": {
+        "composers": [
+          "Haruno",
+          "東京真中",
+          "邓杰",
+          "MOON KWANG HO",
+          "沐可"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "sv3YtuidrQA",
+        "file": "sv3YtuidrQA.mp3",
+        "startTime": 95,
+        "duration": 24
+      }
+    }
+  ]
+}

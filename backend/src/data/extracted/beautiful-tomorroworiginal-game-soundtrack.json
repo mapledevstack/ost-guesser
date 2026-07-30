@@ -1,0 +1,62 @@
+{
+  "id": "OLAK5uy_lu0eMg7lw_3-fwOLFWrkH23QGC4P3CLSc",
+  "slug": "beautiful-tomorroworiginal-game-soundtrack",
+  "title": "Album - Beautiful Tomorrow（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lu0eMg7lw_3-fwOLFWrkH23QGC4P3CLSc/maxresdefault.jpg?sqp=CISvqtMGir7X7AMICNvWyscGEAE=&rs=AOn4CLBs0QP7kJhwPzMbRZW5SpQDh13rXA&v=1760734043",
+  "tracks": [
+    {
+      "youtubeId": "ED4ICbX_Qgk",
+      "title": "Beautiful Tomorrow",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ED4ICbX_Qgk",
+        "file": "ED4ICbX_Qgk.mp3",
+        "startTime": 150,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "9u0i1mbpYfs",
+      "title": "Beautiful Tomorrow (Trailer Version)",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "9u0i1mbpYfs",
+        "file": "9u0i1mbpYfs.mp3",
+        "startTime": 67,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "2GYlxxsuYUI",
+      "title": "Beautiful Tomorrow (Instrumental)",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "2GYlxxsuYUI",
+        "file": "2GYlxxsuYUI.mp3",
+        "startTime": 135,
+        "duration": 24
+      }
+    }
+  ]
+}

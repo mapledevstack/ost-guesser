@@ -1,0 +1,83 @@
+{
+  "id": "OLAK5uy_ltsMyNiIhzLtS09wg0hBTANB6AeqV8h8w",
+  "slug": "eisodusoriginal-game-soundtrack",
+  "title": "Album - Eisodus",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_ltsMyNiIhzLtS09wg0hBTANB6AeqV8h8w/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICJ3h-NEGEAE=&rs=AOn4CLCqCR8lApCn7P4AnDHWFqvt2UJxIQ&v=1782460573",
+  "tracks": [
+    {
+      "youtubeId": "pBNq4Kdeygs",
+      "title": "Eisodus",
+      "credits": {
+        "composers": [
+          "Yang Bingyin"
+        ],
+        "arrangers": [
+          "Muye Li"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "pBNq4Kdeygs",
+        "file": "pBNq4Kdeygs.mp3",
+        "startTime": 141,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "EmRyCnBuyLE",
+      "title": "定玄",
+      "credits": {
+        "composers": [
+          "楊秉音"
+        ],
+        "arrangers": [
+          "李牧野"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "FL-PmdTkagc",
+      "title": "Eisodus (Instrumental)",
+      "credits": {
+        "composers": [
+          "Yang Bingyin"
+        ],
+        "arrangers": [
+          "Muye Li"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "FL-PmdTkagc",
+        "file": "FL-PmdTkagc.mp3",
+        "startTime": 187,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "oFrnsFVyHME",
+      "title": "定玄 (Instrumental)",
+      "credits": {
+        "composers": [
+          "楊秉音"
+        ],
+        "arrangers": [
+          "李牧野"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "oFrnsFVyHME",
+        "file": "oFrnsFVyHME.mp3",
+        "startTime": 160,
+        "duration": 24
+      }
+    }
+  ]
+}

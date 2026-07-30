@@ -1,0 +1,40 @@
+{
+  "id": "OLAK5uy_lV0y5gKaCttuGfMHBDAqSHEiJUWHtvfD8",
+  "slug": "brand-new-sky-original-game-soundtrack",
+  "title": "Album - Brand New Sky",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lV0y5gKaCttuGfMHBDAqSHEiJUWHtvfD8/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICLOq5NEGEAE=&rs=AOn4CLCcr7COwz2rmNI0fO9TvzSHKdPspQ&v=1782125875",
+  "tracks": [
+    {
+      "youtubeId": "78masZti800",
+      "title": "Brand New Sky",
+      "credits": {
+        "composers": ["He Ruichen", "Chu Yijie"],
+        "arrangers": ["yocho"],
+        "performers": ["Tarokiki"]
+      },
+      "character": "Aemeath",
+      "clip": {
+        "videoId": "78masZti800",
+        "file": "78masZti800.mp3",
+        "startTime": 148,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "6zf342NMaYU",
+      "title": "Brand New Sky (Instrumental)",
+      "credits": {
+        "composers": ["He Ruichen", "Chu Yijie"],
+        "arrangers": ["yocho"],
+        "performers": []
+      },
+      "character": "Aemeath",
+      "clip": {
+        "videoId": "6zf342NMaYU",
+        "file": "6zf342NMaYU.mp3",
+        "startTime": 173,
+        "duration": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "OLAK5uy_lLUPS7FSem3vwDWSmzFO-vMICr90vIShg",
+  "slug": "one-more-wish",
+  "title": "Album - One More Wish",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lLUPS7FSem3vwDWSmzFO-vMICr90vIShg/maxresdefault.jpg?sqp=CNCeqtMGir7X7AMICIeK4s8GEAE=&rs=AOn4CLAikIbuiMtXGJ_LHdNwm-8ppWOxeA&v=1777894663",
+  "tracks": [
+    {
+      "youtubeId": "4OHbLp7h0us",
+      "title": "One More Wish",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Hiyuki",
+      "clip": {
+        "videoId": "4OHbLp7h0us",
+        "file": "4OHbLp7h0us.mp3",
+        "startTime": 109,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "5N07BpfZ0G0",
+      "title": "One More Wish - English Ver.",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Hiyuki",
+      "clip": {
+        "videoId": "5N07BpfZ0G0",
+        "file": "5N07BpfZ0G0.mp3",
+        "startTime": 191,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "H1zEQnKJiZ8",
+      "title": "One More Wish - Instrumental",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Hiyuki",
+      "clip": {
+        "videoId": "H1zEQnKJiZ8",
+        "file": "H1zEQnKJiZ8.mp3",
+        "startTime": 176,
+        "duration": 24
+      }
+    }
+  ]
+}

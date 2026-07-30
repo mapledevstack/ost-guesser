@@ -1,0 +1,35 @@
+{
+  "id": "OLAK5uy_lcWwc4cUUYg9EkLZZh2fPQOf39CNOJl8g",
+  "slug": "endless-pulseoriginal-game-soundtrack",
+  "title": "Album - Endless Pulse（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lcWwc4cUUYg9EkLZZh2fPQOf39CNOJl8g/maxresdefault.jpg?sqp=CNyzqtMGir7X7AMICNKB68UGEAE=&rs=AOn4CLCaou7HA6G1i3JMPS2j2XM2UtO06g&v=1757069522",
+  "tracks": [
+    {
+      "youtubeId": "La24P92A3rM",
+      "title": "Endless Pulse（Original Game Soundtrack）",
+      "credits": {
+        "composers": ["Robert Wolf"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Augusta",
+      "clip": null
+    },
+    {
+      "youtubeId": "kvMqvz-FPE8",
+      "title": "Endless Pulse（Original Game Soundtrack） (Instrumental)",
+      "credits": {
+        "composers": ["Robert Wolf"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Augusta",
+      "clip": {
+        "videoId": "kvMqvz-FPE8",
+        "file": "kvMqvz-FPE8.mp3",
+        "startTime": 112,
+        "duration": 24
+      }
+    }
+  ]
+}

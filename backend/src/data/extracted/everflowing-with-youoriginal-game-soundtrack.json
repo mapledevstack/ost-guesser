@@ -1,0 +1,34 @@
+{
+  "id": "OLAK5uy_lAaq8ELhnSjhaoIJPYUwBaYLCChp8BrfI",
+  "slug": "everflowing-with-youoriginal-game-soundtrack",
+  "title": "Album - Everflowing with You",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lAaq8ELhnSjhaoIJPYUwBaYLCChp8BrfI/maxresdefault.jpg?sqp=CIy9qtMGir7X7AMICOjelsEGEAE=&rs=AOn4CLA1EciRCSDBvGvtBtmDiRY-Rjolow&v=1747300200",
+  "tracks": [
+    {
+      "youtubeId": "yC4YIcfpr7M",
+      "title": "Everflowing with You",
+      "credits": {
+        "composers": [
+          "Yi Ming",
+          "Vision Sound",
+          "Jix Wang",
+          "Yungan Fan",
+          "Yue Steven",
+          "Duran Novation",
+          "Go Kou"
+        ],
+        "arrangers": [
+          "Kosuke Yamashita"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "yC4YIcfpr7M",
+        "file": "yC4YIcfpr7M.mp3",
+        "startTime": 201,
+        "duration": 24
+      }
+    }
+  ]
+}

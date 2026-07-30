@@ -1,0 +1,108 @@
+{
+  "id": "OLAK5uy_kD9AfcnV_UCqmAyJwh2-K8TtATkBN96F8",
+  "slug": "unwavering-startorch-original-game-soundtrack-graduation-choir-version",
+  "title": "Album - Unwavering Startorch (Original Game Soundtrack) (Graduation Choir Version)",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_kD9AfcnV_UCqmAyJwh2-K8TtATkBN96F8/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICMne7dEGEAE=&rs=AOn4CLCmb_jmRzY2JaHt1_b2Y3XgN6M8rw&v=1782280009",
+  "tracks": [
+    {
+      "youtubeId": "a3nFqEi-GxY",
+      "title": "星炬不熄 (畢業合唱版)",
+      "credits": {
+        "composers": [
+          "Linda Ke"
+        ],
+        "arrangers": [
+          "David Soltany"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "a3nFqEi-GxY",
+        "file": "a3nFqEi-GxY.mp3",
+        "startTime": 220,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "CnscljHvPMs",
+      "title": "Unwavering Startorch (Graduation Choir Version)",
+      "credits": {
+        "composers": [
+          "Linda Ke"
+        ],
+        "arrangers": [
+          "David Soltany"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "CnscljHvPMs",
+        "file": "CnscljHvPMs.mp3",
+        "startTime": 149,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "WlwNpVX9-DM",
+      "title": "絶やさぬスタートーチ (卒業合唱 Version)",
+      "credits": {
+        "composers": [
+          "Linda Ke"
+        ],
+        "arrangers": [
+          "David Soltany"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "WlwNpVX9-DM",
+        "file": "WlwNpVX9-DM.mp3",
+        "startTime": 220,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "JswnhrXYEHM",
+      "title": "흔들리지 않는 스타토치 (졸업 합창 Version)",
+      "credits": {
+        "composers": [
+          "Linda Ke"
+        ],
+        "arrangers": [
+          "David Soltany"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "JswnhrXYEHM",
+        "file": "JswnhrXYEHM.mp3",
+        "startTime": 157,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "-2qyHhkT2ww",
+      "title": "Unwavering Startorch (Graduation Choir Version Instrumental)",
+      "credits": {
+        "composers": [
+          "Linda Ke"
+        ],
+        "arrangers": [
+          "David Soltany"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "-2qyHhkT2ww",
+        "file": "-2qyHhkT2ww.mp3",
+        "startTime": 133,
+        "duration": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "OLAK5uy_mGYmruF0NmpqGqLWNAn3NI-E6X0e-sohw",
+  "slug": "to-the-shores-end",
+  "title": "Album - To the Shore's End",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_mGYmruF0NmpqGqLWNAn3NI-E6X0e-sohw/maxresdefault.jpg?sqp=CJTLqtMGir7X7AMICJabmr0GEAE=&rs=AOn4CLBIhOM3nwb8zchTZQe6Y1W-1h4CTg&v=1738968470",
+  "tracks": [
+    {
+      "youtubeId": "6Bkti--4BEA",
+      "title": "De Anima / On the Soul",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Shorekeeper",
+      "clip": {
+        "videoId": "6Bkti--4BEA",
+        "file": "6Bkti--4BEA.mp3",
+        "startTime": 145,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "hWnHzYh03dQ",
+      "title": "De Caelo / On the Heavens",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Shorekeeper",
+      "clip": {
+        "videoId": "hWnHzYh03dQ",
+        "file": "hWnHzYh03dQ.mp3",
+        "startTime": 129,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ErE1Wd540fI",
+      "title": "Astrum Unicum / Stars, Rebirth, and You",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Shorekeeper",
+      "clip": {
+        "videoId": "ErE1Wd540fI",
+        "file": "ErE1Wd540fI.mp3",
+        "startTime": 92,
+        "duration": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,994 @@
+{
+  "id": "OLAK5uy_nu73shm3kW3e9yPgo7ppI30PNRBEEgH94",
+  "slug": "beneath-frostlands-the-startorch-burnsoriginal-game-soundtrack",
+  "title": "Album - Beneath Frostlands, the Startorch Burns",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_nu73shm3kW3e9yPgo7ppI30PNRBEEgH94/maxresdefault.jpg?sqp=CICoqtMGir7X7AMICNXris4GEAE=&rs=AOn4CLAON3_ArFJWEqpOS14ynHtkr0_obA&v=1774368213",
+  "tracks": [
+    {
+      "youtubeId": "ANQn2FD32yM",
+      "title": "Starfaring",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "1E7LHv5nBNo",
+      "title": "A Splash of True Colors (Throttle Up!)",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "1E7LHv5nBNo",
+        "file": "1E7LHv5nBNo.mp3",
+        "startTime": 174,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "wiXzbkjuJao",
+      "title": "Unfinished Journey",
+      "credits": {
+        "composers": [
+          "金珊杉"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "wiXzbkjuJao",
+        "file": "wiXzbkjuJao.mp3",
+        "startTime": 120,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "GJryTZmLYps",
+      "title": "Venture into the Unknown",
+      "credits": {
+        "composers": [
+          "王越",
+          "曾婷"
+        ],
+        "arrangers": [
+          "YUE.STEVEN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "GJryTZmLYps",
+        "file": "GJryTZmLYps.mp3",
+        "startTime": 161,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "HszXyiAtBwo",
+      "title": "Moments Captured Among the Stars",
+      "credits": {
+        "composers": [
+          "朱思思"
+        ],
+        "arrangers": [
+          "Ream雨舒"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "HszXyiAtBwo",
+        "file": "HszXyiAtBwo.mp3",
+        "startTime": 180,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "o9_4YO2B434",
+      "title": "The Sound of Midday Bells",
+      "credits": {
+        "composers": [
+          "白天"
+        ],
+        "arrangers": [
+          "baitian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "o9_4YO2B434",
+        "file": "o9_4YO2B434.mp3",
+        "startTime": 85,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "XI3UOYcQ-jc",
+      "title": "Hot Night Inspiration",
+      "credits": {
+        "composers": [
+          "陈渤林"
+        ],
+        "arrangers": [
+          "Minase"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "XI3UOYcQ-jc",
+        "file": "XI3UOYcQ-jc.mp3",
+        "startTime": 86,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "gd115-0nmxU",
+      "title": "Where the Reactor Drive Shines",
+      "credits": {
+        "composers": [
+          "金珊杉"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "gd115-0nmxU",
+        "file": "gd115-0nmxU.mp3",
+        "startTime": 90,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Ft7TEOzjnbk",
+      "title": "When the Solistree Slumbers",
+      "credits": {
+        "composers": [
+          "金珊杉"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Ft7TEOzjnbk",
+        "file": "Ft7TEOzjnbk.mp3",
+        "startTime": 86,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "fArUrK5fWCY",
+      "title": "Land of Dead Dreams",
+      "credits": {
+        "composers": [
+          "金珊杉"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "fArUrK5fWCY",
+        "file": "fArUrK5fWCY.mp3",
+        "startTime": 156,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "lxbfCPp6jj8",
+      "title": "Falling Stars, Wandering Thoughts",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "lxbfCPp6jj8",
+        "file": "lxbfCPp6jj8.mp3",
+        "startTime": 200,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "0Ic9kv8oRxE",
+      "title": "Warp Zone",
+      "credits": {
+        "composers": [
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "0Ic9kv8oRxE",
+        "file": "0Ic9kv8oRxE.mp3",
+        "startTime": 50,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "xm9XSGfv5mo",
+      "title": "Horizon of Space",
+      "credits": {
+        "composers": [
+          "朱思思"
+        ],
+        "arrangers": [
+          "Ream雨舒"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "xm9XSGfv5mo",
+        "file": "xm9XSGfv5mo.mp3",
+        "startTime": 99,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "t1-tBIWZ22A",
+      "title": "Future as You See It",
+      "credits": {
+        "composers": [
+          "朱思思"
+        ],
+        "arrangers": [
+          "Ream雨舒"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "t1-tBIWZ22A",
+        "file": "t1-tBIWZ22A.mp3",
+        "startTime": 69,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "7mxy_jIZFro",
+      "title": "Celestial Edge",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "7mxy_jIZFro",
+        "file": "7mxy_jIZFro.mp3",
+        "startTime": 163,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "xk8DOmRJTTQ",
+      "title": "Rest Now, You Are Still Home",
+      "credits": {
+        "composers": [
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "xk8DOmRJTTQ",
+        "file": "xk8DOmRJTTQ.mp3",
+        "startTime": 74,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "oWv0GqqEf1M",
+      "title": "Lull Before the Exam Storm",
+      "credits": {
+        "composers": [
+          "李俊霖"
+        ],
+        "arrangers": [
+          "auburn"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "oWv0GqqEf1M",
+        "file": "oWv0GqqEf1M.mp3",
+        "startTime": 34,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "n5Vs0VFN3aQ",
+      "title": "Silence Is All Around",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "n5Vs0VFN3aQ",
+        "file": "n5Vs0VFN3aQ.mp3",
+        "startTime": 89,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "sQ7CKsjWff0",
+      "title": "Aleph-1: Voidmatter Node",
+      "credits": {
+        "composers": [
+          "金辉"
+        ],
+        "arrangers": [
+          "KH"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "sQ7CKsjWff0",
+        "file": "sQ7CKsjWff0.mp3",
+        "startTime": 78,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "2l9Q9Y-p_sc",
+      "title": "Q.E.D.",
+      "credits": {
+        "composers": [
+          "金珊杉"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "2l9Q9Y-p_sc",
+        "file": "2l9Q9Y-p_sc.mp3",
+        "startTime": 86,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ucP67yS7cMA",
+      "title": "Pyroptosis",
+      "credits": {
+        "composers": [
+          "王越"
+        ],
+        "arrangers": [
+          "YUE.STEVEN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ucP67yS7cMA",
+        "file": "ucP67yS7cMA.mp3",
+        "startTime": 76,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "qqRyahcX5P8",
+      "title": "Rev It Up! Startorch Race!",
+      "credits": {
+        "composers": [
+          "金珊杉"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "qqRyahcX5P8",
+        "file": "qqRyahcX5P8.mp3",
+        "startTime": 92,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "imhbMVNuY_Q",
+      "title": "Ready Biker One",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "imhbMVNuY_Q",
+        "file": "imhbMVNuY_Q.mp3",
+        "startTime": 89,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "a6pwm09e1Ww",
+      "title": "A Melody upon the Wind",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "a6pwm09e1Ww",
+        "file": "a6pwm09e1Ww.mp3",
+        "startTime": 64,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "HxAouDt7kFE",
+      "title": "A Bloom on the Plains",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "HxAouDt7kFE",
+        "file": "HxAouDt7kFE.mp3",
+        "startTime": 71,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "yIfSda93zwA",
+      "title": "Gaze Again into the Faraway",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "yIfSda93zwA",
+        "file": "yIfSda93zwA.mp3",
+        "startTime": 131,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "qhzp4th8n1c",
+      "title": "Hidden in the Quiet",
+      "credits": {
+        "composers": [
+          "钟熙贤"
+        ],
+        "arrangers": [
+          "markmilian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "qhzp4th8n1c",
+        "file": "qhzp4th8n1c.mp3",
+        "startTime": 56,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "_Rooco1o5ME",
+      "title": "From the Solsvein",
+      "credits": {
+        "composers": [
+          "郑旭洋"
+        ],
+        "arrangers": [
+          "辻原"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "_Rooco1o5ME",
+        "file": "_Rooco1o5ME.mp3",
+        "startTime": 54,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "UE22jjFL818",
+      "title": "Sixteen Centimillion Bits",
+      "credits": {
+        "composers": [
+          "程凌霄"
+        ],
+        "arrangers": [
+          "霄"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "UE22jjFL818",
+        "file": "UE22jjFL818.mp3",
+        "startTime": 29,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "NzWH4mZLN2U",
+      "title": "Journey Well",
+      "credits": {
+        "composers": [
+          "王越"
+        ],
+        "arrangers": [
+          "YUE.STEVEN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "NzWH4mZLN2U",
+        "file": "NzWH4mZLN2U.mp3",
+        "startTime": 18,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "dbc4SE4D8DU",
+      "title": "Fearless Against the Void",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "G-Fun"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "dbc4SE4D8DU",
+        "file": "dbc4SE4D8DU.mp3",
+        "startTime": 74,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "w500-jeh-ck",
+      "title": "Class Dismissed",
+      "credits": {
+        "composers": [
+          "金辉"
+        ],
+        "arrangers": [
+          "KH"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "w500-jeh-ck",
+        "file": "w500-jeh-ck.mp3",
+        "startTime": 54,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "hxa5sFGblbo",
+      "title": "Friend Old and New",
+      "credits": {
+        "composers": [
+          "李俊霖"
+        ],
+        "arrangers": [
+          "auburn"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "hxa5sFGblbo",
+        "file": "hxa5sFGblbo.mp3",
+        "startTime": 27,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "J-BsddRwQsg",
+      "title": "To Boundless Freedom",
+      "credits": {
+        "composers": [
+          "王越"
+        ],
+        "arrangers": [
+          "YUE.STEVEN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "J-BsddRwQsg",
+        "file": "J-BsddRwQsg.mp3",
+        "startTime": 62,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "e2GOUzbwrwk",
+      "title": "Swaying Shadows",
+      "credits": {
+        "composers": [
+          "金珊杉"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "e2GOUzbwrwk",
+        "file": "e2GOUzbwrwk.mp3",
+        "startTime": 61,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "dqlx9Z0w6VY",
+      "title": "Somber Starflash",
+      "credits": {
+        "composers": [
+          "于淼"
+        ],
+        "arrangers": [
+          "JINGYAN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "dqlx9Z0w6VY",
+        "file": "dqlx9Z0w6VY.mp3",
+        "startTime": 88,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "QZKsyuWbv_o",
+      "title": "Your Way Here",
+      "credits": {
+        "composers": [
+          "于淼"
+        ],
+        "arrangers": [
+          "JINGYAN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "QZKsyuWbv_o",
+        "file": "QZKsyuWbv_o.mp3",
+        "startTime": 90,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "EEEduxIJWJQ",
+      "title": "Protocol Ineffective",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "EEEduxIJWJQ",
+        "file": "EEEduxIJWJQ.mp3",
+        "startTime": 42,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "d58kT0c4JbU",
+      "title": "Chaos Field",
+      "credits": {
+        "composers": [
+          "任麒霖"
+        ],
+        "arrangers": [
+          "任麒霖"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "d58kT0c4JbU",
+        "file": "d58kT0c4JbU.mp3",
+        "startTime": 49,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "2pehOXfBWRs",
+      "title": "Ready to Fight Back",
+      "credits": {
+        "composers": [
+          "任麒霖"
+        ],
+        "arrangers": [
+          "任麒霖"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "2pehOXfBWRs",
+        "file": "2pehOXfBWRs.mp3",
+        "startTime": 44,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "IJ9IINey9c4",
+      "title": "Rust Colors and Rainbow Shadows",
+      "credits": {
+        "composers": [
+          "王越"
+        ],
+        "arrangers": [
+          "YUE.STEVEN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "IJ9IINey9c4",
+        "file": "IJ9IINey9c4.mp3",
+        "startTime": 75,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "kQSUXlgYiOU",
+      "title": "The Call of the Canopy",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "kQSUXlgYiOU",
+        "file": "kQSUXlgYiOU.mp3",
+        "startTime": 47,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "LkWFV1L17fU",
+      "title": "Determined to Return",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "LkWFV1L17fU",
+        "file": "LkWFV1L17fU.mp3",
+        "startTime": 37,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "k7fXPJatDSo",
+      "title": "All Frequencies Detonated!",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "k7fXPJatDSo",
+        "file": "k7fXPJatDSo.mp3",
+        "startTime": 89,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "WRo0tXDlf-4",
+      "title": "Like the New Wind",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "WRo0tXDlf-4",
+        "file": "WRo0tXDlf-4.mp3",
+        "startTime": 46,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "UnEHorQc79A",
+      "title": "A Life That's Yours",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "-Wk6VTZSECg",
+      "title": "Liveries at Full Throttle!",
+      "credits": {
+        "composers": [
+          "朱思思"
+        ],
+        "arrangers": [
+          "Ream雨舒"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "-Wk6VTZSECg",
+        "file": "-Wk6VTZSECg.mp3",
+        "startTime": 33,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "UXyqGPaOjNE",
+      "title": "Brilliant Sunshine, Shining Stars",
+      "credits": {
+        "composers": [
+          "陈渤林"
+        ],
+        "arrangers": [
+          "Minase"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "UXyqGPaOjNE",
+        "file": "UXyqGPaOjNE.mp3",
+        "startTime": 81,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ySBYSus-03g",
+      "title": "Vector Matrix",
+      "credits": {
+        "composers": [
+          "梁家源"
+        ],
+        "arrangers": [
+          "Kausz"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "cwXZi_lJOzw",
+      "title": "Lynspiration...",
+      "credits": {
+        "composers": [
+          "梁家源"
+        ],
+        "arrangers": [
+          "Kausz"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "cwXZi_lJOzw",
+        "file": "cwXZi_lJOzw.mp3",
+        "startTime": 4,
+        "duration": 24
+      }
+    }
+  ]
+}

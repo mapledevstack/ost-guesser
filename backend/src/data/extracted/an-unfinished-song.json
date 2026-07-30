@@ -1,0 +1,88 @@
+{
+  "id": "OLAK5uy_lR-a95CzpKYYSXw77L4NQBDevuZHpZUFk",
+  "slug": "an-unfinished-song",
+  "title": "Album - An Unfinished Song",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lR-a95CzpKYYSXw77L4NQBDevuZHpZUFk/maxresdefault.jpg?sqp=CJTLqtMGir7X7AMICLjDyL0GEAE=&rs=AOn4CLAyJg5YQ20ShSWHpxU0yFd5Z5EMCA&v=1739727288",
+  "tracks": [
+    {
+      "youtubeId": "G2TOxqiJ-94",
+      "title": "An Unfinished Song",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Shorekeeper",
+      "clip": {
+        "videoId": "G2TOxqiJ-94",
+        "file": "G2TOxqiJ-94.mp3",
+        "startTime": 115,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "cFDTVkQ61Ug",
+      "title": "未尽之歌",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Shorekeeper",
+      "clip": {
+        "videoId": "cFDTVkQ61Ug",
+        "file": "cFDTVkQ61Ug.mp3",
+        "startTime": 164,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ifyW1P0cfoQ",
+      "title": "未完成の歌",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Shorekeeper",
+      "clip": {
+        "videoId": "ifyW1P0cfoQ",
+        "file": "ifyW1P0cfoQ.mp3",
+        "startTime": 184,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "suArZg78DP8",
+      "title": "끝나지 않은 노래",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Shorekeeper",
+      "clip": {
+        "videoId": "suArZg78DP8",
+        "file": "suArZg78DP8.mp3",
+        "startTime": 181,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "CbU3Oz4knXU",
+      "title": "An Unfinished Song (Instrumental)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Shorekeeper",
+      "clip": {
+        "videoId": "CbU3Oz4knXU",
+        "file": "CbU3Oz4knXU.mp3",
+        "startTime": 179,
+        "duration": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "OLAK5uy_lxHYXLv_iVn3r4eqAMuFtYHOFEaiVovgs",
+  "slug": "aphelion-galbrenas-lullabyoriginal-game-soundtrack",
+  "title": "Album - Aphelion [Galbrena's Lullaby]（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lxHYXLv_iVn3r4eqAMuFtYHOFEaiVovgs/maxresdefault.jpg?sqp=CLCxqtMGir7X7AMICK3H6cYGEAE=&rs=AOn4CLCoUvMWnQ3Sx3_lkrx4vNgn1bQ9fQ&v=1759142829",
+  "tracks": [
+    {
+      "youtubeId": "7uGClSnF1Jo",
+      "title": "Aphelion [Galbrena's Lullaby] （Original Game Soundtrack）",
+      "credits": {
+        "composers": ["Justin Phillips", "Alexander Phillips"],
+        "arrangers": ["Justin Phillips", "Alexander Phillips"],
+        "performers": []
+      },
+      "character": "Galbrena",
+      "clip": {
+        "videoId": "7uGClSnF1Jo",
+        "file": "7uGClSnF1Jo.mp3",
+        "startTime": 302,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "77EBmN91vsg",
+      "title": "Aphelion [Galbrena's Lullaby] （Original Game Soundtrack） (Instrumental)",
+      "credits": {
+        "composers": ["Justin Phillips", "Alexander Phillips"],
+        "arrangers": ["Justin Phillips", "Alexander Phillips"],
+        "performers": []
+      },
+      "character": "Galbrena",
+      "clip": {
+        "videoId": "77EBmN91vsg",
+        "file": "77EBmN91vsg.mp3",
+        "startTime": 197,
+        "duration": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "OLAK5uy_nZvRWaFQYTcSZzssFJjm5f98YUxH2JQZ8",
+  "slug": "to-hold-you-on-the-moon",
+  "title": "Album - To Hold You on the Moon",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_nZvRWaFQYTcSZzssFJjm5f98YUxH2JQZ8/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICIj8wtEGEAE=&rs=AOn4CLAO1AfJMuY8UyJcsyxs0TqxQ6xkUQ&v=1781579272",
+  "tracks": [
+    {
+      "youtubeId": "s8F9GvkZOk8",
+      "title": "To Hold You on the Moon",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Lucy",
+      "clip": {
+        "videoId": "s8F9GvkZOk8",
+        "file": "s8F9GvkZOk8.mp3",
+        "startTime": 90,
+        "duration": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "OLAK5uy_k_rRv1E-ngCkQDYf1JBifgYEf-M9NJKSg",
+  "slug": "theres-no-moonlight-this-nightoriginal-game-soundtrack",
+  "title": "Album - There's No Moonlight This Night（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_k_rRv1E-ngCkQDYf1JBifgYEf-M9NJKSg/maxresdefault.jpg?sqp=CNyzqtMGir7X7AMICMPXn8YGEAE=&rs=AOn4CLCYr8vVDx1WSMB5f5z_GGXWJC8Kww&v=1757932483",
+  "tracks": [
+    {
+      "youtubeId": "1zORiYv3VmU",
+      "title": "There's No Moonlight This Night（Original Game Soundtrack）",
+      "credits": {
+        "composers": ["Obadiah Brown-Beach"],
+        "arrangers": ["Obadiah Brown-Beach"],
+        "performers": []
+      },
+      "character": "Iuno",
+      "clip": {
+        "videoId": "1zORiYv3VmU",
+        "file": "1zORiYv3VmU.mp3",
+        "startTime": 183,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "2PvupR5kAYI",
+      "title": "There's No Moonlight This Night（Original Game Soundtrack） (Instrumental)",
+      "credits": {
+        "composers": ["Obadiah Brown-Beach"],
+        "arrangers": ["Obadiah Brown-Beach"],
+        "performers": []
+      },
+      "character": "Iuno",
+      "clip": {
+        "videoId": "2PvupR5kAYI",
+        "file": "2PvupR5kAYI.mp3",
+        "startTime": 117,
+        "duration": 24
+      }
+    }
+  ]
+}

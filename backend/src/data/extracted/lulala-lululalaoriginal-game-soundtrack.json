@@ -1,0 +1,88 @@
+{
+  "id": "OLAK5uy_k56tnS9cqhZyZZH0TXDyDGaSj65I9u10A",
+  "slug": "lulala-lululalaoriginal-game-soundtrack",
+  "title": "Album - Lulala! Lululala!（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_k56tnS9cqhZyZZH0TXDyDGaSj65I9u10A/maxresdefault.jpg?sqp=COC6qtMGir7X7AMICN2Cx8EGEAE=&rs=AOn4CLBb0-Mgeg7V8uNCIFjaCwPdefMdOw&v=1748091229",
+  "tracks": [
+    {
+      "youtubeId": "UT0XMxhecuE",
+      "title": "Lulala! Lululala! (Chinese Version)",
+      "credits": {
+        "composers": ["辻诗音"],
+        "arrangers": ["HINATAspring"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "UT0XMxhecuE",
+        "file": "UT0XMxhecuE.mp3",
+        "startTime": 162,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "tpli3PRHBco",
+      "title": "Lulala! Lululala! (Japanese Version)",
+      "credits": {
+        "composers": ["辻诗音"],
+        "arrangers": ["HINATAspring"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "tpli3PRHBco",
+        "file": "tpli3PRHBco.mp3",
+        "startTime": 157,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "IgvdMo29Pws",
+      "title": "Lulala! Lululala! (English Version)",
+      "credits": {
+        "composers": ["辻诗音"],
+        "arrangers": ["HINATAspring"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "IgvdMo29Pws",
+        "file": "IgvdMo29Pws.mp3",
+        "startTime": 85,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ajvbsBzxzVI",
+      "title": "Lulala! Lululala! (Korean Version)",
+      "credits": {
+        "composers": ["辻诗音"],
+        "arrangers": ["HINATAspring"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "ajvbsBzxzVI",
+        "file": "ajvbsBzxzVI.mp3",
+        "startTime": 126,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Hk0RMegu51s",
+      "title": "Lulala! Lululala! (Instrumental)",
+      "credits": {
+        "composers": ["辻诗音"],
+        "arrangers": ["HINATAspring"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "Hk0RMegu51s",
+        "file": "Hk0RMegu51s.mp3",
+        "startTime": 151,
+        "duration": 24
+      }
+    }
+  ]
+}

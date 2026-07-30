@@ -1,0 +1,48 @@
+{
+  "id": "OLAK5uy_l_jtmqyHWEIt5d5-EYryJQQUl5Ay6w4Xc",
+  "slug": "turning-aroundoriginal-game-soundtrack",
+  "title": "Album - Turning Around",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_l_jtmqyHWEIt5d5-EYryJQQUl5Ay6w4Xc/maxresdefault.jpg?sqp=CPiZqtMGir7X7AMICOrzutAGEAE=&rs=AOn4CLDgIS02cPbiBh2FMojGrhsx1UVfjw&v=1779349994",
+  "tracks": [
+    {
+      "youtubeId": "g50Nk2VzEZ0",
+      "title": "Turning Around",
+      "credits": {
+        "composers": [
+          "Grabbitz"
+        ],
+        "arrangers": [
+          "Grabbitz"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "g50Nk2VzEZ0",
+        "file": "g50Nk2VzEZ0.mp3",
+        "startTime": 139,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "kvuTXqHhU9k",
+      "title": "Turning Around (Instrumental)",
+      "credits": {
+        "composers": [
+          "Grabbitz"
+        ],
+        "arrangers": [
+          "Grabbitz"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "kvuTXqHhU9k",
+        "file": "kvuTXqHhU9k.mp3",
+        "startTime": 186,
+        "duration": 24
+      }
+    }
+  ]
+}

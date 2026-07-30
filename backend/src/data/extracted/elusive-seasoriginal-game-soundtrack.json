@@ -1,0 +1,118 @@
+{
+  "id": "OLAK5uy_lKzHves5PkCC7TkpesjkWiCw7-Q-hZsQw",
+  "slug": "elusive-seasoriginal-game-soundtrack",
+  "title": "Album - Elusive Seas（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lKzHves5PkCC7TkpesjkWiCw7-Q-hZsQw/maxresdefault.jpg?sqp=CLi_qtMGir7X7AMICLq8uL8GEAE=&rs=AOn4CLBR3yYo60l1v_YPwE26FrqN91I0kQ&v=1743658554",
+  "tracks": [
+    {
+      "youtubeId": "-iPL-LGX2fM",
+      "title": "Elusive Seas",
+      "credits": {
+        "composers": [
+          "biz",
+          "via"
+        ],
+        "arrangers": [
+          "biz",
+          "via"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "-iPL-LGX2fM",
+        "file": "-iPL-LGX2fM.mp3",
+        "startTime": 190,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "hYcGTpViNsk",
+      "title": "沉沦幻海",
+      "credits": {
+        "composers": [
+          "biz",
+          "via"
+        ],
+        "arrangers": [
+          "biz",
+          "via"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "hYcGTpViNsk",
+        "file": "hYcGTpViNsk.mp3",
+        "startTime": 132,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "lgimfwRY4ZU",
+      "title": "沈む幻海",
+      "credits": {
+        "composers": [
+          "biz",
+          "via"
+        ],
+        "arrangers": [
+          "biz",
+          "via"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "lgimfwRY4ZU",
+        "file": "lgimfwRY4ZU.mp3",
+        "startTime": 162,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "_BPMzKGrDJg",
+      "title": "바닷속 환상의 자장가",
+      "credits": {
+        "composers": [
+          "biz",
+          "via"
+        ],
+        "arrangers": [
+          "biz",
+          "via"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "_BPMzKGrDJg",
+        "file": "_BPMzKGrDJg.mp3",
+        "startTime": 111,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "9Hk9BVolB8E",
+      "title": "Elusive Seas (Instrumental)",
+      "credits": {
+        "composers": [
+          "biz",
+          "via"
+        ],
+        "arrangers": [
+          "biz",
+          "via"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "9Hk9BVolB8E",
+        "file": "9Hk9BVolB8E.mp3",
+        "startTime": 98,
+        "duration": 24
+      }
+    }
+  ]
+}

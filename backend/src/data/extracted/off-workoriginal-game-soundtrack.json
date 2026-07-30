@@ -1,0 +1,88 @@
+{
+  "id": "OLAK5uy_ngDCzvlWshcQD7XplxPlZOqSWx8Pr6tDk",
+  "slug": "off-workoriginal-game-soundtrack",
+  "title": "Album - Off Work?",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_ngDCzvlWshcQD7XplxPlZOqSWx8Pr6tDk/maxresdefault.jpg?sqp=CIy9qtMGir7X7AMICIOGjMEGEAE=&rs=AOn4CLDyrHzFe5wZQDVledBdNmjk1GIAVw&v=1747124995",
+  "tracks": [
+    {
+      "youtubeId": "tNUAzpmfvpE",
+      "title": "Off Work?",
+      "credits": {
+        "composers": ["TMKJ"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Zani",
+      "clip": {
+        "videoId": "tNUAzpmfvpE",
+        "file": "tNUAzpmfvpE.mp3",
+        "startTime": 78,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "-0EgJ3U6yjY",
+      "title": "下班？",
+      "credits": {
+        "composers": ["TMKJ"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Zani",
+      "clip": {
+        "videoId": "-0EgJ3U6yjY",
+        "file": "-0EgJ3U6yjY.mp3",
+        "startTime": 88,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "pW1taZVB38w",
+      "title": "退勤？",
+      "credits": {
+        "composers": ["TMKJ"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Zani",
+      "clip": {
+        "videoId": "pW1taZVB38w",
+        "file": "pW1taZVB38w.mp3",
+        "startTime": 93,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "iYMLCNR7vDE",
+      "title": "퇴근？",
+      "credits": {
+        "composers": ["TMKJ"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Zani",
+      "clip": {
+        "videoId": "iYMLCNR7vDE",
+        "file": "iYMLCNR7vDE.mp3",
+        "startTime": 133,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "JjpugB-8aAo",
+      "title": "Off Work? (Instrumental)",
+      "credits": {
+        "composers": ["TMKJ"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Zani",
+      "clip": {
+        "videoId": "JjpugB-8aAo",
+        "file": "JjpugB-8aAo.mp3",
+        "startTime": 115,
+        "duration": 24
+      }
+    }
+  ]
+}

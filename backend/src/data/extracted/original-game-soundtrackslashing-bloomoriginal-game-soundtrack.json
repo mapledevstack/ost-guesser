@@ -1,0 +1,68 @@
+{
+  "id": "OLAK5uy_lT55wl538WzvABepqRuVS4ofzfjhgjEpA",
+  "slug": "original-game-soundtrackslashing-bloomoriginal-game-soundtrack",
+  "title": "Album - 切り咲く(Original Game Soundtrack)（Slashing Bloom(Original Game Soundtrack)）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lT55wl538WzvABepqRuVS4ofzfjhgjEpA/maxresdefault.jpg?sqp=CKyqqtMGir7X7AMICLOJ3MkGEAE=&rs=AOn4CLA-YrU8Ath3wWrrhc4P36X_bz9a_Q&v=1765213363",
+  "tracks": [
+    {
+      "youtubeId": "ZrtZjU657mk",
+      "title": "切り咲く (Chinese Version)",
+      "credits": {
+        "composers": [
+          "Dream Monster"
+        ],
+        "arrangers": [
+          "Aira(Dream Monster)"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ZrtZjU657mk",
+        "file": "ZrtZjU657mk.mp3",
+        "startTime": 143,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "cxvuvAWVPJQ",
+      "title": "切り咲く (Korean Version)",
+      "credits": {
+        "composers": [
+          "Dream Monster"
+        ],
+        "arrangers": [
+          "Aira(Dream Monster)"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "cxvuvAWVPJQ",
+        "file": "cxvuvAWVPJQ.mp3",
+        "startTime": 122,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Rd_NbBuS2VE",
+      "title": "切り咲く (Instrumental)",
+      "credits": {
+        "composers": [
+          "Dream Monster"
+        ],
+        "arrangers": [
+          "Aira(Dream Monster)"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Rd_NbBuS2VE",
+        "file": "Rd_NbBuS2VE.mp3",
+        "startTime": 152,
+        "duration": 24
+      }
+    }
+  ]
+}

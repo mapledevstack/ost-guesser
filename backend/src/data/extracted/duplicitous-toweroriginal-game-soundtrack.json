@@ -1,0 +1,99 @@
+{
+  "id": "OLAK5uy_nrwXMJ6Viq05SFqs_FuwafVWINnpUtTT0",
+  "slug": "duplicitous-toweroriginal-game-soundtrack",
+  "title": "Album - Duplicitous Tower",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_nrwXMJ6Viq05SFqs_FuwafVWINnpUtTT0/maxresdefault.jpg?sqp=COTBqtMGir7X7AMICN3jmr8GEAE=&rs=AOn4CLB3BtYSmiazLLFl3YMRbUsF_f7lJw&v=1743172061",
+  "tracks": [
+    {
+      "youtubeId": "4ZKgq7Aw34s",
+      "title": "With Glory I Shall Fall",
+      "credits": {
+        "composers": ["Jix Wang"],
+        "arrangers": ["jixwang"],
+        "performers": []
+      },
+      "character": "Cartethyia",
+      "clip": {
+        "videoId": "4ZKgq7Aw34s",
+        "file": "4ZKgq7Aw34s.mp3",
+        "startTime": 189,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "eyb1h5LVHhg",
+      "title": "Chains of Oath, Echoes of Promise",
+      "credits": {
+        "composers": ["Jix Wang"],
+        "arrangers": ["jixwang"],
+        "performers": []
+      },
+      "character": "Cartethyia",
+      "clip": {
+        "videoId": "eyb1h5LVHhg",
+        "file": "eyb1h5LVHhg.mp3",
+        "startTime": 173,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "uQLzhisQtgo",
+      "title": "Moonlit Solitude",
+      "credits": {
+        "composers": ["Jix Wang"],
+        "arrangers": ["jixwang"],
+        "performers": []
+      },
+      "character": "Cartethyia",
+      "clip": {
+        "videoId": "uQLzhisQtgo",
+        "file": "uQLzhisQtgo.mp3",
+        "startTime": 95,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "2_EA4qffQS8",
+      "title": "With Glory I Shall Fall (Instrumental)",
+      "credits": {
+        "composers": ["Jix Wang"],
+        "arrangers": ["jixwang"],
+        "performers": []
+      },
+      "character": "Cartethyia",
+      "clip": {
+        "videoId": "2_EA4qffQS8",
+        "file": "2_EA4qffQS8.mp3",
+        "startTime": 188,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "VuwZnccwbyI",
+      "title": "Chains of Oath, Echoes of Promise (Instrumental)",
+      "credits": {
+        "composers": ["Jix Wang"],
+        "arrangers": ["jixwang"],
+        "performers": []
+      },
+      "character": "Cartethyia",
+      "clip": {
+        "videoId": "VuwZnccwbyI",
+        "file": "VuwZnccwbyI.mp3",
+        "startTime": 85,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "B4xbJFa4xy4",
+      "title": "Moonlit Solitude (Instrumental)",
+      "credits": {
+        "composers": ["Jix Wang"],
+        "arrangers": ["jixwang"],
+        "performers": []
+      },
+      "character": "Cartethyia",
+      "clip": null
+    }
+  ]
+}

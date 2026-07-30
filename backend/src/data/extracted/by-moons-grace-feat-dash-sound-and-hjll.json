@@ -1,0 +1,24 @@
+{
+  "id": "OLAK5uy_lE69UgNauUazgKb5itW_hchPRwYJA9bvs",
+  "slug": "by-moons-grace-feat-dash-sound-and-hjll",
+  "title": "Album - By Moon's Grace",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lE69UgNauUazgKb5itW_hchPRwYJA9bvs/maxresdefault.jpg?sqp=CMDNqtMGir7X7AMICIT0rr0GEAE=&rs=AOn4CLCnIgyK4W0GHGLWua7Y1ztKvqUBng&v=1739307524",
+  "tracks": [
+    {
+      "youtubeId": "vhBwgu6xKJ4",
+      "title": "By Moon's Grace (feat. Dash Sound & HJLL)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "vhBwgu6xKJ4",
+        "file": "vhBwgu6xKJ4.mp3",
+        "startTime": 139,
+        "duration": 24
+      }
+    }
+  ]
+}

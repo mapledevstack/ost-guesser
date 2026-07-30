@@ -1,0 +1,94 @@
+{
+  "id": "OLAK5uy_lZulaqcPgMcZDMpRn0GbpT8VK-diiicAw",
+  "slug": "fleet-snowflufforiginal-game-soundtrack",
+  "title": "Album - Fleet Snowfluff",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lZulaqcPgMcZDMpRn0GbpT8VK-diiicAw/maxresdefault.jpg?sqp=CNSlqtMGir7X7AMICInCw8sGEAE=&rs=AOn4CLAKS86MDN1i71bNSei_vlpwUJbiXQ&v=1769005321",
+  "tracks": [
+    {
+      "youtubeId": "BA5-6cVIRQQ",
+      "title": "Paper Plane",
+      "credits": {
+        "composers": ["Haruno"],
+        "arrangers": [],
+        "performers": ["Tarokiki"]
+      },
+      "character": "Aemeath",
+      "clip": {
+        "videoId": "BA5-6cVIRQQ",
+        "file": "BA5-6cVIRQQ.mp3",
+        "startTime": 163,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Oy1S_lHGIZI",
+      "title": "Indigo Universe",
+      "credits": {
+        "composers": ["東京真中"],
+        "arrangers": [],
+        "performers": ["Tarokiki"]
+      },
+      "character": "Aemeath",
+      "clip": null
+    },
+    {
+      "youtubeId": "SeNRcGbpR4M",
+      "title": "Fallen Petals",
+      "credits": {
+        "composers": ["邓杰"],
+        "arrangers": [],
+        "performers": ["Tarokiki"]
+      },
+      "character": "Aemeath",
+      "clip": null
+    },
+    {
+      "youtubeId": "VxilOYkpH5A",
+      "title": "Paper Plane (Instrumental)",
+      "credits": {
+        "composers": ["Haruno"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Aemeath",
+      "clip": {
+        "videoId": "VxilOYkpH5A",
+        "file": "VxilOYkpH5A.mp3",
+        "startTime": 196,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "kG1GGJjAp-o",
+      "title": "Indigo Universe (Instrumental)",
+      "credits": {
+        "composers": ["東京真中"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Aemeath",
+      "clip": {
+        "videoId": "kG1GGJjAp-o",
+        "file": "kG1GGJjAp-o.mp3",
+        "startTime": 119,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "yIo6J89yzWY",
+      "title": "Fallen Petals (Instrumental)",
+      "credits": {
+        "composers": ["邓杰"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Aemeath",
+      "clip": {
+        "videoId": "yIo6J89yzWY",
+        "file": "yIo6J89yzWY.mp3",
+        "startTime": 76,
+        "duration": 24
+      }
+    }
+  ]
+}

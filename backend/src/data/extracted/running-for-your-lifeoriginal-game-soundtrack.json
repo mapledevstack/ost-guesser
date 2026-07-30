@@ -1,0 +1,40 @@
+{
+  "id": "OLAK5uy_mukqZolN8PwXXKF0MKyZwzuXKTgZ04yEI",
+  "slug": "running-for-your-lifeoriginal-game-soundtrack",
+  "title": "Album - Running For Your Life（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_mukqZolN8PwXXKF0MKyZwzuXKTgZ04yEI/maxresdefault.jpg?sqp=CLS4qtMGir7X7AMICLjn-cIGEAE=&rs=AOn4CLCBxefH7tx0vpJUNXsV_bY0iBYNrw&v=1751020472",
+  "tracks": [
+    {
+      "youtubeId": "mWxP-sQmNMU",
+      "title": "Running For Your Life",
+      "credits": {
+        "composers": ["Nicholas Chiari"],
+        "arrangers": ["Grabbitz"],
+        "performers": []
+      },
+      "character": "Lupa",
+      "clip": {
+        "videoId": "mWxP-sQmNMU",
+        "file": "mWxP-sQmNMU.mp3",
+        "startTime": 189,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "AgaaTHIM-UQ",
+      "title": "Running For Your Life (Instrumental)",
+      "credits": {
+        "composers": ["Nicholas Chiari"],
+        "arrangers": ["Grabbitz"],
+        "performers": []
+      },
+      "character": "Lupa",
+      "clip": {
+        "videoId": "AgaaTHIM-UQ",
+        "file": "AgaaTHIM-UQ.mp3",
+        "startTime": 173,
+        "duration": 24
+      }
+    }
+  ]
+}

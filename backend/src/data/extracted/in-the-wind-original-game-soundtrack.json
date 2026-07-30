@@ -1,0 +1,100 @@
+{
+  "id": "OLAK5uy_lUAqnnJKuui1wSbpqyb5dt1wke0LLomc0",
+  "slug": "in-the-wind-original-game-soundtrack",
+  "title": "Album - In The Wind",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lUAqnnJKuui1wSbpqyb5dt1wke0LLomc0/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICO2hvNIGEAE=&rs=AOn4CLB_iDSD9BEikaa2nqL1xLu-j0qByg&v=1783566573",
+  "tracks": [
+    {
+      "youtubeId": "Ok-CVsEbCYM",
+      "title": "風之所在",
+      "credits": {
+        "composers": [
+          "Sihan"
+        ],
+        "arrangers": [
+          "Sihan"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Ok-CVsEbCYM",
+        "file": "Ok-CVsEbCYM.mp3",
+        "startTime": 141,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "NV4-Djr4AH4",
+      "title": "In The Wind",
+      "credits": {
+        "composers": [
+          "Sihan"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "NV4-Djr4AH4",
+        "file": "NV4-Djr4AH4.mp3",
+        "startTime": 135,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ZcvOD9N3OpQ",
+      "title": "風の在り処",
+      "credits": {
+        "composers": [
+          "Sihan"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ZcvOD9N3OpQ",
+        "file": "ZcvOD9N3OpQ.mp3",
+        "startTime": 153,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "iYCQInHg0PE",
+      "title": "바람이 머무는 곳",
+      "credits": {
+        "composers": [
+          "Sihan"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "iYCQInHg0PE",
+        "file": "iYCQInHg0PE.mp3",
+        "startTime": 143,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "sAWTpEfpaOw",
+      "title": "In The Wind (Instrumental)",
+      "credits": {
+        "composers": [
+          "Sihan"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "sAWTpEfpaOw",
+        "file": "sAWTpEfpaOw.mp3",
+        "startTime": 178,
+        "duration": 24
+      }
+    }
+  ]
+}

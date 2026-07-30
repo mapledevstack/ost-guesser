@@ -1,0 +1,40 @@
+{
+  "id": "OLAK5uy_mHqfcZ4w_AvjWszp_h3vkyap2C3eBnwy0",
+  "slug": "dancing-through-fantasies",
+  "title": "Album - Dancing Through Fantasies",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_mHqfcZ4w_AvjWszp_h3vkyap2C3eBnwy0/maxresdefault.jpg?sqp=CLzGqtMGir7X7AMICKDX070GEAE=&rs=AOn4CLADoDJ2J8G61mzDTKJxrInQv_g5eA&v=1739910048",
+  "tracks": [
+    {
+      "youtubeId": "0hC73MsFBv8",
+      "title": "Dancing Through Fantasies",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "0hC73MsFBv8",
+        "file": "0hC73MsFBv8.mp3",
+        "startTime": 131,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "EkQg_8VQ3zg",
+      "title": "Dancing Through Fantasies (Instrumental)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "EkQg_8VQ3zg",
+        "file": "EkQg_8VQ3zg.mp3",
+        "startTime": 101,
+        "duration": 24
+      }
+    }
+  ]
+}

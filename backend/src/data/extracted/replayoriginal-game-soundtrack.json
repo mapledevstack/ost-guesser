@@ -1,0 +1,48 @@
+{
+  "id": "OLAK5uy_kPR_pKCibD_DW4O82S0FUAfVrYN9OkMUM",
+  "slug": "replayoriginal-game-soundtrack",
+  "title": "Album - Replay",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_kPR_pKCibD_DW4O82S0FUAfVrYN9OkMUM/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICPmco9EGEAE=&rs=AOn4CLAr2krJCN0frbhvkUoGDk8WVrpb_g&v=1781059193",
+  "tracks": [
+    {
+      "youtubeId": "sm9nfCfDc2U",
+      "title": "Replay",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [
+          "Adam Gubman"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "sm9nfCfDc2U",
+        "file": "sm9nfCfDc2U.mp3",
+        "startTime": 90,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "hxDQcjoYv9o",
+      "title": "Replay (Instrumental)",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [
+          "Adam Gubman"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "hxDQcjoYv9o",
+        "file": "hxDQcjoYv9o.mp3",
+        "startTime": 103,
+        "duration": 24
+      }
+    }
+  ]
+}

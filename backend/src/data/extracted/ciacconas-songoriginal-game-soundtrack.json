@@ -1,0 +1,136 @@
+{
+  "id": "OLAK5uy_lvpxHUt3qjJYWcKjSm0PpVVJi2mYo_x3s",
+  "slug": "ciacconas-songoriginal-game-soundtrack",
+  "title": "Album - Ciaccona's Song（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lvpxHUt3qjJYWcKjSm0PpVVJi2mYo_x3s/maxresdefault.jpg?sqp=COC6qtMGir7X7AMICN2e8MEGEAE=&rs=AOn4CLAkGu746AoL_Pm6v2ksz9aVaartgA&v=1748766557",
+  "tracks": [
+    {
+      "youtubeId": "s_L2Qmfbk-k",
+      "title": "Whispered Whims of the Wind",
+      "credits": {
+        "composers": ["朱彦熹"],
+        "arrangers": ["A19"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "s_L2Qmfbk-k",
+        "file": "s_L2Qmfbk-k.mp3",
+        "startTime": 16,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "4d9wAJUqaXU",
+      "title": "Whispered Whims of the Wind (Oriental Wave Remix)",
+      "credits": {
+        "composers": ["朱彦熹"],
+        "arrangers": ["格里特"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "4d9wAJUqaXU",
+        "file": "4d9wAJUqaXU.mp3",
+        "startTime": 14,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "xw_xYU_x-WU",
+      "title": "Whispered Whims of the Wind (Acoustic Remix)",
+      "credits": {
+        "composers": ["朱彦熹"],
+        "arrangers": ["3A"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "xw_xYU_x-WU",
+        "file": "xw_xYU_x-WU.mp3",
+        "startTime": 12,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "FI6dS3W1gG4",
+      "title": "Whispered Whims of the Wind (Symphonic Remix)",
+      "credits": {
+        "composers": ["朱彦熹"],
+        "arrangers": ["格里特"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "FI6dS3W1gG4",
+        "file": "FI6dS3W1gG4.mp3",
+        "startTime": 16,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "pp8s7zvkBqQ",
+      "title": "Whispered Whims of the Wind (Electro Blast Remix)",
+      "credits": {
+        "composers": ["朱彦熹"],
+        "arrangers": ["Salty Salt"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "pp8s7zvkBqQ",
+        "file": "pp8s7zvkBqQ.mp3",
+        "startTime": 15,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "F29UNGUFe-4",
+      "title": "Whispered Whims of the Wind (Rock Fury Remix)",
+      "credits": {
+        "composers": ["朱彦熹"],
+        "arrangers": ["格里特"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "F29UNGUFe-4",
+        "file": "F29UNGUFe-4.mp3",
+        "startTime": 12,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "NoyohoJDD_4",
+      "title": "Whispered Whims of the Wind (Deep House Remix)",
+      "credits": {
+        "composers": ["朱彦熹"],
+        "arrangers": ["Salty Salt"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "NoyohoJDD_4",
+        "file": "NoyohoJDD_4.mp3",
+        "startTime": 15,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "5RCJ3QK7Fsw",
+      "title": "Whispered Whims of the Wind (Chiptune Remix)",
+      "credits": {
+        "composers": ["朱彦熹"],
+        "arrangers": ["Salty Salt"],
+        "performers": []
+      },
+      "character": "Ciaccona",
+      "clip": {
+        "videoId": "5RCJ3QK7Fsw",
+        "file": "5RCJ3QK7Fsw.mp3",
+        "startTime": 12,
+        "duration": 24
+      }
+    }
+  ]
+}

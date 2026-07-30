@@ -1,0 +1,50 @@
+{
+  "id": "OLAK5uy_nmFU9-fjQz5rj5kh2dupnoAbWuK-przBI",
+  "slug": "thawing-light-original-game-soundtrack",
+  "title": "Album - Thawing Light",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_nmFU9-fjQz5rj5kh2dupnoAbWuK-przBI/maxresdefault.jpg?sqp=CPygqtMGir7X7AMICJiE5cwGEAE=&rs=AOn4CLBMVE4CLyFKpSiBGG9h6uFr1g6Ftw&v=1771651608",
+  "tracks": [
+    {
+      "youtubeId": "15ozx-3FuAs",
+      "title": "Thawing Light",
+      "credits": {
+        "composers": [
+          "J.S",
+          "David Lin"
+        ],
+        "arrangers": [
+          "Erik Castro"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "15ozx-3FuAs",
+        "file": "15ozx-3FuAs.mp3",
+        "startTime": 151,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "3MHb5_0hXIU",
+      "title": "Thawing Light (Instrumental)",
+      "credits": {
+        "composers": [
+          "J.S",
+          "David Lin"
+        ],
+        "arrangers": [
+          "Erik Castro"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "3MHb5_0hXIU",
+        "file": "3MHb5_0hXIU.mp3",
+        "startTime": 131,
+        "duration": 24
+      }
+    }
+  ]
+}

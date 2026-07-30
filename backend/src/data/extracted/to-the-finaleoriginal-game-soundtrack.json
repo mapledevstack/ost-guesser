@@ -1,0 +1,48 @@
+{
+  "id": "OLAK5uy_mV50823y3skrAePuCUaVMtfYZNdfBxdEw",
+  "slug": "to-the-finaleoriginal-game-soundtrack",
+  "title": "Album - To the Finale（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_mV50823y3skrAePuCUaVMtfYZNdfBxdEw/maxresdefault.jpg?sqp=CIi2qtMGir7X7AMICPGp2MQGEAE=&rs=AOn4CLDTRG2dy8_TwzZFoITdxZaa_lmNQw&v=1754666225",
+  "tracks": [
+    {
+      "youtubeId": "r3fdYNeTZpE",
+      "title": "To the Finale（Original Game Soundtrack）",
+      "credits": {
+        "composers": [
+          "Sterling Maffe"
+        ],
+        "arrangers": [
+          "Sterling Maffe"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "r3fdYNeTZpE",
+        "file": "r3fdYNeTZpE.mp3",
+        "startTime": 140,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "suvkUU54CNA",
+      "title": "To the Finale（Original Game Soundtrack） (Trailer Version)",
+      "credits": {
+        "composers": [
+          "Sterling Maffe"
+        ],
+        "arrangers": [
+          "Sterling Maffe"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "suvkUU54CNA",
+        "file": "suvkUU54CNA.mp3",
+        "startTime": 70,
+        "duration": 24
+      }
+    }
+  ]
+}

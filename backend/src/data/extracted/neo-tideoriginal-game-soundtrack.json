@@ -1,0 +1,183 @@
+{
+  "id": "OLAK5uy_msAPY3xnsiOTt61FyYakm2pBefFo5oiGM",
+  "slug": "neo-tideoriginal-game-soundtrack",
+  "title": "Album - Neo-Tide（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_msAPY3xnsiOTt61FyYakm2pBefFo5oiGM/maxresdefault.jpg?sqp=COzPqtMGir7X7AMICO70ysoGEAE=&rs=AOn4CLANKPdtirxW4lK44m__xYEazyHd-w&v=1767029358",
+  "tracks": [
+    {
+      "youtubeId": "hOYYlwnsfpQ",
+      "title": "Saving Light (Remix Version)",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "hOYYlwnsfpQ",
+        "file": "hOYYlwnsfpQ.mp3",
+        "startTime": 104,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "1brs3Ahwfuc",
+      "title": "Waking of a World (Remix Version)",
+      "credits": {
+        "composers": [
+          "Terry Zhong"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "1brs3Ahwfuc",
+        "file": "1brs3Ahwfuc.mp3",
+        "startTime": 77,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "x1GH6n7y5SE",
+      "title": "Grand Feast Daydream (Remix Version)",
+      "credits": {
+        "composers": [
+          "Obadiah Brown-Beach"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "x1GH6n7y5SE",
+        "file": "x1GH6n7y5SE.mp3",
+        "startTime": 54,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "M_Cgf6b9O2s",
+      "title": "Every Day a Carnival (Remix Version)",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "M_Cgf6b9O2s",
+        "file": "M_Cgf6b9O2s.mp3",
+        "startTime": 62,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "9J8R5PefspY",
+      "title": "Daisy Crown (Remix Version)",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "9J8R5PefspY",
+        "file": "9J8R5PefspY.mp3",
+        "startTime": 108,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "31BoZfaSOVQ",
+      "title": "The King of Wayward Souls (Remix Version)",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "31BoZfaSOVQ",
+        "file": "31BoZfaSOVQ.mp3",
+        "startTime": 58,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "RSXmN38AR7M",
+      "title": "Eversinging Song (Remix Version)",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "RSXmN38AR7M",
+        "file": "RSXmN38AR7M.mp3",
+        "startTime": 81,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "f_CIjfakzDQ",
+      "title": "Everflow (Remix Version)",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "f_CIjfakzDQ",
+        "file": "f_CIjfakzDQ.mp3",
+        "startTime": 116,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Tt5SCbGJtiI",
+      "title": "Against the Tide (Remix Version)",
+      "credits": {
+        "composers": [
+          "Obadiah Brown-Beach"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Tt5SCbGJtiI",
+        "file": "Tt5SCbGJtiI.mp3",
+        "startTime": 89,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "xFqbih5gxao",
+      "title": "Running for Your Life (Remix Version)",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "OLAK5uy_mcx4RcRlgTyBqI2NY5QZJ19cTTaZHrcvM",
+  "slug": "thaw-of-eons",
+  "title": "Album - Thaw of Eons",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_mcx4RcRlgTyBqI2NY5QZJ19cTTaZHrcvM/maxresdefault.jpg?sqp=CMDNqtMGir7X7AMICNaLzccGEAE=&rs=AOn4CLD_8F_CFa_iGK-FN9K-DuiCk4Rm8g&v=1760773590",
+  "tracks": [
+    {
+      "youtubeId": "QPOPVgjbyNA",
+      "title": "Loneliness in Resonant Chamber",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "QPOPVgjbyNA",
+        "file": "QPOPVgjbyNA.mp3",
+        "startTime": 67,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "35hrx03KLXY",
+      "title": "Lifted Clouds of Eons",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "35hrx03KLXY",
+        "file": "35hrx03KLXY.mp3",
+        "startTime": 70,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "vBhD87KVnIk",
+      "title": "Daybreak Descends",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "vBhD87KVnIk",
+        "file": "vBhD87KVnIk.mp3",
+        "startTime": 115,
+        "duration": 24
+      }
+    }
+  ]
+}

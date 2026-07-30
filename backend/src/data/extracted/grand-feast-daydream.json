@@ -1,0 +1,104 @@
+{
+  "id": "OLAK5uy_mdn8NddM2JUcnAPXVECsUPrNy7RmaNdEE",
+  "slug": "grand-feast-daydream",
+  "title": "Album - Grand Feast Daydream",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_mdn8NddM2JUcnAPXVECsUPrNy7RmaNdEE/maxresdefault.jpg?sqp=CLzGqtMGir7X7AMICKaE0sIGEAE=&rs=AOn4CLDOp_lgJTaaojGItNM0FgmmfeSXpw&v=1750368806",
+  "tracks": [
+    {
+      "youtubeId": "w00xr780pHE",
+      "title": "Grand Feast Daydream",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "w00xr780pHE",
+        "file": "w00xr780pHE.mp3",
+        "startTime": 139,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "5ZJrSctMlVs",
+      "title": "昼梦盛宴（特别演绎版）",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "5ZJrSctMlVs",
+        "file": "5ZJrSctMlVs.mp3",
+        "startTime": 86,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Ggf4B-IyYnM",
+      "title": "昼梦盛宴",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Ggf4B-IyYnM",
+        "file": "Ggf4B-IyYnM.mp3",
+        "startTime": 124,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "IfGkTZkB_G4",
+      "title": "昼夢グランドフィースト",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "IfGkTZkB_G4",
+        "file": "IfGkTZkB_G4.mp3",
+        "startTime": 101,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "KSX2pIUcw0c",
+      "title": "꿈의 카니발",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "KSX2pIUcw0c",
+        "file": "KSX2pIUcw0c.mp3",
+        "startTime": 162,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "4zWvw4GRACw",
+      "title": "Grand Feast Daydream (Instrumental)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "4zWvw4GRACw",
+        "file": "4zWvw4GRACw.mp3",
+        "startTime": 122,
+        "duration": 24
+      }
+    }
+  ]
+}

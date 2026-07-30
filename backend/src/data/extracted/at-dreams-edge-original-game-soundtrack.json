@@ -1,8 +1,8 @@
 {
-  "id": "OLAK5uy_nEqZV4bO18GapEozDGLCqTw8ymESqwwpU",
-  "slug": "at-dreams-edge",
-  "title": "At Dream's Edge",
-  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_nEqZV4bO18GapEozDGLCqTw8ymESqwwpU/maxresdefault.jpg?sqp=CKiJotMGir7X7AMICKfppNEGEAE=&rs=AOn4CLA0JXCp1dlKlvam5N7Na4zMirPwRg&v=1781085351",
+  "id": "OLAK5uy_kACyTKgMj0xQxVL26KMdcxudOwa5_4z5I",
+  "slug": "at-dreams-edge-original-game-soundtrack",
+  "title": "Album - At Dream's Edge",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_kACyTKgMj0xQxVL26KMdcxudOwa5_4z5I/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICKfppNEGEAE=&rs=AOn4CLDAF2JLOh0eG3AlR_LDarHci1tWUw&v=1781085351",
   "tracks": [
     {
       "youtubeId": "8RDBpJs4XDk",
@@ -17,10 +17,7 @@
         "performers": []
       },
       "character": null,
-      "clip": {
-        "videoId": "8RDBpJs4XDk",
-        "file": "8RDBpJs4XDk.mp3"
-      }
+      "clip": null
     },
     {
       "youtubeId": "zqn1s0V6J30",
@@ -37,7 +34,9 @@
       "character": null,
       "clip": {
         "videoId": "zqn1s0V6J30",
-        "file": "zqn1s0V6J30.mp3"
+        "file": "zqn1s0V6J30.mp3",
+        "startTime": 91,
+        "duration": 24
       }
     },
     {
@@ -55,7 +54,9 @@
       "character": null,
       "clip": {
         "videoId": "nhAh9tNYHb8",
-        "file": "nhAh9tNYHb8.mp3"
+        "file": "nhAh9tNYHb8.mp3",
+        "startTime": 57,
+        "duration": 24
       }
     },
     {
@@ -73,7 +74,9 @@
       "character": null,
       "clip": {
         "videoId": "T0wTH9TSvPA",
-        "file": "T0wTH9TSvPA.mp3"
+        "file": "T0wTH9TSvPA.mp3",
+        "startTime": 77,
+        "duration": 24
       }
     },
     {
@@ -91,7 +94,9 @@
       "character": null,
       "clip": {
         "videoId": "KfoQ_TQxXo4",
-        "file": "KfoQ_TQxXo4.mp3"
+        "file": "KfoQ_TQxXo4.mp3",
+        "startTime": 43,
+        "duration": 24
       }
     },
     {
@@ -109,7 +114,9 @@
       "character": null,
       "clip": {
         "videoId": "nu_4ywr0LOw",
-        "file": "nu_4ywr0LOw.mp3"
+        "file": "nu_4ywr0LOw.mp3",
+        "startTime": 74,
+        "duration": 24
       }
     },
     {
@@ -127,7 +134,9 @@
       "character": null,
       "clip": {
         "videoId": "Lht5FbDynrA",
-        "file": "Lht5FbDynrA.mp3"
+        "file": "Lht5FbDynrA.mp3",
+        "startTime": 46,
+        "duration": 24
       }
     },
     {
@@ -145,7 +154,9 @@
       "character": null,
       "clip": {
         "videoId": "Sw3W-rPbM_A",
-        "file": "Sw3W-rPbM_A.mp3"
+        "file": "Sw3W-rPbM_A.mp3",
+        "startTime": 103,
+        "duration": 24
       }
     },
     {
@@ -161,10 +172,7 @@
         "performers": []
       },
       "character": null,
-      "clip": {
-        "videoId": "nSLaf9r8AIg",
-        "file": "nSLaf9r8AIg.mp3"
-      }
+      "clip": null
     },
     {
       "youtubeId": "CuNoh3bJ-Rk",
@@ -181,7 +189,9 @@
       "character": null,
       "clip": {
         "videoId": "CuNoh3bJ-Rk",
-        "file": "CuNoh3bJ-Rk.mp3"
+        "file": "CuNoh3bJ-Rk.mp3",
+        "startTime": 93,
+        "duration": 24
       }
     },
     {
@@ -199,7 +209,9 @@
       "character": null,
       "clip": {
         "videoId": "23LHCv4iQWc",
-        "file": "23LHCv4iQWc.mp3"
+        "file": "23LHCv4iQWc.mp3",
+        "startTime": 143,
+        "duration": 24
       }
     },
     {
@@ -217,7 +229,9 @@
       "character": null,
       "clip": {
         "videoId": "MY6y3rHPE80",
-        "file": "MY6y3rHPE80.mp3"
+        "file": "MY6y3rHPE80.mp3",
+        "startTime": 111,
+        "duration": 24
       }
     },
     {
@@ -235,7 +249,9 @@
       "character": null,
       "clip": {
         "videoId": "SDB6a2DBRqM",
-        "file": "SDB6a2DBRqM.mp3"
+        "file": "SDB6a2DBRqM.mp3",
+        "startTime": 29,
+        "duration": 24
       }
     },
     {
@@ -253,7 +269,9 @@
       "character": null,
       "clip": {
         "videoId": "1LpGtenSCaE",
-        "file": "1LpGtenSCaE.mp3"
+        "file": "1LpGtenSCaE.mp3",
+        "startTime": 46,
+        "duration": 24
       }
     },
     {
@@ -271,7 +289,9 @@
       "character": null,
       "clip": {
         "videoId": "bRkTeAeks9s",
-        "file": "bRkTeAeks9s.mp3"
+        "file": "bRkTeAeks9s.mp3",
+        "startTime": 60,
+        "duration": 24
       }
     },
     {
@@ -289,7 +309,9 @@
       "character": null,
       "clip": {
         "videoId": "gBk0jTqxMgE",
-        "file": "gBk0jTqxMgE.mp3"
+        "file": "gBk0jTqxMgE.mp3",
+        "startTime": 163,
+        "duration": 24
       }
     }
   ]

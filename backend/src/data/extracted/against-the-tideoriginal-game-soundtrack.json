@@ -1,0 +1,40 @@
+{
+  "id": "OLAK5uy_li1pk9U_MH9fxNqDtxry93IqCN94y4RLI",
+  "slug": "against-the-tideoriginal-game-soundtrack",
+  "title": "Album - Against the Tide",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_li1pk9U_MH9fxNqDtxry93IqCN94y4RLI/maxresdefault.jpg?sqp=COC6qtMGir7X7AMICNPh2cEGEAE=&rs=AOn4CLDS5hJ-1heQ_fuN2K6Skovh8Hvb3g&v=1748398291",
+  "tracks": [
+    {
+      "youtubeId": "Yr1RlcoqXTg",
+      "title": "Against the Tide (Original Game Soundtrack)",
+      "credits": {
+        "composers": ["Obadiah Brown Beach"],
+        "arrangers": ["Obadiah Brown-Beach"],
+        "performers": []
+      },
+      "character": "Cartethyia",
+      "clip": {
+        "videoId": "Yr1RlcoqXTg",
+        "file": "Yr1RlcoqXTg.mp3",
+        "startTime": 182,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ZZoe3QdP-NQ",
+      "title": "Against the Tide (Original Game Soundtrack) (Instrumental)",
+      "credits": {
+        "composers": ["Obadiah Brown Beach"],
+        "arrangers": ["Obadiah Brown-Beach"],
+        "performers": []
+      },
+      "character": "Cartethyia",
+      "clip": {
+        "videoId": "ZZoe3QdP-NQ",
+        "file": "ZZoe3QdP-NQ.mp3",
+        "startTime": 111,
+        "duration": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "OLAK5uy_ldfuKk_FYdKma7i541pX2iXONMDChY5iE",
+  "slug": "one-more-wish-original-game-soundtrack",
+  "title": "Album - One More Wish",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_ldfuKk_FYdKma7i541pX2iXONMDChY5iE/maxresdefault.jpg?sqp=CNCeqtMGir7X7AMICPqCrs8GEAE=&rs=AOn4CLBZ47mJ7k0KHaO3jFETtQDjiNnbtA&v=1777041786",
+  "tracks": [
+    {
+      "youtubeId": "TUrt9lS3Rz4",
+      "title": "愿（One More Wish） (中文版)",
+      "credits": {
+        "composers": ["Miku Nakamura"],
+        "arrangers": ["Miku Nakamura"],
+        "performers": []
+      },
+      "character": "Hiyuki",
+      "clip": {
+        "videoId": "TUrt9lS3Rz4",
+        "file": "TUrt9lS3Rz4.mp3",
+        "startTime": 176,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "sOWl6OmEbmk",
+      "title": "One More Wish (Korean Version)",
+      "credits": {
+        "composers": ["Miku Nakamura"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Hiyuki",
+      "clip": {
+        "videoId": "sOWl6OmEbmk",
+        "file": "sOWl6OmEbmk.mp3",
+        "startTime": 94,
+        "duration": 24
+      }
+    }
+  ]
+}

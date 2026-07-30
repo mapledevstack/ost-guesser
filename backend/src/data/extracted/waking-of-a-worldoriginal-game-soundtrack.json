@@ -1,0 +1,101 @@
+{
+  "id": "OLAK5uy_k6gZZpoy3yRFrHSUtFlJk-0_pf74BX5_w",
+  "slug": "waking-of-a-worldoriginal-game-soundtrack",
+  "title": "Album - Waking of a World（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_k6gZZpoy3yRFrHSUtFlJk-0_pf74BX5_w/maxresdefault.jpg?sqp=CMDNqtMGir7X7AMICKuJi8IGEAE=&rs=AOn4CLC1XMMSj-DcKp9dX95HHOdajLLv_g&v=1749206187",
+  "tracks": [
+    {
+      "youtubeId": "FJoYeMGV2bM",
+      "title": "Waking of a World (Chinese Ver.)",
+      "credits": {
+        "composers": [
+          "Terry Zhong"
+        ],
+        "arrangers": [
+          "Terry Zhong"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "FJoYeMGV2bM",
+        "file": "FJoYeMGV2bM.mp3",
+        "startTime": 151,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "PYAlB53ps1c",
+      "title": "Waking of a World (Japanese Ver.)",
+      "credits": {
+        "composers": [
+          "Terry Zhong"
+        ],
+        "arrangers": [
+          "Terry Zhong"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "PYAlB53ps1c",
+        "file": "PYAlB53ps1c.mp3",
+        "startTime": 124,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Ua1Lxe-cnrY",
+      "title": "Waking of a World",
+      "credits": {
+        "composers": [
+          "Terry Zhong"
+        ],
+        "arrangers": [
+          "Terry Zhong"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "mL6I84nxoNU",
+      "title": "Waking of a World (Korean Ver.)",
+      "credits": {
+        "composers": [
+          "Terry Zhong"
+        ],
+        "arrangers": [
+          "Terry Zhong"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "mL6I84nxoNU",
+        "file": "mL6I84nxoNU.mp3",
+        "startTime": 161,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "82ygD3vd0uw",
+      "title": "Waking of a World (Instrumental)",
+      "credits": {
+        "composers": [
+          "Terry Zhong"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "82ygD3vd0uw",
+        "file": "82ygD3vd0uw.mp3",
+        "startTime": 130,
+        "duration": 24
+      }
+    }
+  ]
+}

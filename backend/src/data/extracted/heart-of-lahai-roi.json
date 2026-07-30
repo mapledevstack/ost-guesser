@@ -1,0 +1,24 @@
+{
+  "id": "OLAK5uy_n2WEbjMrnlc61eSFq2E_JhVpiU6PLW0vw",
+  "slug": "heart-of-lahai-roi",
+  "title": "Album - Heart of Lahai-Roi",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_n2WEbjMrnlc61eSFq2E_JhVpiU6PLW0vw/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICJLu4dEGEAE=&rs=AOn4CLDq5FTheUE4KgCyGL2r8EQ-1FRG9A&v=1782085394",
+  "tracks": [
+    {
+      "youtubeId": "aNLEUmM9jSE",
+      "title": "Heart of Lahai-Roi",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "aNLEUmM9jSE",
+        "file": "aNLEUmM9jSE.mp3",
+        "startTime": 122,
+        "duration": 24
+      }
+    }
+  ]
+}

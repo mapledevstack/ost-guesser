@@ -1,0 +1,128 @@
+{
+  "id": "OLAK5uy_lK-HTmUWBA-JcrbPiSJkt2pQ1NwCBoA4g",
+  "slug": "the-night-the-stars-left-no-trailoriginal-game-soundtrack",
+  "title": "Album - The Night the Stars Left No Trail",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lK-HTmUWBA-JcrbPiSJkt2pQ1NwCBoA4g/maxresdefault.jpg?sqp=CKijqtMGir7X7AMICLS0kMwGEAE=&rs=AOn4CLDpwFEwhM652vqoO7M8uq6ho1Cv1Q&v=1770265140",
+  "tracks": [
+    {
+      "youtubeId": "bPS8Ii6Ef14",
+      "title": "A Small Miracle",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "bPS8Ii6Ef14",
+        "file": "bPS8Ii6Ef14.mp3",
+        "startTime": 231,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "0HrdRGuF2Y8",
+      "title": "Voyaging Star's Farewell",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "0HrdRGuF2Y8",
+        "file": "0HrdRGuF2Y8.mp3",
+        "startTime": 107,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "0gSyy50n6vc",
+      "title": "Vernal Days Dreamed by the Star",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "0gSyy50n6vc",
+        "file": "0gSyy50n6vc.mp3",
+        "startTime": 160,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Z1bNnXiWBS8",
+      "title": "A Small Miracle (Instrumental)",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Z1bNnXiWBS8",
+        "file": "Z1bNnXiWBS8.mp3",
+        "startTime": 152,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "1u86D_damq4",
+      "title": "Voyaging Star's Farewell (Instrumental)",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "1u86D_damq4",
+        "file": "1u86D_damq4.mp3",
+        "startTime": 147,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "spHaX9z04Q0",
+      "title": "Vernal Days Dreamed by the Star (Instrumental)",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "spHaX9z04Q0",
+        "file": "spHaX9z04Q0.mp3",
+        "startTime": 170,
+        "duration": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "OLAK5uy_lEQNl7V-TZI60-fj2ls6nrUIJONz7zmY8",
+  "slug": "everfloworiginal-game-soundtrack",
+  "title": "Album - Everflow（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lEQNl7V-TZI60-fj2ls6nrUIJONz7zmY8/maxresdefault.jpg?sqp=CIy9qtMGir7X7AMICO7Ou8EGEAE=&rs=AOn4CLBR_E1vmU2JKIDKstTgM8_ptbq9pQ&v=1747904366",
+  "tracks": [
+    {
+      "youtubeId": "LtHqhytIWUk",
+      "title": "Everflow",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "TMKJ"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "LtHqhytIWUk",
+        "file": "LtHqhytIWUk.mp3",
+        "startTime": 121,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "E9e0HlSd_L8",
+      "title": "Everflow",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "TMKJ"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "E9e0HlSd_L8",
+        "file": "E9e0HlSd_L8.mp3",
+        "startTime": 215,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "uuYDy9-Jwow",
+      "title": "Everflow",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "TMKJ"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "uuYDy9-Jwow",
+        "file": "uuYDy9-Jwow.mp3",
+        "startTime": 113,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Q8M7jrdjA94",
+      "title": "Everflow",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "TMKJ"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Q8M7jrdjA94",
+        "file": "Q8M7jrdjA94.mp3",
+        "startTime": 211,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "zQ8RcxPrmQM",
+      "title": "Everflow (Instrumental)",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "TMKJ"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "zQ8RcxPrmQM",
+        "file": "zQ8RcxPrmQM.mp3",
+        "startTime": 101,
+        "duration": 24
+      }
+    }
+  ]
+}

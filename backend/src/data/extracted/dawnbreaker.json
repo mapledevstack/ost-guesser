@@ -1,0 +1,88 @@
+{
+  "id": "OLAK5uy_lEtyHIWyDKU9f4J8Xypw28AhBTxdGoItU",
+  "slug": "dawnbreaker",
+  "title": "Album - Dawnbreaker",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_lEtyHIWyDKU9f4J8Xypw28AhBTxdGoItU/maxresdefault.jpg?sqp=CKyqqtMGir7X7AMICNWPh8oGEAE=&rs=AOn4CLD0bnOi0FSnrar3k1jthYHR_Gzunw&v=1765918677",
+  "tracks": [
+    {
+      "youtubeId": "u77jcj18mok",
+      "title": "Dawnbreaker (Chinese Ver.)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "u77jcj18mok",
+        "file": "u77jcj18mok.mp3",
+        "startTime": 145,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "uXiGRT95liA",
+      "title": "Dawnbreaker (Japanese Ver.)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "uXiGRT95liA",
+        "file": "uXiGRT95liA.mp3",
+        "startTime": 192,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "xYgQpeTailM",
+      "title": "Dawnbreaker (English Ver.)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "xYgQpeTailM",
+        "file": "xYgQpeTailM.mp3",
+        "startTime": 151,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "aTLry9gakTA",
+      "title": "Dawnbreaker (Korean Ver)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "aTLry9gakTA",
+        "file": "aTLry9gakTA.mp3",
+        "startTime": 162,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "0GiIHki8HXk",
+      "title": "Dawnbreaker (Instrumental)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "0GiIHki8HXk",
+        "file": "0GiIHki8HXk.mp3",
+        "startTime": 146,
+        "duration": 24
+      }
+    }
+  ]
+}

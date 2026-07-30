@@ -1,0 +1,24 @@
+{
+  "id": "OLAK5uy_nGWrtohZrGR2Vw05d0jzAdMrVOjt2wTmU",
+  "slug": "eisodus",
+  "title": "Album - Eisodus",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_nGWrtohZrGR2Vw05d0jzAdMrVOjt2wTmU/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICLaar9IGEAE=&rs=AOn4CLAFEzk4p2LKfkpmfOMrZKT6UVX14Q&v=1783352630",
+  "tracks": [
+    {
+      "youtubeId": "pJjaH8aydD4",
+      "title": "Eisodus",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "pJjaH8aydD4",
+        "file": "pJjaH8aydD4.mp3",
+        "startTime": 206,
+        "duration": 24
+      }
+    }
+  ]
+}

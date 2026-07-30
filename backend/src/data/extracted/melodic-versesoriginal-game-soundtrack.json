@@ -1,0 +1,264 @@
+{
+  "id": "OLAK5uy_ngjC9LSIFxwc0lkSrpgV3ZLBAwoCZ00lE",
+  "slug": "melodic-versesoriginal-game-soundtrack",
+  "title": "Album - Melodic Verses（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_ngjC9LSIFxwc0lkSrpgV3ZLBAwoCZ00lE/maxresdefault.jpg?sqp=CIy9qtMGir7X7AMICI-4tsEGEAE=&rs=AOn4CLA9Icdp4q6sbyb2Ribe7Mm1-GGImw&v=1747819535",
+  "tracks": [
+    {
+      "youtubeId": "SJXUohQAWeo",
+      "title": "When the Bird Glides Across the Sky",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "hzXFajIulGA",
+      "title": "Whispered Whims of the Wind",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "A19"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "hzXFajIulGA",
+        "file": "hzXFajIulGA.mp3",
+        "startTime": 16,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "GiGx4G_e-cM",
+      "title": "Onward and Forward, Racing Cubes!",
+      "credits": {
+        "composers": [
+          "Yue Steven"
+        ],
+        "arrangers": [
+          "YUE.STEVEN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "GiGx4G_e-cM",
+        "file": "GiGx4G_e-cM.mp3",
+        "startTime": 59,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "IEJPoGhE-w0",
+      "title": "Bouncing Beats",
+      "credits": {
+        "composers": [
+          "盖盖"
+        ],
+        "arrangers": [
+          "盖盖Nyan"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "IEJPoGhE-w0",
+        "file": "IEJPoGhE-w0.mp3",
+        "startTime": 33,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "g6_QzzalrJ8",
+      "title": "A Winning Formula",
+      "credits": {
+        "composers": [
+          "盖盖"
+        ],
+        "arrangers": [
+          "盖盖Nyan"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "g6_QzzalrJ8",
+        "file": "g6_QzzalrJ8.mp3",
+        "startTime": 35,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "VpXdsObKzeA",
+      "title": "Testament of the Wind",
+      "credits": {
+        "composers": [
+          "盖盖"
+        ],
+        "arrangers": [
+          "盖盖Nyan"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "VpXdsObKzeA",
+        "file": "VpXdsObKzeA.mp3",
+        "startTime": 22,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "iYQ9ac85Ne8",
+      "title": "Bubbles Burst",
+      "credits": {
+        "composers": [
+          "Mark Milian"
+        ],
+        "arrangers": [
+          "markmilian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "iYQ9ac85Ne8",
+        "file": "iYQ9ac85Ne8.mp3",
+        "startTime": 59,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "UaUYru3hbJY",
+      "title": "Irredeemable Souls",
+      "credits": {
+        "composers": [
+          "Yue Steven"
+        ],
+        "arrangers": [
+          "YUE.STEVEN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "UaUYru3hbJY",
+        "file": "UaUYru3hbJY.mp3",
+        "startTime": 61,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "z4S-y0Npeqs",
+      "title": "Golden Anthem",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "z4S-y0Npeqs",
+        "file": "z4S-y0Npeqs.mp3",
+        "startTime": 56,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ytMIkJIWBCw",
+      "title": "Resonance Across Time",
+      "credits": {
+        "composers": [
+          "马鑫驰"
+        ],
+        "arrangers": [
+          "马鑫驰"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ytMIkJIWBCw",
+        "file": "ytMIkJIWBCw.mp3",
+        "startTime": 58,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "GAhzKYQdObQ",
+      "title": "Melodic Verses",
+      "credits": {
+        "composers": [
+          "马鑫驰"
+        ],
+        "arrangers": [
+          "马鑫驰"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "GAhzKYQdObQ",
+        "file": "GAhzKYQdObQ.mp3",
+        "startTime": 41,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "3nOjWJ6lZuA",
+      "title": "Buried Dreams of Woven Melodies",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "3nOjWJ6lZuA",
+        "file": "3nOjWJ6lZuA.mp3",
+        "startTime": 63,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "VovoK_jUO6g",
+      "title": "Yo, Happy Birthday to You!",
+      "credits": {
+        "composers": [
+          "Mildred J. Hill",
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "A19"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "VovoK_jUO6g",
+        "file": "VovoK_jUO6g.mp3",
+        "startTime": 37,
+        "duration": 24
+      }
+    }
+  ]
+}

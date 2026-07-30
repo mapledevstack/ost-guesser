@@ -1,0 +1,56 @@
+{
+  "id": "OLAK5uy_kfQIfRKB9CGlsslQCnXAwJhCAKw1kexPM",
+  "slug": "daisy-crown",
+  "title": "Album - Daisy Crown",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_kfQIfRKB9CGlsslQCnXAwJhCAKw1kexPM/maxresdefault.jpg?sqp=COTBqtMGir7X7AMICKzXob4GEAE=&rs=AOn4CLD5tzp1BB-vaxD4fVfwY0L5f795rg&v=1741188012",
+  "tracks": [
+    {
+      "youtubeId": "kUmJaZAeQLQ",
+      "title": "Daisy Crown (Chinese Ver.)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Phoebe",
+      "clip": {
+        "videoId": "kUmJaZAeQLQ",
+        "file": "kUmJaZAeQLQ.mp3",
+        "startTime": 167,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "TvdUuuT9kHA",
+      "title": "Daisy Crown (Korean Ver.)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Phoebe",
+      "clip": {
+        "videoId": "TvdUuuT9kHA",
+        "file": "TvdUuuT9kHA.mp3",
+        "startTime": 116,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "bY5wr-8GEmo",
+      "title": "Daisy Crown (Instrumental)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Phoebe",
+      "clip": {
+        "videoId": "bY5wr-8GEmo",
+        "file": "bY5wr-8GEmo.mp3",
+        "startTime": 79,
+        "duration": 24
+      }
+    }
+  ]
+}

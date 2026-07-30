@@ -13,7 +13,7 @@ export type Albums = z.infer<typeof AlbumsSchema>
 const PlaylistSchema = z.object({
   id: z.string(),
   title: z.string(),
-  thumbnailUrl: z.string().url(),
+  thumbnailUrl: z.url(),
 })
 
 const CreditsSchema = z.object({
@@ -31,7 +31,7 @@ const TrackSchema = z.object({
   youtubeId: z.string(),
   title: z.string(),
   credits: CreditsSchema,
-  clip: ClipSchema,
+  clip: ClipSchema.nullable(),
   character: z.string().nullable(),
 })
 

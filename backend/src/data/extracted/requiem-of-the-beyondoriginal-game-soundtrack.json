@@ -1,0 +1,88 @@
+{
+  "id": "OLAK5uy_k6Af_vbJViMaGvexMdA6GEuOOSYf9TaKo",
+  "slug": "requiem-of-the-beyondoriginal-game-soundtrack",
+  "title": "Album - Requiem of the Beyond（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_k6Af_vbJViMaGvexMdA6GEuOOSYf9TaKo/maxresdefault.jpg?sqp=CIi2qtMGir7X7AMICJb4m8QGEAE=&rs=AOn4CLCgTtOO-hB4tw06_I5aWxAR6QvlwQ&v=1753676822",
+  "tracks": [
+    {
+      "youtubeId": "78V_2FOKh8M",
+      "title": "彼岸的安魂曲",
+      "credits": {
+        "composers": ["松坂康司"],
+        "arrangers": ["松坂康司"],
+        "performers": []
+      },
+      "character": "Phrolova",
+      "clip": {
+        "videoId": "78V_2FOKh8M",
+        "file": "78V_2FOKh8M.mp3",
+        "startTime": 105,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "jtQXd9_l3eg",
+      "title": "彼岸のレクイエム",
+      "credits": {
+        "composers": ["松坂康司"],
+        "arrangers": ["松坂康司"],
+        "performers": []
+      },
+      "character": "Phrolova",
+      "clip": {
+        "videoId": "jtQXd9_l3eg",
+        "file": "jtQXd9_l3eg.mp3",
+        "startTime": 79,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "3apAfhJmHx8",
+      "title": "Requiem of the Beyond",
+      "credits": {
+        "composers": ["松坂康司"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Phrolova",
+      "clip": {
+        "videoId": "3apAfhJmHx8",
+        "file": "3apAfhJmHx8.mp3",
+        "startTime": 124,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "9RCgpwrNojw",
+      "title": "피안의 진혼곡",
+      "credits": {
+        "composers": ["松坂康司"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Phrolova",
+      "clip": {
+        "videoId": "9RCgpwrNojw",
+        "file": "9RCgpwrNojw.mp3",
+        "startTime": 127,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "CpWV3r9n8kE",
+      "title": "Requiem of the Beyond (Instrumental)",
+      "credits": {
+        "composers": ["松坂康司"],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": "Phrolova",
+      "clip": {
+        "videoId": "CpWV3r9n8kE",
+        "file": "CpWV3r9n8kE.mp3",
+        "startTime": 147,
+        "duration": 24
+      }
+    }
+  ]
+}

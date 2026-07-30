@@ -1,0 +1,603 @@
+{
+  "id": "OLAK5uy_kfTzbj_BueZ2sji1RIVcKeftWOtHPnNqI",
+  "slug": "glory-in-revelry-original-game-soundtrack",
+  "title": "Album - Glory in Revelry",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_kfTzbj_BueZ2sji1RIVcKeftWOtHPnNqI/maxresdefault.jpg?sqp=CLS4qtMGir7X7AMICNiar8IGEAE=&rs=AOn4CLB6daDHUayeSvEA8WX9KkN0KGGUgQ&v=1749798232",
+  "tracks": [
+    {
+      "youtubeId": "DaCxuzwM5lQ",
+      "title": "The Ballad of Septimont",
+      "credits": {
+        "composers": [
+          "Win Mus",
+          "Jix Wang"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "DaCxuzwM5lQ",
+        "file": "DaCxuzwM5lQ.mp3",
+        "startTime": 114,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "DYJRyQNlDN0",
+      "title": "Where Glory Shines",
+      "credits": {
+        "composers": [
+          "Win Mus",
+          "Jix Wang"
+        ],
+        "arrangers": [
+          "jixwang",
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "DYJRyQNlDN0",
+        "file": "DYJRyQNlDN0.mp3",
+        "startTime": 76,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "5PV_bKEXW8A",
+      "title": "Shadowy Streets",
+      "credits": {
+        "composers": [
+          "Win Mus"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "5PV_bKEXW8A",
+        "file": "5PV_bKEXW8A.mp3",
+        "startTime": 54,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "wG0o9Xlzj40",
+      "title": "Anthem of the Unbroken",
+      "credits": {
+        "composers": [
+          "Jix Wang"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "wG0o9Xlzj40",
+        "file": "wG0o9Xlzj40.mp3",
+        "startTime": 88,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "9r5bF6hnmCw",
+      "title": "Echoes of the Remnants",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "9r5bF6hnmCw",
+        "file": "9r5bF6hnmCw.mp3",
+        "startTime": 77,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "iCXZiMsq6dw",
+      "title": "Moonlit Breeze",
+      "credits": {
+        "composers": [
+          "Jix Wang"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "iCXZiMsq6dw",
+        "file": "iCXZiMsq6dw.mp3",
+        "startTime": 121,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Sbl4FNFmb04",
+      "title": "To the Top",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "Minase"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Sbl4FNFmb04",
+        "file": "Sbl4FNFmb04.mp3",
+        "startTime": 67,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "IMmKXzvL-rM",
+      "title": "Rest When the Sun Sets",
+      "credits": {
+        "composers": [
+          "Win Mus"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "IMmKXzvL-rM",
+        "file": "IMmKXzvL-rM.mp3",
+        "startTime": 77,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "vJoi0mF7Vx4",
+      "title": "Howl of Swords",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "Minase"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "vJoi0mF7Vx4",
+        "file": "vJoi0mF7Vx4.mp3",
+        "startTime": 47,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "9jLt0h1rv7s",
+      "title": "A Dance of Night and Death",
+      "credits": {
+        "composers": [
+          "段然"
+        ],
+        "arrangers": [
+          "段然-noVaTion"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "9jLt0h1rv7s",
+        "file": "9jLt0h1rv7s.mp3",
+        "startTime": 42,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "iQM5e_6OPjM",
+      "title": "Sunlit Expanses",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "iQM5e_6OPjM",
+        "file": "iQM5e_6OPjM.mp3",
+        "startTime": 189,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "4t7Od3kE0Ws",
+      "title": "A Blazing Star's Soliloquy",
+      "credits": {
+        "composers": [
+          "Jix Wang"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "4t7Od3kE0Ws",
+        "file": "4t7Od3kE0Ws.mp3",
+        "startTime": 140,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "cwUFhka0qCI",
+      "title": "Where the Canyon Mourns",
+      "credits": {
+        "composers": [
+          "Jix Wang"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "ZoHRuN1dHvo",
+      "title": "A Moment of Respite",
+      "credits": {
+        "composers": [
+          "天翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ZoHRuN1dHvo",
+        "file": "ZoHRuN1dHvo.mp3",
+        "startTime": 43,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Dxguz489Oro",
+      "title": "Where the Sun Can't Reach",
+      "credits": {
+        "composers": [
+          "Jix Wang"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Dxguz489Oro",
+        "file": "Dxguz489Oro.mp3",
+        "startTime": 94,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ZPsdQYOUKxo",
+      "title": "Whispering Whirls",
+      "credits": {
+        "composers": [
+          "Go Kou"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ZPsdQYOUKxo",
+        "file": "ZPsdQYOUKxo.mp3",
+        "startTime": 129,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "9s39RqVposI",
+      "title": "A Fire That Never Dies",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "Minase"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "9s39RqVposI",
+        "file": "9s39RqVposI.mp3",
+        "startTime": 69,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "QHFiw_zPxsQ",
+      "title": "The Chain Cutter",
+      "credits": {
+        "composers": [
+          "Go Kou"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "QHFiw_zPxsQ",
+        "file": "QHFiw_zPxsQ.mp3",
+        "startTime": 35,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ignZWJ5_wFY",
+      "title": "The Plushie Expedition",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "A19"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ignZWJ5_wFY",
+        "file": "ignZWJ5_wFY.mp3",
+        "startTime": 31,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "z6ga_l19oko",
+      "title": "A Mutant Rebirth",
+      "credits": {
+        "composers": [
+          "十音"
+        ],
+        "arrangers": [
+          "十音"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "z6ga_l19oko",
+        "file": "z6ga_l19oko.mp3",
+        "startTime": 25,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "B9CRutmiZuo",
+      "title": "Done and Dusted",
+      "credits": {
+        "composers": [
+          "Mark Milian"
+        ],
+        "arrangers": [
+          "markmilian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "B9CRutmiZuo",
+        "file": "B9CRutmiZuo.mp3",
+        "startTime": 40,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ZKAuCmQUGco",
+      "title": "Wolf Bite",
+      "credits": {
+        "composers": [
+          "盖盖"
+        ],
+        "arrangers": [
+          "盖盖Nyan"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ZKAuCmQUGco",
+        "file": "ZKAuCmQUGco.mp3",
+        "startTime": 16,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "dNC-a3nJLEY",
+      "title": "A Brief Respite",
+      "credits": {
+        "composers": [
+          "Jix Wang"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "dNC-a3nJLEY",
+        "file": "dNC-a3nJLEY.mp3",
+        "startTime": 60,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "zWArPo9k3yU",
+      "title": "Wave after Wave",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "Minase"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "zWArPo9k3yU",
+        "file": "zWArPo9k3yU.mp3",
+        "startTime": 44,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "nEAvLvSaPsM",
+      "title": "Rejoice in Glory",
+      "credits": {
+        "composers": [
+          "大艺术家"
+        ],
+        "arrangers": [
+          "Bphone大艺术家"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "jqfKpgO-IKU",
+      "title": "Unfading Fog",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "jqfKpgO-IKU",
+        "file": "jqfKpgO-IKU.mp3",
+        "startTime": 38,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "7epdqWWBr4Q",
+      "title": "Fate and Circumstances",
+      "credits": {
+        "composers": [
+          "十音"
+        ],
+        "arrangers": [
+          "十音"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "7epdqWWBr4Q",
+        "file": "7epdqWWBr4Q.mp3",
+        "startTime": 25,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "jSOb0PPsPk8",
+      "title": "Glory to Septimont",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "jkinss",
+          "markmilian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "jSOb0PPsPk8",
+        "file": "jSOb0PPsPk8.mp3",
+        "startTime": 54,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "58YEixYyZOY",
+      "title": "Victory Always",
+      "credits": {
+        "composers": [
+          "Yi Ming"
+        ],
+        "arrangers": [
+          "Minase",
+          "markmilian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "58YEixYyZOY",
+        "file": "58YEixYyZOY.mp3",
+        "startTime": 79,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "s7LBXGma5I8",
+      "title": "Moment of Glory",
+      "credits": {
+        "composers": [
+          "Yue Steven"
+        ],
+        "arrangers": [
+          "YUE.STEVEN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "s7LBXGma5I8",
+        "file": "s7LBXGma5I8.mp3",
+        "startTime": 19,
+        "duration": 24
+      }
+    }
+  ]
+}

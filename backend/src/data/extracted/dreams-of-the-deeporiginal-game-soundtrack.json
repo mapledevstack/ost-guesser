@@ -1,0 +1,309 @@
+{
+  "id": "OLAK5uy_k7XaSH6IY6lte9BfeVnDGiq5xD4i04aGQ",
+  "slug": "dreams-of-the-deeporiginal-game-soundtrack",
+  "title": "Album - Dreams of the Deep（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_k7XaSH6IY6lte9BfeVnDGiq5xD4i04aGQ/maxresdefault.jpg?sqp=CIi2qtMGir7X7AMICKXqkcQGEAE=&rs=AOn4CLCX01fXT06uRXfIOaWtioLCJQYFHg&v=1753511205",
+  "tracks": [
+    {
+      "youtubeId": "mpczH5dlc1M",
+      "title": "Husk of Broken Dreams",
+      "credits": {
+        "composers": [
+          "baitian"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "mpczH5dlc1M",
+        "file": "mpczH5dlc1M.mp3",
+        "startTime": 135,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "qHFDe9wxGeQ",
+      "title": "Sunken Elegy",
+      "credits": {
+        "composers": [
+          "jixwang"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "qHFDe9wxGeQ",
+        "file": "qHFDe9wxGeQ.mp3",
+        "startTime": 67,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Se95CIbDWLc",
+      "title": "Reveries in the Crimson Beyond",
+      "credits": {
+        "composers": [
+          "jixwang"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Se95CIbDWLc",
+        "file": "Se95CIbDWLc.mp3",
+        "startTime": 110,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "rVmTWz445Dw",
+      "title": "Worshipper of Fabrication",
+      "credits": {
+        "composers": [
+          "YUE.STEVEN"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "rVmTWz445Dw",
+        "file": "rVmTWz445Dw.mp3",
+        "startTime": 33,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "3R78_onh00s",
+      "title": "Radiance Across Sea and Sky",
+      "credits": {
+        "composers": [
+          "baitian"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "3R78_onh00s",
+        "file": "3R78_onh00s.mp3",
+        "startTime": 153,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ozbbVzeBzKw",
+      "title": "Shadow of Desperation",
+      "credits": {
+        "composers": [
+          "YUE.STEVEN"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ozbbVzeBzKw",
+        "file": "ozbbVzeBzKw.mp3",
+        "startTime": 61,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "fJ1qwmjqpoM",
+      "title": "Calamitous Nightmare",
+      "credits": {
+        "composers": [
+          "YUE.STEVEN"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "fJ1qwmjqpoM",
+        "file": "fJ1qwmjqpoM.mp3",
+        "startTime": 42,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "SFagX1hyUK0",
+      "title": "Mumbles of Lost Souls",
+      "credits": {
+        "composers": [
+          "Gokou"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "SFagX1hyUK0",
+        "file": "SFagX1hyUK0.mp3",
+        "startTime": 79,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "myscBVFytU8",
+      "title": "An Untold Lie",
+      "credits": {
+        "composers": [
+          "劣白Leo"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "myscBVFytU8",
+        "file": "myscBVFytU8.mp3",
+        "startTime": 36,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "NcDZrLZnoiQ",
+      "title": "For the Return of Faint Light",
+      "credits": {
+        "composers": [
+          "YUE.STEVEN"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "NcDZrLZnoiQ",
+        "file": "NcDZrLZnoiQ.mp3",
+        "startTime": 76,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "uLinnNQhY8w",
+      "title": "Ringing Oaths of the Netherworld",
+      "credits": {
+        "composers": [
+          "markmilian"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "uLinnNQhY8w",
+        "file": "uLinnNQhY8w.mp3",
+        "startTime": 39,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "WyFGWs-kWUI",
+      "title": "Forever Solitude",
+      "credits": {
+        "composers": [
+          "Minase"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "GXybgZRziS0",
+      "title": "False Reverence",
+      "credits": {
+        "composers": [
+          "TLK天翔"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "GXybgZRziS0",
+        "file": "GXybgZRziS0.mp3",
+        "startTime": 51,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "VZJsIdoyi-I",
+      "title": "When the Veneer of Sanctity Cracks",
+      "credits": {
+        "composers": [
+          "马鑫驰"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "VZJsIdoyi-I",
+        "file": "VZJsIdoyi-I.mp3",
+        "startTime": 47,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "RMQDNH4ghWU",
+      "title": "Husk of Broken Dreams (Instrumental)",
+      "credits": {
+        "composers": [
+          "baitian"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "RMQDNH4ghWU",
+        "file": "RMQDNH4ghWU.mp3",
+        "startTime": 156,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "xtdDUWpyEDA",
+      "title": "Reveries in the Crimson Beyond (Instrumental)",
+      "credits": {
+        "composers": [
+          "jixwang"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "xtdDUWpyEDA",
+        "file": "xtdDUWpyEDA.mp3",
+        "startTime": 122,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "9UA2gzTSakc",
+      "title": "Radiance Across Sea and Sky (Instrumental)",
+      "credits": {
+        "composers": [
+          "baitian"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "9UA2gzTSakc",
+        "file": "9UA2gzTSakc.mp3",
+        "startTime": 156,
+        "duration": 24
+      }
+    }
+  ]
+}

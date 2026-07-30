@@ -1,0 +1,40 @@
+{
+  "id": "OLAK5uy_mvLsEJAz_voZPgnYNlR9UpCkc4Kyh5CvA",
+  "slug": "where-the-blade-never-sleepsoriginal-game-soundtrack",
+  "title": "Album - Where the Blade Never Sleeps（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_mvLsEJAz_voZPgnYNlR9UpCkc4Kyh5CvA/maxresdefault.jpg?sqp=CISvqtMGir7X7AMICJO4g8gGEAE=&rs=AOn4CLBwbMNXzYZW7sidTDNqe5EYMKOLXQ&v=1761664019",
+  "tracks": [
+    {
+      "youtubeId": "e5jZQUU15x8",
+      "title": "Where the Blade Never Sleeps（Original Game Soundtrack）",
+      "credits": {
+        "composers": ["早安"],
+        "arrangers": ["SMHQ"],
+        "performers": []
+      },
+      "character": "Qiuyuan",
+      "clip": {
+        "videoId": "e5jZQUU15x8",
+        "file": "e5jZQUU15x8.mp3",
+        "startTime": 163,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "8-0j3ocHKyQ",
+      "title": "Where the Blade Never Sleeps（Original Game Soundtrack） (Instrumental)",
+      "credits": {
+        "composers": ["早安"],
+        "arrangers": ["SMHQ"],
+        "performers": []
+      },
+      "character": "Qiuyuan",
+      "clip": {
+        "videoId": "8-0j3ocHKyQ",
+        "file": "8-0j3ocHKyQ.mp3",
+        "startTime": 134,
+        "duration": 24
+      }
+    }
+  ]
+}

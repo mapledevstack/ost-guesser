@@ -1,0 +1,93 @@
+{
+  "id": "OLAK5uy_majPf0gs3lIBRXtscfwI0VZeSGWK92tl0",
+  "slug": "the-king-of-wayward-soulsself-proclaimedbut-destinedoriginal-game-soundtrack",
+  "title": "Album - The King of Wayward Souls(Self Proclaimed)(But Destined)",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_majPf0gs3lIBRXtscfwI0VZeSGWK92tl0/maxresdefault.jpg?sqp=COTBqtMGir7X7AMICNOV6r4GEAE=&rs=AOn4CLCVXzV_oJPWA5nIJLWOH9dAuGOf1g&v=1742375635",
+  "tracks": [
+    {
+      "youtubeId": "TuWu5HFqNtQ",
+      "title": "不羁灵魂之王（虽然是自封）（但包的）",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "TuWu5HFqNtQ",
+        "file": "TuWu5HFqNtQ.mp3",
+        "startTime": 178,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "_vuLWa8NtY8",
+      "title": "自由気儘な魂が誇る愚者の王 (自任) (但し天命のキャプテン)",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "_vuLWa8NtY8",
+        "file": "_vuLWa8NtY8.mp3",
+        "startTime": 96,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "NvVVh95nvXg",
+      "title": "The King of Wayward Souls (Self Proclaimed) (But Destined)",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "q6TgjDWrH5I",
+      "title": "자유로운 영혼의왕 (자칭) (DESTINED)",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "q6TgjDWrH5I",
+        "file": "q6TgjDWrH5I.mp3",
+        "startTime": 188,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "bXtcOqP-tLI",
+      "title": "The King of Wayward Souls (Self Proclaimed) (But Destined) (Instrumental)",
+      "credits": {
+        "composers": [
+          "Adam Gubman"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "bXtcOqP-tLI",
+        "file": "bXtcOqP-tLI.mp3",
+        "startTime": 97,
+        "duration": 24
+      }
+    }
+  ]
+}

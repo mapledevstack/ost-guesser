@@ -1,0 +1,172 @@
+{
+  "id": "OLAK5uy_kIiPaz5RZL7C_O6AydYy6TwHwSMLrO6NA",
+  "slug": "traveler-over-the-mountainsoriginal-game-soundtrack",
+  "title": "Album - Traveler over the Mountains（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_kIiPaz5RZL7C_O6AydYy6TwHwSMLrO6NA/maxresdefault.jpg?sqp=CISvqtMGir7X7AMICKbQkMgGEAE=&rs=AOn4CLCulzfYchSLr4CQ3E3UJ-dfwiO4LQ&v=1761880102",
+  "tracks": [
+    {
+      "youtubeId": "3VoNEGIJwko",
+      "title": "A Worn Scabbard",
+      "credits": {
+        "composers": [
+          "王谢波",
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "3VoNEGIJwko",
+        "file": "3VoNEGIJwko.mp3",
+        "startTime": 168,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "O2fIfpJzvzw",
+      "title": "Wind Chases Wild Geese",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "O2fIfpJzvzw",
+        "file": "O2fIfpJzvzw.mp3",
+        "startTime": 54,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "KpaV1qNGtT0",
+      "title": "Amidst the Dancing Leaves",
+      "credits": {
+        "composers": [
+          "刘俊佚"
+        ],
+        "arrangers": [
+          "劣白Leo"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "KpaV1qNGtT0",
+        "file": "KpaV1qNGtT0.mp3",
+        "startTime": 35,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "buRJ9GVPzPY",
+      "title": "Distant Mountains, Faraway Rivers",
+      "credits": {
+        "composers": [
+          "李楠枫"
+        ],
+        "arrangers": [
+          "Fonze"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "buRJ9GVPzPY",
+        "file": "buRJ9GVPzPY.mp3",
+        "startTime": 63,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "rWZIIizcMtY",
+      "title": "Twilit Clouds",
+      "credits": {
+        "composers": [
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "rWZIIizcMtY",
+        "file": "rWZIIizcMtY.mp3",
+        "startTime": 50,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "5zZsWvTwPz0",
+      "title": "Travails of a Steely Sword",
+      "credits": {
+        "composers": [
+          "王谢波",
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "5zZsWvTwPz0",
+        "file": "5zZsWvTwPz0.mp3",
+        "startTime": 69,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "vXj0onbuHAc",
+      "title": "All Quiet in the Wooded Vale",
+      "credits": {
+        "composers": [
+          "吴昊",
+          "囚牛"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "vXj0onbuHAc",
+        "file": "vXj0onbuHAc.mp3",
+        "startTime": 100,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "ukWR0wN9Y0A",
+      "title": "A Worn Scabbard (Instrumental)",
+      "credits": {
+        "composers": [
+          "王谢波",
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "ukWR0wN9Y0A",
+        "file": "ukWR0wN9Y0A.mp3",
+        "startTime": 129,
+        "duration": 24
+      }
+    }
+  ]
+}

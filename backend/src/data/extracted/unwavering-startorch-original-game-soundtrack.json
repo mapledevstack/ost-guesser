@@ -1,0 +1,98 @@
+{
+  "id": "OLAK5uy_n3GtKwAKPsLJp39UITV8s6qcpPsy3it_M",
+  "slug": "unwavering-startorch-original-game-soundtrack",
+  "title": "Album - Unwavering Startorch",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_n3GtKwAKPsLJp39UITV8s6qcpPsy3it_M/maxresdefault.jpg?sqp=CNSlqtMGir7X7AMICL39hswGEAE=&rs=AOn4CLC9EZOIuMPPLwGv3ypAB8SILEVu6Q&v=1770110653",
+  "tracks": [
+    {
+      "youtubeId": "5wT4LltBpM8",
+      "title": "星炬不熄",
+      "credits": {
+        "composers": [
+          "Linda Ke"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "5wT4LltBpM8",
+        "file": "5wT4LltBpM8.mp3",
+        "startTime": 159,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "4Sddn5MhnDg",
+      "title": "絶やさぬスタートーチ",
+      "credits": {
+        "composers": [
+          "Linda Ke"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "4Sddn5MhnDg",
+        "file": "4Sddn5MhnDg.mp3",
+        "startTime": 151,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "fL-izkjgm14",
+      "title": "Unwavering Startorch",
+      "credits": {
+        "composers": [
+          "Linda Ke"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "fL-izkjgm14",
+        "file": "fL-izkjgm14.mp3",
+        "startTime": 138,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "m9sNnqi9OGI",
+      "title": "흔들리지 않는 스타토치",
+      "credits": {
+        "composers": [
+          "Linda Ke"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "m9sNnqi9OGI",
+        "file": "m9sNnqi9OGI.mp3",
+        "startTime": 175,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "TD6_BOcvy2o",
+      "title": "Unwavering Startorch (Instrumental)",
+      "credits": {
+        "composers": [
+          "Linda Ke"
+        ],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "TD6_BOcvy2o",
+        "file": "TD6_BOcvy2o.mp3",
+        "startTime": 180,
+        "duration": 24
+      }
+    }
+  ]
+}

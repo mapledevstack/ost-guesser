@@ -1,0 +1,665 @@
+{
+  "id": "OLAK5uy_m96-53oyyLAGqshFfcpfJ-FMzwRPbpxTk",
+  "slug": "beneath-the-stars-of-the-old-nightoriginal-game-soundtrack",
+  "title": "Album - Beneath the Stars of the Old Night",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_m96-53oyyLAGqshFfcpfJ-FMzwRPbpxTk/maxresdefault.jpg?sqp=CKScqtMGir7X7AMICLitzM8GEAE=&rs=AOn4CLB_jr8quSYOOCA5-hk0VzlkeGJOLA&v=1777538744",
+  "tracks": [
+    {
+      "youtubeId": "7nwzaBOmiYc",
+      "title": "Homecoming Star from the Unbound",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "7nwzaBOmiYc",
+        "file": "7nwzaBOmiYc.mp3",
+        "startTime": 285,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "A1rWc5Hs7GM",
+      "title": "Whispers Lost in the Abyss",
+      "credits": {
+        "composers": [
+          "金珊杉"
+        ],
+        "arrangers": [
+          "jkinss"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "A1rWc5Hs7GM",
+        "file": "A1rWc5Hs7GM.mp3",
+        "startTime": 63,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "8gTuJ52yH8Q",
+      "title": "All Fades to Void",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "8gTuJ52yH8Q",
+        "file": "8gTuJ52yH8Q.mp3",
+        "startTime": 35,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Gp0Jbhu0FWA",
+      "title": "Heart of Lahai-Roi",
+      "credits": {
+        "composers": [
+          "白天"
+        ],
+        "arrangers": [
+          "baitian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Gp0Jbhu0FWA",
+        "file": "Gp0Jbhu0FWA.mp3",
+        "startTime": 123,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Qfgs0t-FrOY",
+      "title": "Tonight, We Wish for a Starry Sea",
+      "credits": {
+        "composers": [
+          "钟熙贤"
+        ],
+        "arrangers": [
+          "markmilian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Qfgs0t-FrOY",
+        "file": "Qfgs0t-FrOY.mp3",
+        "startTime": 78,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "TuuZWlsCCrw",
+      "title": "Return Again at the End",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "JINGYAN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "TuuZWlsCCrw",
+        "file": "TuuZWlsCCrw.mp3",
+        "startTime": 51,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "1hd2ap1LdBU",
+      "title": "The Vastness Before Us",
+      "credits": {
+        "composers": [
+          "刘俊佚"
+        ],
+        "arrangers": [
+          "劣白Leo"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "1hd2ap1LdBU",
+        "file": "1hd2ap1LdBU.mp3",
+        "startTime": 82,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "05ES7x4C8L4",
+      "title": "The Watchers",
+      "credits": {
+        "composers": [
+          "于淼"
+        ],
+        "arrangers": [
+          "JINGYAN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "05ES7x4C8L4",
+        "file": "05ES7x4C8L4.mp3",
+        "startTime": 29,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "nBmBIpHN_Y4",
+      "title": "Once More on the Frostbound Path",
+      "credits": {
+        "composers": [
+          "吴昊"
+        ],
+        "arrangers": [
+          "Gokou"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "nBmBIpHN_Y4",
+        "file": "nBmBIpHN_Y4.mp3",
+        "startTime": 54,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "w6kaTPeXoTQ",
+      "title": "You, Me, & Causality",
+      "credits": {
+        "composers": [
+          "于淼"
+        ],
+        "arrangers": [
+          "JINGYAN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "w6kaTPeXoTQ",
+        "file": "w6kaTPeXoTQ.mp3",
+        "startTime": 52,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "-KsQAB2jtBQ",
+      "title": "Till the End of All Things",
+      "credits": {
+        "composers": [
+          "于淼"
+        ],
+        "arrangers": [
+          "JINGYAN"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    },
+    {
+      "youtubeId": "f_oTkbI3u5I",
+      "title": "A Gentle Dream for You",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "劣白Leo"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "f_oTkbI3u5I",
+        "file": "f_oTkbI3u5I.mp3",
+        "startTime": 72,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "SOWVPmLS9Yg",
+      "title": "When Snow Melts into Spring",
+      "credits": {
+        "composers": [
+          "徐康仪"
+        ],
+        "arrangers": [
+          "Koimoon"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "SOWVPmLS9Yg",
+        "file": "SOWVPmLS9Yg.mp3",
+        "startTime": 225,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "8vrQQAWWQ7Q",
+      "title": "Blossoms in an Illusory Dream",
+      "credits": {
+        "composers": [
+          "李俊霖"
+        ],
+        "arrangers": [
+          "auburn"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "8vrQQAWWQ7Q",
+        "file": "8vrQQAWWQ7Q.mp3",
+        "startTime": 61,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "NT2T7eG5hYM",
+      "title": "Falling Snow, Ringing Bell",
+      "credits": {
+        "composers": [
+          "梁家源"
+        ],
+        "arrangers": [
+          "Kausz"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "NT2T7eG5hYM",
+        "file": "NT2T7eG5hYM.mp3",
+        "startTime": 69,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "weHVFGu-Cxo",
+      "title": "Seeing Frost",
+      "credits": {
+        "composers": [
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "weHVFGu-Cxo",
+        "file": "weHVFGu-Cxo.mp3",
+        "startTime": 19,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "3YN45T-vUD0",
+      "title": "The Weight of Wishes",
+      "credits": {
+        "composers": [
+          "章乾丹"
+        ],
+        "arrangers": [
+          "十音"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "3YN45T-vUD0",
+        "file": "3YN45T-vUD0.mp3",
+        "startTime": 77,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "uvlqaTyIQpA",
+      "title": "Snowlight Blessing",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "uvlqaTyIQpA",
+        "file": "uvlqaTyIQpA.mp3",
+        "startTime": 48,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "xLbktfUn-o4",
+      "title": "Tainted Notes, Fractured Verses",
+      "credits": {
+        "composers": [
+          "陈渤林",
+          "张熙煜",
+          "Ludwig van Beethoven"
+        ],
+        "arrangers": [
+          "Minase"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "xLbktfUn-o4",
+        "file": "xLbktfUn-o4.mp3",
+        "startTime": 106,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "E9R7wmdp8jw",
+      "title": "Falling Through Fine Snow",
+      "credits": {
+        "composers": [
+          "黄俊翔"
+        ],
+        "arrangers": [
+          "TLK天翔"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "E9R7wmdp8jw",
+        "file": "E9R7wmdp8jw.mp3",
+        "startTime": 30,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "79i3HBegaZg",
+      "title": "Ask Not of Spring",
+      "credits": {
+        "composers": [
+          "梁家源"
+        ],
+        "arrangers": [
+          "Kausz"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "79i3HBegaZg",
+        "file": "79i3HBegaZg.mp3",
+        "startTime": 97,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "JnEfMkF_awg",
+      "title": "What Awaits Beyond the Radiance",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "JnEfMkF_awg",
+        "file": "JnEfMkF_awg.mp3",
+        "startTime": 86,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "mxmg84DBEpA",
+      "title": "The Forest at Sunset's End",
+      "credits": {
+        "composers": [
+          "刘俊佚"
+        ],
+        "arrangers": [
+          "劣白Leo"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "mxmg84DBEpA",
+        "file": "mxmg84DBEpA.mp3",
+        "startTime": 61,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "yRd1kGTEIBA",
+      "title": "Evening Light, Morning Glow",
+      "credits": {
+        "composers": [
+          "李俊霖"
+        ],
+        "arrangers": [
+          "auburn"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "yRd1kGTEIBA",
+        "file": "yRd1kGTEIBA.mp3",
+        "startTime": 80,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "kSPmpP7JEZ0",
+      "title": "Denounce the Dying Light",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "kSPmpP7JEZ0",
+        "file": "kSPmpP7JEZ0.mp3",
+        "startTime": 40,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "zkByvBrgEKg",
+      "title": "Whispers in the Woods",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "zkByvBrgEKg",
+        "file": "zkByvBrgEKg.mp3",
+        "startTime": 188,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "jgom0e4Xk9Y",
+      "title": "Where Dusk Comes to Rest",
+      "credits": {
+        "composers": [
+          "王稳淇"
+        ],
+        "arrangers": [
+          "win7mus"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "jgom0e4Xk9Y",
+        "file": "jgom0e4Xk9Y.mp3",
+        "startTime": 140,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "RpOrV54udC4",
+      "title": "Echoes of Yesterday",
+      "credits": {
+        "composers": [
+          "朱思思"
+        ],
+        "arrangers": [
+          "Ream雨舒"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "RpOrV54udC4",
+        "file": "RpOrV54udC4.mp3",
+        "startTime": 73,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "cEIIzRfi1uQ",
+      "title": "Chasing the Horizon",
+      "credits": {
+        "composers": [
+          "朱思思"
+        ],
+        "arrangers": [
+          "Ream雨舒"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "cEIIzRfi1uQ",
+        "file": "cEIIzRfi1uQ.mp3",
+        "startTime": 97,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "J8oWZLu_8s8",
+      "title": "Edge of the Limit",
+      "credits": {
+        "composers": [
+          "朱思思"
+        ],
+        "arrangers": [
+          "Ream雨舒"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "J8oWZLu_8s8",
+        "file": "J8oWZLu_8s8.mp3",
+        "startTime": 32,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "SUdniFw7ifo",
+      "title": "Homecoming Star from the Unbound (Instrumental)",
+      "credits": {
+        "composers": [
+          "王谢波"
+        ],
+        "arrangers": [
+          "jixwang"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "SUdniFw7ifo",
+        "file": "SUdniFw7ifo.mp3",
+        "startTime": 264,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "NDIkrsm3K3g",
+      "title": "Heart of Lahai-Roi (Instrumental)",
+      "credits": {
+        "composers": [
+          "白天"
+        ],
+        "arrangers": [
+          "baitian"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "NDIkrsm3K3g",
+        "file": "NDIkrsm3K3g.mp3",
+        "startTime": 107,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "aebbkkEqVeA",
+      "title": "When Snow Melts into Spring (Instrumental)",
+      "credits": {
+        "composers": [
+          "徐康仪"
+        ],
+        "arrangers": [
+          "Koimoon"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "aebbkkEqVeA",
+        "file": "aebbkkEqVeA.mp3",
+        "startTime": 224,
+        "duration": 24
+      }
+    }
+  ]
+}

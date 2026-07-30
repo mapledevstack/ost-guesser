@@ -1,0 +1,24 @@
+{
+  "id": "OLAK5uy_l3RmrCVWD9uDmmrm10Sp5aQwLOfuyN_VY",
+  "slug": "voyaging-stars-farewell",
+  "title": "Album - Voyaging Star's Farewell",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_l3RmrCVWD9uDmmrm10Sp5aQwLOfuyN_VY/maxresdefault.jpg?sqp=CMyXqtMGir7X7AMICPH24tEGEAE=&rs=AOn4CLBbzUhsjpIHnteDkwoMFGTg-g1kqQ&v=1782102897",
+  "tracks": [
+    {
+      "youtubeId": "iPb-4tOzYR8",
+      "title": "Voyaging Star's Farewell",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": ["Tarokiki"]
+      },
+      "character": "Aemeath",
+      "clip": {
+        "videoId": "iPb-4tOzYR8",
+        "file": "iPb-4tOzYR8.mp3",
+        "startTime": 189,
+        "duration": 24
+      }
+    }
+  ]
+}

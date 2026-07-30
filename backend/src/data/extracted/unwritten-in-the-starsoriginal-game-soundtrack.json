@@ -1,0 +1,48 @@
+{
+  "id": "OLAK5uy_kONystHcWNbDhIjecL97KSCt0fxyUUk8c",
+  "slug": "unwritten-in-the-starsoriginal-game-soundtrack",
+  "title": "Album - Unwritten in the Stars",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_kONystHcWNbDhIjecL97KSCt0fxyUUk8c/maxresdefault.jpg?sqp=CNSlqtMGir7X7AMICOPJlssGEAE=&rs=AOn4CLCC5NWBVp5-pEzfH-dc1-cEfPuhpg&v=1768269027",
+  "tracks": [
+    {
+      "youtubeId": "rgrsP6DAidE",
+      "title": "Unwritten in the Stars",
+      "credits": {
+        "composers": [
+          "Kenji Katoh"
+        ],
+        "arrangers": [
+          "Kenji Katoh"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "rgrsP6DAidE",
+        "file": "rgrsP6DAidE.mp3",
+        "startTime": 85,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "3MhqrgDBUnw",
+      "title": "Unwritten in the Stars (Instrumental)",
+      "credits": {
+        "composers": [
+          "Kenji Katoh"
+        ],
+        "arrangers": [
+          "Kenji Katoh"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "3MhqrgDBUnw",
+        "file": "3MhqrgDBUnw.mp3",
+        "startTime": 127,
+        "duration": 24
+      }
+    }
+  ]
+}

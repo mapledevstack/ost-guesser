@@ -1,0 +1,43 @@
+{
+  "id": "OLAK5uy_mYPpwf_S-0GJiBjVIovO2BBUfY8bCuqc4",
+  "slug": "deadline-discooriginal-game-soundtrack",
+  "title": "Album - Deadline Disco（Original Game Soundtrack）",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_mYPpwf_S-0GJiBjVIovO2BBUfY8bCuqc4/maxresdefault.jpg?sqp=CNSlqtMGir7X7AMICI3VzsoGEAE=&rs=AOn4CLDxPTL2zwi-bwlDnNFytT8gXObdng&v=1767090829",
+  "tracks": [
+    {
+      "youtubeId": "y9TOk-1TiLE",
+      "title": "Deadline Disco",
+      "credits": {
+        "composers": [
+          "Moon Kwang Ho"
+        ],
+        "arrangers": [
+          "Mitsukiyo"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "y9TOk-1TiLE",
+        "file": "y9TOk-1TiLE.mp3",
+        "startTime": 105,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "AU9BP9YyQuo",
+      "title": "Deadline Disco (Instrumental)",
+      "credits": {
+        "composers": [
+          "Moon Kwang Ho"
+        ],
+        "arrangers": [
+          "Mitsukiyo"
+        ],
+        "performers": []
+      },
+      "character": null,
+      "clip": null
+    }
+  ]
+}

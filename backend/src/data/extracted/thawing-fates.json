@@ -1,0 +1,88 @@
+{
+  "id": "OLAK5uy_nXSvQ5IGdeDmyiGcmwJeKDmdS0um5LfN0",
+  "slug": "thawing-fates",
+  "title": "Album - Thawing Fates",
+  "cover": "https://i9.ytimg.com/s_p/OLAK5uy_nXSvQ5IGdeDmyiGcmwJeKDmdS0um5LfN0/maxresdefault.jpg?sqp=CMDNqtMGir7X7AMICJuUpr0GEAE=&rs=AOn4CLBorJN75-RGvK00AUP9XgZ8JFJ2KQ&v=1739164187",
+  "tracks": [
+    {
+      "youtubeId": "RgNjppdgbVc",
+      "title": "Thawing Fates",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "RgNjppdgbVc",
+        "file": "RgNjppdgbVc.mp3",
+        "startTime": 106,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "PxPemta5b5U",
+      "title": "往岁乘霄",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "PxPemta5b5U",
+        "file": "PxPemta5b5U.mp3",
+        "startTime": 117,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "tK7b4rYBQkE",
+      "title": "過ぎし乗霄山の歳月",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "tK7b4rYBQkE",
+        "file": "tK7b4rYBQkE.mp3",
+        "startTime": 130,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "N7r6o-pD7qM",
+      "title": "승소산의 메아리",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "N7r6o-pD7qM",
+        "file": "N7r6o-pD7qM.mp3",
+        "startTime": 112,
+        "duration": 24
+      }
+    },
+    {
+      "youtubeId": "Nq-pIA1Ypb8",
+      "title": "Thawing Fates (Instrumental)",
+      "credits": {
+        "composers": [],
+        "arrangers": [],
+        "performers": []
+      },
+      "character": null,
+      "clip": {
+        "videoId": "Nq-pIA1Ypb8",
+        "file": "Nq-pIA1Ypb8.mp3",
+        "startTime": 113,
+        "duration": 24
+      }
+    }
+  ]
+}
