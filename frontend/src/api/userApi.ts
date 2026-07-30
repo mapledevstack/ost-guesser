@@ -1,12 +1,8 @@
 import api from "@/config/axios"
-import { UserSchema } from "@/schema/userSchema"
+import { AuthUserSchema } from "@/schema/userSchema"
 
-export const getMe = async () => {
-  const res = await api.get("/auth/me")
+export const getAuthUser = async () => {
+  const res = await api.get("/users/me")
 
-  return UserSchema.parse(res.data)
-}
-
-export const logOut = async () => {
-  await api.post("/auth/logout")
+  return AuthUserSchema.parse(res.data)
 }

@@ -7,6 +7,7 @@ import {
   refreshAccessTokenController,
 } from "../controllers/auth.controller.js"
 import { CLIENT_URL } from "../constants/env.js"
+import resolveIdentity from "../middleware/resolveIdentity.js"
 
 const router = Router()
 
@@ -24,10 +25,10 @@ router.get(
   googleCallbackController,
 )
 
-router.get("/refresh", refreshAccessTokenController)
+router.post("/refresh", refreshAccessTokenController)
 
 router.post("/logout", logoutController)
 
-router.get("/me", getUserIdentityController)
+router.get("/me", resolveIdentity, getUserIdentityController)
 
 export default router

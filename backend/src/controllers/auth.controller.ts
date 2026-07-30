@@ -3,7 +3,6 @@ import { CLIENT_URL } from "../constants/env.js"
 import {
   signAccessToken,
   signRefreshToken,
-  verifyAccessToken,
   verifyRefreshToken,
 } from "../utils/jwt.js"
 import { clearAuthCookies, setAuthCookies } from "../utils/cookies.js"

@@ -1,4 +1,4 @@
-import { logOut } from "@/api/userApi"
+import { logOut } from "@/api/authApi"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 
 const useLogout = () => {

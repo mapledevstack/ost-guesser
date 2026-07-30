@@ -11,7 +11,7 @@ const UserMenu = () => {
 
   return (
     <div className="fixed top-4 right-4">
-      {me.type === "guest" ? <SignInButton /> : <AvatarDropdown />}
+      {me.type === "user" ? <AvatarDropdown /> : <SignInButton />}
     </div>
   )
 }

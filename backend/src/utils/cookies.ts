@@ -16,7 +16,7 @@ const accessTokenCookieOptions: CookieOptions = {
 const refreshTokenCookieOptions: CookieOptions = {
   ...defaults,
   maxAge: FIFTEEN_DAYS_MS,
-  path: "/api/v1/auth/refresh",
+  path: "/",
 }
 
 const guestCookieOptions: CookieOptions = {
