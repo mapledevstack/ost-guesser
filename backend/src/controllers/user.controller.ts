@@ -6,9 +6,7 @@ import { UpdateProfileSchema } from "../schema/user.schema.js"
 import { updateProfileService } from "../services/user.service.js"
 
 export const getUserController: RequestHandler = (req, res) => {
-  const userId = getAuthUser(req)
-
-  return res.status(OK).json(userId)
+  return res.status(OK).json(req.auth)
 }
 
 export const updateProfile = catchErrors(async (req, res) => {
