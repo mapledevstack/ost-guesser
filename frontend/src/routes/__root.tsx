@@ -3,7 +3,7 @@ import { Navigate, Outlet, createRootRoute } from "@tanstack/react-router"
 
 export const Route = createRootRoute({
   component: RootComponent,
-  // notFoundComponent: () => <Navigate to="/" />,
+  notFoundComponent: () => <Navigate to="/" />,
 })
 
 function RootComponent() {
