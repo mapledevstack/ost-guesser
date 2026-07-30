@@ -15,7 +15,7 @@ export const AuthUserSchema = z.object({
   id: z.string(),
   displayName: z.string().nullable(),
   avatarUrl: z.string().nullable(),
-  email: z.string().email(),
+  email: z.email(),
   gameStats: z.object({
     daily: z.object({
       gamesPlayed: z.number(),
@@ -33,5 +33,11 @@ export const AuthUserSchema = z.object({
   }),
 })
 
+export const UpdateProfileSchema = z.object({
+  displayName: z.string().trim().min(1).max(32).optional(),
+  avatarUrl: z.string().optional(),
+})
+
 export type Me = z.infer<typeof MeSchema>
 export type AuthUser = z.infer<typeof AuthUserSchema>
+export type UpdateProfileType = z.infer<typeof UpdateProfileSchema>

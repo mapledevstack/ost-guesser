@@ -25,8 +25,8 @@ export const updateProfile = catchErrors(async (req, res) => {
   const { displayName, avatarUrl } = UpdateProfileSchema.parse(req.body)
 
   const values = {
-    ...(displayName !== undefined && { displayName }),
-    ...(avatarUrl !== undefined && { avatarUrl }),
+    ...(displayName && { displayName }),
+    ...(avatarUrl && { avatarUrl }),
   }
 
   await updateProfileService(userId, values)
