@@ -8,7 +8,7 @@ type TokenPayload = {
 }
 
 export const signAccessToken = (payload: TokenPayload) =>
-  jwt.sign(payload, JWT_SECRET, { expiresIn: "5s" })
+  jwt.sign(payload, JWT_SECRET, { expiresIn: "15m" })
 
 export const signRefreshToken = (payload: TokenPayload) =>
   jwt.sign(payload, JWT_REFRESH_SECRET, { expiresIn: "15d" })

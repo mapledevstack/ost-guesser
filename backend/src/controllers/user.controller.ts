@@ -6,6 +6,11 @@ import {
   getUserByIdService,
   updateProfileService,
 } from "../services/user.service.js"
+import type { RequestHandler } from "express"
+
+export const getUserIdentityController: RequestHandler = (req, res) => {
+  return res.status(OK).json(req.auth)
+}
 
 export const getProfileController = catchErrors(async (req, res) => {
   const userId = getAuthUser(req)

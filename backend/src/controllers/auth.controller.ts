@@ -7,7 +7,7 @@ import {
 } from "../utils/jwt.js"
 import { clearAuthCookies, setAuthCookies } from "../utils/cookies.js"
 import appAssert from "../utils/appAssert.js"
-import { NO_CONTENT, OK, UNAUTHORIZED } from "../constants/http.js"
+import { NO_CONTENT, UNAUTHORIZED } from "../constants/http.js"
 import catchErrors from "../utils/catchErrors.js"
 import { getUserById } from "../db/queries/user.queries.js"
 
@@ -48,7 +48,3 @@ export const refreshAccessTokenController = catchErrors(async (req, res) => {
     refreshToken: newRefreshToken,
   }).sendStatus(NO_CONTENT)
 })
-
-export const getUserIdentityController: RequestHandler = (req, res) => {
-  return res.status(OK).json(req.auth)
-}

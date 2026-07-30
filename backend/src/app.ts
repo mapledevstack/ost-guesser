@@ -28,7 +28,7 @@ app.use("/api/v1/auth", authRoutes)
 
 app.use(resolveIdentity)
 
-app.use("/api/v1/users", userRoutes)
+app.use("/api/v1/user", userRoutes)
 app.use("/api/v1/tracks", trackRoutes)
 app.use("/api/v1/game", gameRoutes)
 
