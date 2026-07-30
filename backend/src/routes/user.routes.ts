@@ -1,12 +1,12 @@
 import { Router } from "express"
 import {
-  getUserController,
+  getProfileController,
   updateProfile,
 } from "../controllers/user.controller.js"
 
 const router = Router()
 
-router.get("/me", getUserController)
+router.get("/me", getProfileController)
 router.patch("/me", updateProfile)
 
 export default router

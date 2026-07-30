@@ -50,16 +50,6 @@ export const refreshAccessTokenController = catchErrors(async (req, res) => {
   }).sendStatus(NO_CONTENT)
 })
 
-export const getCurrentUserController = catchErrors(async (req, res) => {
-  const accessToken = req.cookies.accessToken as string | undefined
-
-  appAssert(accessToken, UNAUTHORIZED, "Access token not found")
-
-  const { userId } = verifyAccessToken(accessToken)
-
-  const user = await getUserById(userId)
-
-  appAssert(user, UNAUTHORIZED, "User not found")
-
-  return res.status(OK).json(user)
-})
+export const getUserIdentityController: RequestHandler = (req, res) => {
+  return res.status(OK).json(req.auth)
+}

@@ -24,8 +24,8 @@ app.use(passport.initialize())
 
 app.get("/api/v1", (_, res) => res.status(OK).json({ status: "healthy!" }))
 
-app.use("/api/v1/auth", authRoutes)
-app.use("/api/v1/users", resolveIdentity, userRoutes)
+app.use("/api/v1/auth", resolveIdentity, authRoutes)
+app.use("/api/v1/users", userRoutes)
 app.use("/api/v1/tracks", trackRoutes)
 app.use("/api/v1/game", resolveIdentity, gameRoutes)
 

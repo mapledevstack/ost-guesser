@@ -1,7 +1,7 @@
 import { Router } from "express"
 import passport from "passport"
 import {
-  getCurrentUserController,
+  getUserIdentityController,
   googleCallbackController,
   logoutController,
   refreshAccessTokenController,
@@ -28,6 +28,6 @@ router.get("/refresh", refreshAccessTokenController)
 
 router.post("/logout", logoutController)
 
-router.get("/me", getCurrentUserController)
+router.get("/me", getUserIdentityController)
 
 export default router

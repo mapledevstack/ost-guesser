@@ -1,13 +1,19 @@
-import type { RequestHandler } from "express"
 import { OK } from "../constants/http.js"
 import { getAuthUser } from "../utils/auth.js"
 import catchErrors from "../utils/catchErrors.js"
 import { UpdateProfileSchema } from "../schema/user.schema.js"
-import { updateProfileService } from "../services/user.service.js"
+import {
+  getUserByIdService,
+  updateProfileService,
+} from "../services/user.service.js"
 
-export const getUserController: RequestHandler = (req, res) => {
-  return res.status(OK).json(req.auth)
-}
+export const getProfileController = catchErrors(async (req, res) => {
+  const userId = getAuthUser(req)
+
+  const user = await getUserByIdService(userId)
+
+  return res.status(OK).json(user)
+})
 
 export const updateProfile = catchErrors(async (req, res) => {
   const userId = getAuthUser(req)
