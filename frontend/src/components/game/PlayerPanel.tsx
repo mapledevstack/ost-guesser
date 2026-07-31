@@ -31,7 +31,7 @@ const Player = ({ session }: PlayerProps) => {
   } = useAudioPlayer()
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-4">
+    <div className="flex min-h-screen w-full flex-col items-center justify-center gap-4">
       <audio ref={audioRef} src={session.clipUrl} />
 
       <DiscPlayer

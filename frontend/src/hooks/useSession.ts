@@ -6,7 +6,7 @@ const useSession = () => {
   const { mode } = useGame()
 
   return useQuery({
-    queryKey: ["session"],
+    queryKey: ["session", mode],
     queryFn: () => getSession(mode),
   })
 }
