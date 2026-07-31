@@ -1,7 +1,7 @@
 import { postGuess } from "@/api/gameApi"
 import { useGame } from "./useGame"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
-import type { PostGuessRequest, Session } from "@/schema/gameSchema"
+import type { PostGuessRequest } from "@/schema/gameSchema"
 
 const useGuess = () => {
   const { mode } = useGame()
@@ -11,15 +11,8 @@ const useGuess = () => {
     mutationFn: ({ sessionId, guesses }: PostGuessRequest) =>
       postGuess(mode, sessionId, guesses),
 
-    onSuccess: (result) => {
-      queryClient.setQueryData<Session>(["session", mode], (old) => {
-        if (!old) return old
-
-        return {
-          ...old,
-          ...result,
-        }
-      })
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["session", mode] })
     },
   })
 }

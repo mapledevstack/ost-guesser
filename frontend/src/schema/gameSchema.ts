@@ -12,6 +12,13 @@ export const SessionSchema = z.object({
   sessionId: z.uuid(),
   guesses: GuessesSchema,
   status: z.enum(["playing", "won", "lost"]),
+  answer: z
+    .object({
+      id: z.string(),
+      title: z.string(),
+      albumId: z.string(),
+    })
+    .optional(),
 })
 
 export const GuessResultSchema = z.object({

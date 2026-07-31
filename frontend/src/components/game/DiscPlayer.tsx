@@ -1,6 +1,8 @@
 import { Pause, Play, RotateCcw } from "lucide-react"
 import { Button } from "../ui/button"
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip"
+import useSession from "@/hooks/useSession"
+import { SUPABASE_URL } from "@/constants/env"
 
 type Props = {
   progress: number
@@ -21,6 +23,11 @@ const DiscPlayer = ({
   onSeek,
   disabled,
 }: Props) => {
+  const { data: session } = useSession()
+
+  const albumId = session?.answer?.albumId
+  const coverUrl = `${SUPABASE_URL}/covers/${albumId}.jpg`
+
   const radius = 42
   const circumference = 2 * Math.PI * radius
   const offset = circumference * (1 - progress)
@@ -45,6 +52,14 @@ const DiscPlayer = ({
 
   return (
     <div className="relative size-96">
+      {albumId && (
+        <div
+          className="absolute inset-0 rounded-full bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${coverUrl})`,
+          }}
+        />
+      )}
       <svg
         className="absolute inset-0 size-full -rotate-90"
         viewBox="0 0 100 100"
@@ -54,7 +69,7 @@ const DiscPlayer = ({
           cx="50"
           cy="50"
           r={radius}
-          fill="#1f2937"
+          fill="transparent"
           stroke="currentColor"
           strokeWidth="3"
           strokeLinecap="round"

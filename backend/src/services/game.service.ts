@@ -1,3 +1,4 @@
+import app from "../app.js"
 import { ERROR_CODES } from "../constants/appErrorCodes.js"
 import { SUPABASE_URL } from "../constants/env.js"
 import { MAX_GUESSES } from "../constants/game.js"
@@ -50,11 +51,29 @@ export const startGameService = async ({
   })
 
   if (session) {
+    if (session.status === "playing") {
+      return {
+        sessionId: session.id,
+        clipUrl: `${SUPABASE_URL}/${session.trackId}.mp3`,
+        guesses: session.guesses,
+        status: session.status,
+      }
+    }
+
+    const track = await getTrack(session.trackId)
+
+    appAssert(track, NOT_FOUND, ERROR_CODES.TRACK_NOT_FOUND)
+
     return {
       sessionId: session.id,
       clipUrl: `${SUPABASE_URL}/${session.trackId}.mp3`,
       guesses: session.guesses,
       status: session.status,
+      answer: {
+        id: session.trackId,
+        title: track.title,
+        albumId: track.album.id,
+      },
     }
   }
 

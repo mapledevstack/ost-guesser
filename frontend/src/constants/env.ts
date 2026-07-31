@@ -17,3 +17,4 @@ export const API_BASE_URL = getEnv(
 )
 
 export const IS_DEV = import.meta.env.DEV
+export const SUPABASE_URL = getEnv("VITE_SUPABASE_URL")
