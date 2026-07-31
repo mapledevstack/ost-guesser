@@ -1,0 +1,14 @@
+{
+  "name": "ost-guesser",
+  "private": true,
+  "scripts": {
+    "dev": "run-p dev:docker dev:studio dev:backend dev:frontend",
+    "dev:docker": "docker compose up -d",
+    "dev:studio": "npm run db:studio --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
+  "devDependencies": {
+    "npm-run-all2": "^8.0.4"
+  }
+}
