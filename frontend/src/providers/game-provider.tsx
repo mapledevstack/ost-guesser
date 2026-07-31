@@ -1,8 +1,8 @@
 import { createContext, type ReactNode } from "react"
 
-type GameMode = "daily" | "endless"
+export type GameMode = "daily" | "endless"
 
-type GameContextType = {
+export type GameContextType = {
   mode: GameMode
 }
 
