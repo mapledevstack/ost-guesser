@@ -7,7 +7,6 @@ import {
   jsonb,
   date,
   timestamp,
-  integer,
 } from "drizzle-orm/pg-core"
 
 export const artistRoleEnum = pgEnum("artist_role", [
@@ -19,7 +18,6 @@ export const artistRoleEnum = pgEnum("artist_role", [
 export const albums = pgTable("albums", {
   id: text().primaryKey(), // Stores the Youtube playlist ID
   title: text().notNull(),
-  cover: text().notNull(),
 })
 
 export const tracks = pgTable("tracks", {

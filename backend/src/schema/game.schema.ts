@@ -61,7 +61,6 @@ export type GuessResult = {
     album: {
       id: string
       title: string
-      cover: string
     }
     trackArtists: {
       trackId: string
