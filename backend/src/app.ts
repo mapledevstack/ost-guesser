@@ -32,13 +32,6 @@ app.use("/api/v1/user", userRoutes)
 app.use("/api/v1/tracks", trackRoutes)
 app.use("/api/v1/game", gameRoutes)
 
-app.use((req, res, next) => {
-  console.log("REACHED FALLBACK:", req.method, req.originalUrl)
-  next()
-})
-
-app.use(notFound)
-
 app.use(notFound)
 app.use(errorHandler)
 

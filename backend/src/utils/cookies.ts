@@ -1,6 +1,6 @@
 import type { CookieOptions, Response } from "express"
 import { NODE_ENV } from "../constants/env.js"
-import { FIFTEEN_DAYS_MS, FIFTEEN_MINUTES_MS } from "./time.js"
+import { FIFTEEN_DAYS_MS, FIFTEEN_MINUTES_MS, ONE_YEAR_MS } from "./time.js"
 
 const defaults: CookieOptions = {
   sameSite: "strict",
@@ -21,6 +21,7 @@ const refreshTokenCookieOptions: CookieOptions = {
 
 const guestCookieOptions: CookieOptions = {
   ...defaults,
+  maxAge: ONE_YEAR_MS,
 }
 
 type Params = {
