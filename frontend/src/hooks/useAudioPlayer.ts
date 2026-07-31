@@ -4,13 +4,13 @@ type UseAudioPlayerOptions = {
   initialVolume?: number
 }
 
-export const useAudioPlayer = ({
+const useAudioPlayer = ({
   initialVolume = 0.5,
 }: UseAudioPlayerOptions = {}) => {
   const audioRef = useRef<HTMLAudioElement>(null)
 
   const [isPlaying, setIsPlaying] = useState(false)
-  const [volume, setVolume] = useState(initialVolume)
+  const [volume, setVolumeState] = useState(initialVolume)
   const [progress, setProgress] = useState(0)
   const [hasEnded, setHasEnded] = useState(false)
 
@@ -36,30 +36,58 @@ export const useAudioPlayer = ({
     void audio.play()
   }, [])
 
-  const handleVolumeChange = useCallback((value: number) => {
-    setVolume(value)
+  const seek = useCallback((value: number) => {
+    const audio = audioRef.current
+    if (!audio?.duration) return
+
+    const nextProgress = Math.max(0, Math.min(1, value))
+
+    audio.currentTime = nextProgress * audio.duration
+    setProgress(nextProgress)
+  }, [])
+
+  const setVolume = useCallback((value: number) => {
+    const nextVolume = Math.max(0, Math.min(1, value))
+
+    setVolumeState(nextVolume)
 
     if (audioRef.current) {
-      audioRef.current.volume = value
+      audioRef.current.volume = nextVolume
     }
   }, [])
 
-  const handlePlay = useCallback(() => {
-    setIsPlaying(true)
-    setHasEnded(false)
+  // Audio events
+  useEffect(() => {
+    const audio = audioRef.current
+    if (!audio) return
+
+    const handlePlay = () => {
+      setIsPlaying(true)
+      setHasEnded(false)
+    }
+
+    const handlePause = () => {
+      setIsPlaying(false)
+    }
+
+    const handleEnded = () => {
+      setIsPlaying(false)
+      setHasEnded(true)
+      setProgress(1)
+    }
+
+    audio.addEventListener("play", handlePlay)
+    audio.addEventListener("pause", handlePause)
+    audio.addEventListener("ended", handleEnded)
+
+    return () => {
+      audio.removeEventListener("play", handlePlay)
+      audio.removeEventListener("pause", handlePause)
+      audio.removeEventListener("ended", handleEnded)
+    }
   }, [])
 
-  const handlePause = useCallback(() => {
-    setIsPlaying(false)
-  }, [])
-
-  const handleEnded = useCallback(() => {
-    setIsPlaying(false)
-    setHasEnded(true)
-    setProgress(1)
-  }, [])
-
-  // Keep progress synced with audio at 60fps while playing
+  // Progress
   useEffect(() => {
     if (!isPlaying) return
 
@@ -82,13 +110,12 @@ export const useAudioPlayer = ({
     }
   }, [isPlaying])
 
+  // Initial volume
   useEffect(() => {
-    const audio = audioRef.current
-    if (!audio) return
+    setVolume(initialVolume)
+  }, [initialVolume, setVolume])
 
-    audio.volume = initialVolume
-  }, [initialVolume])
-
+  // Keyboard shortcut
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.code !== "Space" || !event.ctrlKey) return
@@ -104,16 +131,6 @@ export const useAudioPlayer = ({
     }
   }, [togglePlay])
 
-  const seek = useCallback((progress: number) => {
-    const audio = audioRef.current
-    if (!audio || !audio.duration) return
-
-    const clampedProgress = Math.max(0, Math.min(1, progress))
-
-    audio.currentTime = clampedProgress * audio.duration
-    setProgress(clampedProgress)
-  }, [])
-
   return {
     audioRef,
     isPlaying,
@@ -122,10 +139,9 @@ export const useAudioPlayer = ({
     hasEnded,
     togglePlay,
     replay,
-    handleVolumeChange,
-    handlePlay,
-    handlePause,
-    handleEnded,
     seek,
+    setVolume,
   }
 }
+
+export default useAudioPlayer
