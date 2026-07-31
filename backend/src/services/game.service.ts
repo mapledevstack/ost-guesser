@@ -99,7 +99,7 @@ export const startGameService = async ({
 
 export const processGuess = async ({
   sessionId,
-  guess,
+  guesses,
   playerIdentity,
 }: GuessGameType & {
   playerIdentity: PlayerIdentityType
@@ -134,26 +134,30 @@ export const processGuess = async ({
 
   appAssert(track, NOT_FOUND, ERROR_CODES.TRACK_NOT_FOUND)
 
+  const guess = guesses.at(-1)
+
+  appAssert(guess, BAD_REQUEST, ERROR_CODES.INVALID_GUESS)
+
   const correct = isCorrectGuess(guess, track)
 
-  const updatedSession = await updateGameSession(
-    session.id,
-    correct
-      ? {
-          status: "won",
-        }
-      : {
-          guessCount: session.guessCount + 1,
-          status: session.guessCount + 1 >= MAX_GUESSES ? "lost" : "playing",
-        },
-  )
+  const guessCount = guesses.length
+
+  const status = correct
+    ? "won"
+    : guessCount >= MAX_GUESSES
+      ? "lost"
+      : "playing"
+
+  const updatedSession = await updateGameSession(session.id, {
+    guesses,
+    status,
+  })
 
   const result = {
     correct,
     status: updatedSession.status,
-    guessCount: updatedSession.guessCount,
+    guesses: updatedSession.guesses,
     track,
-    guessMatch: guess.type,
   }
 
   if (result.status !== "playing") {

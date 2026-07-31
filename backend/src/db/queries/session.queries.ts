@@ -89,7 +89,7 @@ export const getSessionById = async (id: string) => {
 }
 
 type UpdateGameSessionType = Partial<
-  Pick<typeof gameSessions.$inferInsert, "guessCount" | "status">
+  Pick<typeof gameSessions.$inferInsert, "guesses" | "status">
 >
 
 export const updateGameSession = async (
@@ -149,10 +149,15 @@ export const updateDailyStats = async ({
       gameStats.daily.bestStreak,
       gameStats.daily.currentStreak,
     )
-    gameStats.daily.score += calculateScore(
-      result.guessCount,
-      result.guessMatch,
-    )
+
+    const latestGuess = result.guesses.at(-1)
+
+    if (latestGuess) {
+      gameStats.daily.score += calculateScore(
+        result.guesses.length,
+        latestGuess.type,
+      )
+    }
   }
 
   if (result.status === "lost") {
@@ -172,13 +177,16 @@ export const updateEndlessStats = async ({
   if (result.status === "won") {
     gameStats.endless.gamesPlayed++
 
-    const score = calculateScore(result.guessCount, result.guessMatch)
+    const latestGuess = result.guesses.at(-1)
 
-    gameStats.endless.totalScore += score
+    if (latestGuess) {
+      const score = calculateScore(result.guesses.length, latestGuess.type)
+
+      gameStats.endless.totalScore += score
+      gameStats.endless.bestScore = Math.max(gameStats.endless.bestScore, score)
+    }
 
     gameStats.endless.currentStreak++
-
-    gameStats.endless.bestScore = Math.max(gameStats.endless.bestScore, score)
 
     gameStats.endless.bestStreak = Math.max(
       gameStats.endless.bestStreak,

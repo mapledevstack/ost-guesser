@@ -15,6 +15,7 @@ export const ERROR_CODES = {
   USER_MISMATCH: "USER_MISMATCH",
   PLAYER_NOT_FOUND: "PLAYER_NOT_FOUND",
   GUEST_NOT_FOUND: "GUEST_NOT_FOUND",
+  INVALID_GUESS: "INVALID_GUESS",
 } as const
 
 export type AppErrorCode = (typeof ERROR_CODES)[keyof typeof ERROR_CODES]

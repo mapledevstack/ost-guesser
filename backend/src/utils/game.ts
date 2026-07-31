@@ -7,16 +7,16 @@ type TrackWithRelations = NonNullable<Awaited<ReturnType<typeof getTrack>>>
 export const isCorrectGuess = (guess: GuessType, track: TrackWithRelations) => {
   switch (guess.type) {
     case "track":
-      return guess.id === track.id
+      return guess.name === track.title
 
     case "album":
-      return guess.id === track.albumId
+      return guess.name === track.album.title
 
     case "character":
-      return guess.id === track.character
+      return guess.name === track.character
 
     case "artist":
-      return track.trackArtists.some(({ artist }) => artist.id === guess.id)
+      return track.trackArtists.some(({ artist }) => artist.name === guess.name)
 
     default:
       return false
@@ -26,7 +26,7 @@ export const isCorrectGuess = (guess: GuessType, track: TrackWithRelations) => {
 export const formatGuessResult = (result: GuessResult) => ({
   correct: result.correct,
   status: result.status,
-  guessCount: result.guessCount,
+  guesses: result.guesses,
   answer:
     result.status !== "playing"
       ? {
@@ -34,10 +34,9 @@ export const formatGuessResult = (result: GuessResult) => ({
           title: result.track.title,
         }
       : undefined,
-  guessMatch: result.guessMatch,
 })
 
 export const calculateScore = (
   guessCount: number,
-  guessMatch: GuessType["type"],
-) => Math.round(BASE_SCORES[guessMatch] * MULTIPLIERS[guessCount - 1]!)
+  guessType: GuessType["type"],
+) => Math.round(BASE_SCORES[guessType] * MULTIPLIERS[guessCount - 1]!)

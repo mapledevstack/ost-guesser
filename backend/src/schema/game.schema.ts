@@ -20,13 +20,13 @@ export const AuthSchema = z.discriminatedUnion("type", [
 export const GuessTypeSchema = z.enum(["track", "album", "character", "artist"])
 
 export const GuessSchema = z.object({
-  id: z.string(),
+  name: z.string(),
   type: GuessTypeSchema,
 })
 
 export const GuessGameRequestSchema = z.object({
   sessionId: z.string(),
-  guess: GuessSchema,
+  guesses: z.array(GuessSchema).min(1).max(6),
 })
 
 export const DailyStatsSchema = z.object({
@@ -52,7 +52,7 @@ export const GameStatsSchema = z.object({
 export type GuessResult = {
   correct: boolean
   status: "playing" | "won" | "lost"
-  guessCount: number
+  guesses: GuessType[]
   track: {
     id: string
     character: string | null
@@ -73,7 +73,6 @@ export type GuessResult = {
       }
     }[]
   }
-  guessMatch: GuessType["type"]
 }
 
 export type CompleteGameType = z.infer<typeof GuessGameRequestSchema>

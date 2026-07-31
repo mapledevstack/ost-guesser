@@ -117,6 +117,11 @@ export const gameModeEnum = pgEnum("game_mode", ["daily", "endless"])
 
 export const gameStatusEnum = pgEnum("game_status", ["playing", "won", "lost"])
 
+type GameGuess = {
+  type: "track" | "album" | "artist" | "character"
+  name: string
+}
+
 export const gameSessions = pgTable("game_sessions", {
   id: uuid().defaultRandom().primaryKey(),
 
@@ -131,7 +136,7 @@ export const gameSessions = pgTable("game_sessions", {
 
   dailyGameDate: date().references(() => dailyGames.date),
 
-  guessCount: integer().notNull().default(0),
+  guesses: jsonb().$type<GameGuess[]>().notNull().default([]),
 
   status: gameStatusEnum().notNull().default("playing"),
 
