@@ -42,7 +42,7 @@ const AvatarDropdown = () => {
             </Button>
           }
         />
-        <DropdownMenuContent align="end" className="w-64">
+        <DropdownMenuContent align="end" className="w-64 border-2">
           <DropdownMenuGroup>
             <DropdownMenuLabel>
               <div className="flex flex-col">

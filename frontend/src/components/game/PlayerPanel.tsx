@@ -16,7 +16,7 @@ const PlayerPanel = () => {
     replay,
     seek,
     setVolume,
-  } = useAudioPlayer()
+  } = useAudioPlayer({ src: session?.clipUrl })
 
   const disabled = isLoading || !session
 
@@ -44,8 +44,8 @@ const PlayerPanel = () => {
           step="0.01"
           value={volume}
           onChange={(event) => setVolume(Number(event.target.value))}
-          className="w-36"
           disabled={disabled}
+          className="w-36 cursor-pointer accent-primary disabled:cursor-not-allowed"
         />
       </div>
     </div>

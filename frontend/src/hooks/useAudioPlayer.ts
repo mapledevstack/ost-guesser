@@ -2,10 +2,12 @@ import { useCallback, useEffect, useRef, useState } from "react"
 
 type UseAudioPlayerOptions = {
   initialVolume?: number
+  src?: string
 }
 
 const useAudioPlayer = ({
   initialVolume = 0.5,
+  src,
 }: UseAudioPlayerOptions = {}) => {
   const audioRef = useRef<HTMLAudioElement>(null)
 
@@ -85,7 +87,7 @@ const useAudioPlayer = ({
       audio.removeEventListener("pause", handlePause)
       audio.removeEventListener("ended", handleEnded)
     }
-  }, [])
+  }, [src])
 
   // Progress
   useEffect(() => {

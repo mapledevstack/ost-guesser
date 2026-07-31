@@ -7,7 +7,7 @@ const GuessPanel = () => {
   const { mode } = useGame()
 
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-start gap-2 overflow-hidden pt-24">
+    <div className="flex max-h-screen w-full flex-col items-center justify-start gap-2 overflow-hidden pt-24">
       <Mode mode={mode} />
 
       <Stats />

@@ -10,8 +10,8 @@ const GamePage = () => {
         <UserMenu />
       </header>
 
-      <main className="min-h-screen overflow-x-hidden bg-background">
-        <div className="flex min-h-screen flex-col gap-6 md:flex-row">
+      <main className="overflow-x-hidden overflow-y-auto bg-background md:h-screen md:overflow-y-hidden">
+        <div className="flex min-h-screen flex-col gap-6 lg:flex-row">
           <PlayerPanel />
           <GuessPanel />
         </div>

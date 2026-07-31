@@ -12,7 +12,7 @@ const Stats = () => {
   const endlessStats = user.gameStats.endless
 
   return (
-    <div className="flex w-full justify-center gap-2 p-6">
+    <div className="flex justify-center gap-2 p-6 lg:w-full">
       {mode === "daily" ? (
         <>
           <Score title="Games Played" score={dailyStats.gamesPlayed} />
