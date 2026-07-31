@@ -1,5 +1,5 @@
 import useSession from "@/hooks/useSession"
-import { useEffect, useRef, useState } from "react"
+import { useAudioPlayer } from "@/hooks/useAudioPlayer"
 import { Button } from "../ui/button"
 import { Pause, Play, RotateCcw, Volume2 } from "lucide-react"
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip"
@@ -7,85 +7,66 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip"
 const PlayerPanel = () => {
   const { data: session, isLoading } = useSession()
 
-  const audioRef = useRef<HTMLAudioElement>(null)
-
-  const [isPlaying, setIsPlaying] = useState(false)
-  const [volume, setVolume] = useState(0.5)
-  const [progress, setProgress] = useState(0)
-  const [hasEnded, setHasEnded] = useState(false)
-
-  const togglePlay = () => {
-    if (!audioRef.current) return
-
-    if (audioRef.current.paused) {
-      audioRef.current.play()
-    } else {
-      audioRef.current.pause()
-    }
-  }
-
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.code === "Space" && e.ctrlKey) {
-        e.preventDefault()
-        togglePlay()
-      }
-    }
-
-    window.addEventListener("keydown", handleKeyDown)
-
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown)
-    }
-  }, [])
-
   if (isLoading || !session) return null
 
-  const handleTimeUpdate = () => {
-    const audio = audioRef.current
-    if (!audio || !audio.duration) return
+  return <Player session={session} />
+}
 
-    setProgress(audio.currentTime / audio.duration)
+type PlayerProps = {
+  session: {
+    clipUrl: string
   }
+}
 
-  const handleVolumeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const newVolume = Number(e.target.value)
-
-    setVolume(newVolume)
-
-    if (audioRef.current) {
-      audioRef.current.volume = newVolume
-    }
-  }
-
-  const handleEnded = () => {
-    setIsPlaying(false)
-    setHasEnded(true)
-    setProgress(1)
-  }
-
-  const replay = () => {
-    const audio = audioRef.current
-    if (!audio) return
-
-    audio.currentTime = 0
-    setProgress(0)
-    setHasEnded(false)
-    audio.play()
-  }
+const Player = ({ session }: PlayerProps) => {
+  const {
+    audioRef,
+    isPlaying,
+    volume,
+    progress,
+    hasEnded,
+    togglePlay,
+    replay,
+    handleVolumeChange,
+    handlePlay,
+    handlePause,
+    handleEnded,
+    seek,
+  } = useAudioPlayer()
 
   const radius = 42
   const circumference = 2 * Math.PI * radius
   const offset = circumference * (1 - progress)
+
+  const handleCircleClick = (event: React.MouseEvent<SVGSVGElement>) => {
+    const svg = event.currentTarget
+    const rect = svg.getBoundingClientRect()
+
+    const x = event.clientX - (rect.left + rect.width / 2)
+    const y = event.clientY - (rect.top + rect.height / 2)
+
+    let angle = Math.atan2(y, x)
+
+    let degrees = (angle * 180) / Math.PI
+
+    degrees += 90
+
+    if (degrees < 0) {
+      degrees += 360
+    }
+
+    const progress = degrees / 360
+
+    seek(progress)
+  }
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center gap-4">
       <audio
         ref={audioRef}
         src={session.clipUrl}
-        onPlay={() => setIsPlaying(true)}
-        onPause={() => setIsPlaying(false)}
-        onTimeUpdate={handleTimeUpdate}
+        onPlay={handlePlay}
+        onPause={handlePause}
         onEnded={handleEnded}
       />
 
@@ -93,6 +74,7 @@ const PlayerPanel = () => {
         <svg
           className="absolute inset-0 size-full -rotate-90"
           viewBox="0 0 100 100"
+          onClick={handleCircleClick}
         >
           <circle
             cx="50"
@@ -128,6 +110,7 @@ const PlayerPanel = () => {
                 </Button>
               }
             />
+
             <TooltipContent>
               <div className="flex items-center gap-2">
                 <span>Play</span>
@@ -136,7 +119,9 @@ const PlayerPanel = () => {
                   <kbd className="rounded border bg-muted px-1.5 py-0.5 text-xs font-medium text-primary-foreground shadow-sm">
                     Ctrl
                   </kbd>
+
                   <span>+</span>
+
                   <kbd className="rounded border bg-muted px-1.5 py-0.5 text-xs font-medium text-primary-foreground shadow-sm">
                     Space
                   </kbd>
@@ -156,7 +141,7 @@ const PlayerPanel = () => {
           max="1"
           step="0.01"
           value={volume}
-          onChange={handleVolumeChange}
+          onChange={(event) => handleVolumeChange(Number(event.target.value))}
           className="w-36"
         />
       </div>
