@@ -11,11 +11,11 @@ export const MeSchema = z.union([
   }),
 ])
 
-export const AuthUserSchema = z.object({
+export const UserSchema = z.object({
   id: z.string(),
   displayName: z.string().nullable(),
   avatarUrl: z.string().nullable(),
-  email: z.email(),
+  email: z.email().nullable(),
   gameStats: z.object({
     daily: z.object({
       gamesPlayed: z.number(),
@@ -39,5 +39,5 @@ export const UpdateProfileSchema = z.object({
 })
 
 export type Me = z.infer<typeof MeSchema>
-export type AuthUser = z.infer<typeof AuthUserSchema>
+export type User = z.infer<typeof UserSchema>
 export type UpdateProfileType = z.infer<typeof UpdateProfileSchema>

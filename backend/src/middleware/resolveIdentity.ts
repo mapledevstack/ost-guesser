@@ -1,9 +1,8 @@
 import type { RequestHandler } from "express"
-import crypto from "node:crypto"
 import { verifyAccessToken } from "../utils/jwt.js"
-import { setGuestCookie } from "../utils/cookies.js"
+import { resolveGuest } from "./resolveGuest.js"
 
-const resolveIdentity: RequestHandler = (req, res, next) => {
+const resolveIdentity: RequestHandler = async (req, res, next) => {
   const accessToken = req.cookies.accessToken as string | undefined
 
   if (accessToken) {
@@ -17,19 +16,7 @@ const resolveIdentity: RequestHandler = (req, res, next) => {
     return next()
   }
 
-  let guestId = req.cookies.guestId as string | undefined
-
-  if (!guestId) {
-    guestId = crypto.randomUUID()
-    setGuestCookie(res, guestId)
-  }
-
-  req.auth = {
-    type: "guest",
-    guestId,
-  }
-
-  next()
+  return resolveGuest(req, res, next)
 }
 
 export default resolveIdentity

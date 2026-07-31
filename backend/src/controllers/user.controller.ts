@@ -3,6 +3,7 @@ import { getAuthUser } from "../utils/auth.js"
 import catchErrors from "../utils/catchErrors.js"
 import { UpdateProfileSchema } from "../schema/user.schema.js"
 import {
+  getGuestByIdService,
   getUserByIdService,
   updateProfileService,
 } from "../services/user.service.js"
@@ -13,11 +14,12 @@ export const getUserIdentityController: RequestHandler = (req, res) => {
 }
 
 export const getProfileController = catchErrors(async (req, res) => {
-  const userId = getAuthUser(req)
+  const profile =
+    req.auth.type === "guest"
+      ? await getGuestByIdService(req.auth.guestId)
+      : await getUserByIdService(req.auth.userId)
 
-  const user = await getUserByIdService(userId)
-
-  return res.status(OK).json(user)
+  return res.status(OK).json(profile)
 })
 
 export const updateProfile = catchErrors(async (req, res) => {

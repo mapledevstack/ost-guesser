@@ -1,6 +1,6 @@
 import api from "@/config/axios"
 import {
-  AuthUserSchema,
+  UserSchema,
   MeSchema,
   type UpdateProfileType,
 } from "@/schema/userSchema"
@@ -14,7 +14,7 @@ export const getMe = async () => {
 export const getUserData = async () => {
   const res = await api.get("/user/profile")
 
-  return AuthUserSchema.parse(res.data)
+  return UserSchema.parse(res.data)
 }
 
 export const updateUserData = async (data: UpdateProfileType) =>

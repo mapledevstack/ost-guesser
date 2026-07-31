@@ -8,6 +8,7 @@ const useLogout = () => {
     mutationFn: logOut,
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["me"] })
+      queryClient.invalidateQueries({ queryKey: ["user"] })
     },
   })
 }
