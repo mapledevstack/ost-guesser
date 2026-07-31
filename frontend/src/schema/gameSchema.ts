@@ -1,14 +1,46 @@
 import z from "zod"
 
+export const GuessSchema = z.object({
+  type: z.enum(["track", "album", "artist", "character"]),
+  name: z.string(),
+})
+
+export const GuessesSchema = z.array(GuessSchema)
+
 export const SessionSchema = z.object({
   clipUrl: z.url(),
   sessionId: z.uuid(),
+  guesses: GuessesSchema,
+  status: z.enum(["playing", "won", "lost"]),
 })
 
-const SearchEntitySchema = z.object({
-  name: z.string(),
-  type: z.enum(["track", "album", "artist", "character"]),
+export const GuessResultSchema = z.object({
+  correct: z.boolean(),
+  status: z.enum(["playing", "won", "lost"]),
+  guesses: z.array(GuessSchema),
+  answer: z
+    .object({
+      id: z.string(),
+      title: z.string(),
+    })
+    .optional(),
 })
+
+export const SearchEntitySchema = z.object({
+  type: z.enum(["track", "album", "artist", "character"]),
+  name: z.string(),
+})
+
+export const PostGuessRequestSchema = z.object({
+  sessionId: z.string(),
+  guesses: GuessesSchema,
+})
+
 export type Session = z.infer<typeof SessionSchema>
 export const SearchEntitiesSchema = z.array(SearchEntitySchema)
 export type SearchEntity = z.infer<typeof SearchEntitySchema>
+export type SearchEntities = z.infer<typeof SearchEntitiesSchema>
+export type Guess = z.infer<typeof GuessSchema>
+export type Guesses = z.infer<typeof GuessesSchema>
+export type GuessResult = z.infer<typeof GuessResultSchema>
+export type PostGuessRequest = z.infer<typeof PostGuessRequestSchema>

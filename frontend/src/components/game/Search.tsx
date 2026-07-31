@@ -2,6 +2,8 @@ import useSearch from "@/hooks/useSearch"
 import { useRef, useState } from "react"
 import { Input } from "../ui/input"
 import { cn } from "@/utils/cn"
+import useGuess from "@/hooks/useGuess"
+import useSession from "@/hooks/useSession"
 
 const Search = () => {
   const [isFocused, setIsFocused] = useState(false)
@@ -9,7 +11,10 @@ const Search = () => {
   const inputRef = useRef<HTMLInputElement>(null)
 
   const { data: results = [] } = useSearch(query)
+  const { mutate: makeGuess } = useGuess()
+  const { data: session } = useSession()
 
+  if (!session) return null
   return (
     <div className="w-full p-4">
       <Input
@@ -19,6 +24,7 @@ const Search = () => {
         onBlur={() => setIsFocused(false)}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
+        disabled={session.status !== "playing"}
       />
 
       <div
@@ -50,8 +56,22 @@ const Search = () => {
         ) : (
           results.map((result) => (
             <div
-              key={result.id}
+              key={result.name}
               className="flex w-full cursor-pointer items-center justify-between p-2 transition-colors duration-75 hover:bg-primary/50"
+              onMouseDown={(e) => {
+                e.preventDefault()
+
+                makeGuess({
+                  sessionId: session.sessionId,
+                  guesses: session.guesses.concat({
+                    name: result.name,
+                    type: result.type,
+                  }),
+                })
+
+                setQuery("")
+                inputRef.current?.blur()
+              }}
             >
               <p>{result.name}</p>
 

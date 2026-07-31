@@ -23,12 +23,12 @@ export const startGameController = catchErrors(async (req, res) => {
   const mode = GameModeSchema.parse(req.params.mode)
   const playerIdentity = req.auth
 
-  const { sessionId, clipUrl } = await startGameService({
+  const { sessionId, clipUrl, guesses, status } = await startGameService({
     mode,
     playerIdentity,
   })
 
-  return res.status(OK).json({ sessionId, clipUrl })
+  return res.status(OK).json({ sessionId, clipUrl, guesses, status })
 })
 
 export const guessGameController = catchErrors(async (req, res) => {

@@ -53,6 +53,8 @@ export const startGameService = async ({
     return {
       sessionId: session.id,
       clipUrl: `${SUPABASE_URL}/${session.trackId}.mp3`,
+      guesses: session.guesses,
+      status: session.status,
     }
   }
 
@@ -94,6 +96,8 @@ export const startGameService = async ({
   return {
     sessionId: newSession.id,
     clipUrl: `${SUPABASE_URL}/${trackId}.mp3`,
+    guesses: newSession.guesses,
+    status: newSession.status,
   }
 }
 

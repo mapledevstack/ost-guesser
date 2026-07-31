@@ -2,6 +2,7 @@ import { useGame } from "@/hooks/useGame"
 import Search from "./Search"
 import Mode from "./Mode"
 import Stats from "./Stats"
+import PrevGuesses from "./PrevGuesses"
 
 const GuessPanel = () => {
   const { mode } = useGame()
@@ -11,6 +12,8 @@ const GuessPanel = () => {
       <Mode mode={mode} />
 
       <Stats />
+
+      <PrevGuesses />
 
       <Search />
     </div>
