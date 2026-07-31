@@ -13,8 +13,11 @@ import { CLIENT_URL } from "./constants/env.js"
 import cookieParser from "cookie-parser"
 import userRoutes from "./routes/user.routes.js"
 import resolveIdentity from "./middleware/resolveIdentity.js"
+import helmet from "helmet"
 
 const app = express()
+
+app.use(helmet())
 app.use(express.json())
 app.use(cors({ origin: CLIENT_URL, credentials: true }))
 app.use(cookieParser())

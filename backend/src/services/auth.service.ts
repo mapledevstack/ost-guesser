@@ -1,8 +1,17 @@
 import type { Profile } from "passport"
 import appAssert from "../utils/appAssert.js"
-import { INTERNAL_SERVER_ERROR } from "../constants/http.js"
+import { INTERNAL_SERVER_ERROR, UNAUTHORIZED } from "../constants/http.js"
 import { ERROR_CODES } from "../constants/appErrorCodes.js"
-import { createUser, getUserByGoogleId } from "../db/queries/user.queries.js"
+import {
+  createUser,
+  getUserByGoogleId,
+  getUserById,
+} from "../db/queries/user.queries.js"
+import {
+  signAccessToken,
+  signRefreshToken,
+  verifyRefreshToken,
+} from "../utils/jwt.js"
 
 export const handleGoogleLogin = async (profile: Profile) => {
   const googleId = profile.id
@@ -22,4 +31,20 @@ export const handleGoogleLogin = async (profile: Profile) => {
   }
 
   return user
+}
+
+export const refreshAccessToken = async (refreshToken: string) => {
+  const { userId } = verifyRefreshToken(refreshToken)
+
+  const user = await getUserById(userId)
+  appAssert(user, UNAUTHORIZED, "User not found")
+
+  const accessToken = signAccessToken({ userId: user.id })
+  const newRefreshToken = signRefreshToken({ userId: user.id })
+
+  return {
+    user,
+    accessToken,
+    refreshToken: newRefreshToken,
+  }
 }

@@ -10,6 +10,7 @@ import appAssert from "../utils/appAssert.js"
 import { NO_CONTENT, UNAUTHORIZED } from "../constants/http.js"
 import catchErrors from "../utils/catchErrors.js"
 import { getUserById } from "../db/queries/user.queries.js"
+import { refreshAccessToken } from "../services/auth.service.js"
 
 export const googleCallbackController: RequestHandler = (req, res) => {
   appAssert(req.user, UNAUTHORIZED, "User not found")
@@ -29,22 +30,18 @@ export const logoutController: RequestHandler = (_req, res) => {
 }
 
 export const refreshAccessTokenController = catchErrors(async (req, res) => {
-  const refreshToken = req.cookies.refreshToken as string | undefined
+  const refreshToken = req.cookies.refreshToken
 
   appAssert(refreshToken, UNAUTHORIZED, "Refresh token not found")
 
-  const { userId } = verifyRefreshToken(refreshToken)
+  const { refreshToken: newRefreshToken, accessToken } =
+    await refreshAccessToken(refreshToken)
 
-  const user = await getUserById(userId)
-
-  appAssert(user, UNAUTHORIZED, "User not found")
-
-  const accessToken = signAccessToken({ userId: user.id })
-  const newRefreshToken = signRefreshToken({ userId: user.id })
-
-  return setAuthCookies({
+  setAuthCookies({
     res,
     accessToken,
     refreshToken: newRefreshToken,
-  }).sendStatus(NO_CONTENT)
+  })
+
+  return res.sendStatus(NO_CONTENT)
 })

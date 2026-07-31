@@ -5,7 +5,7 @@ import {
   findGuestByIdService,
 } from "../services/user.service.js"
 
-export const resolveGuest: RequestHandler = async (req, res, next) => {
+const resolveGuest: RequestHandler = async (req, res, next) => {
   const guestId = req.cookies.guestId as string | undefined
 
   if (guestId) {
@@ -32,3 +32,5 @@ export const resolveGuest: RequestHandler = async (req, res, next) => {
 
   return next()
 }
+
+export default resolveGuest
