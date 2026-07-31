@@ -1,7 +1,6 @@
 import type { GameMode } from "@/providers/game-provider"
 import { Button } from "../ui/button"
 import { useNavigate } from "@tanstack/react-router"
-import { motion } from "motion/react"
 import { cn } from "@/utils/cn"
 
 type Props = {
@@ -23,15 +22,7 @@ const Mode = ({ mode }: Props) => {
         )}
       >
         {mode === "daily" && (
-          <motion.div
-            layoutId="mode-tab"
-            className="absolute inset-0 rounded-md bg-primary"
-            transition={{
-              type: "spring",
-              stiffness: 500,
-              damping: 30,
-            }}
-          />
+          <div className="absolute inset-0 rounded-md bg-primary" />
         )}
 
         <span className="relative z-10 tracking-wider uppercase">Daily</span>
@@ -48,15 +39,7 @@ const Mode = ({ mode }: Props) => {
         )}
       >
         {mode === "endless" && (
-          <motion.div
-            layoutId="mode-tab"
-            className="absolute inset-0 rounded-md bg-primary"
-            transition={{
-              type: "spring",
-              stiffness: 500,
-              damping: 30,
-            }}
-          />
+          <div className="absolute inset-0 rounded-md bg-primary" />
         )}
 
         <span className="relative z-10 tracking-wider uppercase">Endless</span>

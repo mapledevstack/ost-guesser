@@ -6,18 +6,6 @@ import DiscPlayer from "./DiscPlayer"
 const PlayerPanel = () => {
   const { data: session, isLoading } = useSession()
 
-  if (isLoading || !session) return null
-
-  return <Player session={session} />
-}
-
-type PlayerProps = {
-  session: {
-    clipUrl: string
-  }
-}
-
-const Player = ({ session }: PlayerProps) => {
   const {
     audioRef,
     isPlaying,
@@ -30,9 +18,11 @@ const Player = ({ session }: PlayerProps) => {
     setVolume,
   } = useAudioPlayer()
 
+  const disabled = isLoading || !session
+
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-center gap-4">
-      <audio ref={audioRef} src={session.clipUrl} />
+      {session && <audio ref={audioRef} src={session.clipUrl} />}
 
       <DiscPlayer
         hasEnded={hasEnded}
@@ -41,10 +31,12 @@ const Player = ({ session }: PlayerProps) => {
         onPlay={togglePlay}
         onReplay={replay}
         onSeek={seek}
+        disabled={disabled}
       />
 
       <div className="flex items-center gap-4">
         <Volume2 className="size-5" />
+
         <input
           type="range"
           min="0"
@@ -53,6 +45,7 @@ const Player = ({ session }: PlayerProps) => {
           value={volume}
           onChange={(event) => setVolume(Number(event.target.value))}
           className="w-36"
+          disabled={disabled}
         />
       </div>
     </div>

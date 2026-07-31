@@ -9,6 +9,7 @@ type Props = {
   onPlay: () => void
   onReplay: () => void
   onSeek: (progress: number) => void
+  disabled: boolean
 }
 
 const DiscPlayer = ({
@@ -18,6 +19,7 @@ const DiscPlayer = ({
   onPlay,
   onReplay,
   onSeek,
+  disabled,
 }: Props) => {
   const radius = 42
   const circumference = 2 * Math.PI * radius
@@ -71,6 +73,7 @@ const DiscPlayer = ({
               <Button
                 onClick={hasEnded ? onReplay : onPlay}
                 className="size-12 rounded-full"
+                disabled={disabled}
               >
                 {isPlaying ? (
                   <Pause className="size-5" />
