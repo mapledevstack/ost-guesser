@@ -7,6 +7,7 @@ const GitHub = () => {
       <Button
         variant="link"
         size="sm"
+        nativeButton={false}
         render={
           <a
             href="https://github.com/mapledevstack/ost-guesser"
