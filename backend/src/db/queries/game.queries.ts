@@ -34,8 +34,8 @@ export const searchEntities = async (query: string) => {
   return db.execute(sql`
     SELECT *
     FROM (
-      SELECT
-        t.id,
+      -- Tracks
+      SELECT DISTINCT
         t.title AS name,
         'track'::text AS type
       FROM tracks t
@@ -43,8 +43,8 @@ export const searchEntities = async (query: string) => {
 
       UNION ALL
 
-      SELECT
-        a.id,
+      -- Albums
+      SELECT DISTINCT
         a.title AS name,
         'album'::text AS type
       FROM albums a
@@ -52,8 +52,8 @@ export const searchEntities = async (query: string) => {
 
       UNION ALL
 
-      SELECT
-        ar.id::text,
+      -- Artists
+      SELECT DISTINCT
         ar.name,
         'artist'::text AS type
       FROM artists ar
@@ -61,8 +61,8 @@ export const searchEntities = async (query: string) => {
 
       UNION ALL
 
-      SELECT
-        t.id,
+      -- Characters
+      SELECT DISTINCT
         t.character AS name,
         'character'::text AS type
       FROM tracks t
