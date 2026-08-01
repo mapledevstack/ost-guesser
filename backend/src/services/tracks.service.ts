@@ -12,7 +12,6 @@ export const getTrackService = async (trackId: string) => {
     id: track.id,
     title: track.title,
     albumId: track.albumId,
-    cover: track.album.cover,
     character: track.character,
     artists: track.trackArtists.map(({ artist, role }) => ({
       id: artist.id,

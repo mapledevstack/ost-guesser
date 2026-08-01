@@ -15,7 +15,6 @@ describe("GET /tracks/:trackId", () => {
       id: track.id,
       title: track.title,
       albumId: album.id,
-      cover: album.cover,
       character: track.character,
       artists: [
         {
