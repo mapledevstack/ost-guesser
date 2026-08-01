@@ -19,10 +19,11 @@ const PlayerPanel = () => {
   } = useAudioPlayer({ src: session?.clipUrl })
 
   const disabled = isLoading || !session
+  console.log("clipUrl:", session?.clipUrl)
 
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-center gap-4">
-      {session && <audio ref={audioRef} src={session.clipUrl} />}
+      <audio ref={audioRef} />
 
       <DiscPlayer
         hasEnded={hasEnded}

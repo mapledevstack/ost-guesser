@@ -21,7 +21,9 @@ const useAudioPlayer = ({
     if (!audio) return
 
     if (audio.paused) {
-      void audio.play()
+      void audio.play().catch((error) => {
+        console.error("Failed to play audio:", error)
+      })
     } else {
       audio.pause()
     }
@@ -57,6 +59,26 @@ const useAudioPlayer = ({
       audioRef.current.volume = nextVolume
     }
   }, [])
+
+  useEffect(() => {
+    const audio = audioRef.current
+    if (!audio) return
+
+    audio.pause()
+    audio.currentTime = 0
+
+    setIsPlaying(false)
+    setProgress(0)
+    setHasEnded(false)
+
+    if (src) {
+      audio.src = src
+      audio.load()
+    } else {
+      audio.removeAttribute("src")
+      audio.load()
+    }
+  }, [src])
 
   // Audio events
   useEffect(() => {
