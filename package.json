@@ -2,7 +2,7 @@
   "name": "ost-guesser",
   "private": true,
   "scripts": {
-    "dev": "run-p dev:docker dev:studio dev:backend dev:frontend",
+    "dev": "run-p dev:studio dev:backend dev:frontend",
     "dev:docker": "docker compose up -d",
     "dev:studio": "npm run db:studio --prefix backend",
     "dev:backend": "npm run dev --prefix backend",
