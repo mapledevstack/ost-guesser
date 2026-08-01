@@ -9,6 +9,7 @@ import {
   processGuess,
   getGameService,
   getAlbumsService,
+  nextEndlessGameService,
 } from "../services/game.service.js"
 import catchErrors from "../utils/catchErrors.js"
 
@@ -47,6 +48,14 @@ export const guessGameController = catchErrors(async (req, res) => {
     guesses,
     playerIdentity,
   })
+
+  return res.status(OK).json(result)
+})
+
+export const nextEndlessGameController = catchErrors(async (req, res) => {
+  const playerIdentity = req.auth
+
+  const result = await nextEndlessGameService({ playerIdentity })
 
   return res.status(OK).json(result)
 })

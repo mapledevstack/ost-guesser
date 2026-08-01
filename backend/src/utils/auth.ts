@@ -1,6 +1,7 @@
 import type { Request } from "express"
 import appAssert from "./appAssert.js"
 import { FORBIDDEN } from "../constants/http.js"
+import type { PlayerIdentityType } from "../schema/auth.schema.js"
 
 export const getAuthUser = (req: Request) => {
   const { type } = req.auth
@@ -11,3 +12,8 @@ export const getAuthUser = (req: Request) => {
 
   return userId
 }
+
+export const getPlayerIds = (playerIdentity: PlayerIdentityType) => ({
+  userId: playerIdentity.type === "user" ? playerIdentity.userId : null,
+  guestId: playerIdentity.type === "guest" ? playerIdentity.guestId : null,
+})

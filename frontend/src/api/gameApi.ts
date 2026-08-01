@@ -2,7 +2,6 @@ import api from "@/config/axios"
 import type { GameMode } from "@/providers/game-provider"
 import {
   AlbumsCoversSchema,
-  GuessResultSchema,
   SearchEntitiesSchema,
   SessionSchema,
   type Guess,
@@ -36,5 +35,11 @@ export const postGuess = async (
     guesses,
   })
 
-  return GuessResultSchema.parse(res.data)
+  return SessionSchema.parse(res.data)
+}
+
+export const startNextEndlessGame = async () => {
+  const res = await api.post("/game/endless/next")
+
+  return SessionSchema.parse(res.data)
 }

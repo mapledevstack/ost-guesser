@@ -29,6 +29,7 @@ import type { gameSessions } from "../db/schema.js"
 import type { GameModeType, PlayerIdentityType } from "../schema/auth.schema.js"
 import type { GuessGameType } from "../schema/game.schema.js"
 import appAssert from "../utils/appAssert.js"
+import { getPlayerIds } from "../utils/auth.js"
 import { assertSessionOwnership, isCorrectGuess } from "../utils/game.js"
 import { getCurrentDate } from "../utils/time.js"
 
@@ -115,10 +116,7 @@ export const getGameService = async ({
   mode,
   playerIdentity,
 }: StartGameServiceType) => {
-  const userId = playerIdentity.type === "user" ? playerIdentity.userId : null
-
-  const guestId =
-    playerIdentity.type === "guest" ? playerIdentity.guestId : null
+  const { userId, guestId } = getPlayerIds(playerIdentity)
 
   const session = await getGameSession({ mode, userId, guestId })
 
@@ -189,12 +187,7 @@ export const processGuess = async ({
     })
   }
 
-  return {
-    sessionId: updatedSession.id,
-    clipUrl: `${SUPABASE_URL}/${session.trackId}.mp3`,
-    guesses: updatedSession.guesses,
-    status: updatedSession.status,
-  }
+  return formatGameSession(updatedSession)
 }
 
 export const updateGameStats = async ({
@@ -250,4 +243,24 @@ export const updateGameStats = async ({
   }
 
   return updatedGameStats
+}
+
+export const nextEndlessGameService = async ({
+  playerIdentity,
+}: {
+  playerIdentity: PlayerIdentityType
+}) => {
+  const { userId, guestId } = getPlayerIds(playerIdentity)
+
+  const { trackId, dailyGameDate } = await getEndlessGame()
+
+  const session = await createGameSession({
+    mode: "endless",
+    userId,
+    guestId,
+    trackId,
+    dailyGameDate,
+  })
+
+  return formatGameSession(session)
 }

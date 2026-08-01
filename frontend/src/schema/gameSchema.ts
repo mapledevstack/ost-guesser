@@ -22,20 +22,15 @@ export const SessionSchema = z.object({
     .optional(),
 })
 
-export const GuessResultSchema = z.object({
-  sessionId: z.uuid(),
-  status: z.enum(["playing", "won", "lost"]),
-  guesses: z.array(GuessSchema),
-  clipUrl: z.url(),
-})
-
 export const SearchEntitySchema = z.object({
   type: z.enum(["track", "album", "artist", "character"]),
   name: z.string(),
 })
 
+export const SearchEntitiesSchema = z.array(SearchEntitySchema)
+
 export const PostGuessRequestSchema = z.object({
-  sessionId: z.string(),
+  sessionId: z.uuid(),
   guesses: GuessesSchema,
 })
 
@@ -46,10 +41,8 @@ export const AlbumsCoversSchema = z.object({
 })
 
 export type Session = z.infer<typeof SessionSchema>
-export const SearchEntitiesSchema = z.array(SearchEntitySchema)
 export type SearchEntity = z.infer<typeof SearchEntitySchema>
 export type SearchEntities = z.infer<typeof SearchEntitiesSchema>
 export type Guess = z.infer<typeof GuessSchema>
 export type Guesses = z.infer<typeof GuessesSchema>
-export type GuessResult = z.infer<typeof GuessResultSchema>
 export type PostGuessRequest = z.infer<typeof PostGuessRequestSchema>
