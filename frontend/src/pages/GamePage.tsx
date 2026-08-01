@@ -2,8 +2,11 @@ import GuessPanel from "@/components/game/GuessPanel"
 import PlayerPanel from "@/components/game/PlayerPanel"
 import GitHub from "@/components/layout/GitHub"
 import UserMenu from "@/components/layout/UserMenu"
+import usePreloadAlbumCovers from "@/hooks/usePreloadAlbumCovers"
 
 const GamePage = () => {
+  usePreloadAlbumCovers()
+
   return (
     <>
       <header>

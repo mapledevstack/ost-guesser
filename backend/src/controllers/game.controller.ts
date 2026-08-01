@@ -8,6 +8,7 @@ import {
   searchService,
   processGuess,
   startGameService,
+  getAlbumsService,
 } from "../services/game.service.js"
 import catchErrors from "../utils/catchErrors.js"
 
@@ -15,6 +16,12 @@ export const searchController = catchErrors(async (req, res) => {
   const { q } = searchQuerySchema.parse(req.query)
 
   const results = await searchService(q)
+
+  return res.status(OK).json(results)
+})
+
+export const getAlbumsController = catchErrors(async (req, res) => {
+  const results = await getAlbumsService()
 
   return res.status(OK).json(results)
 })

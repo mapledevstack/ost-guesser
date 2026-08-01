@@ -1,6 +1,7 @@
 import api from "@/config/axios"
 import type { GameMode } from "@/providers/game-provider"
 import {
+  AlbumsCoversSchema,
   GuessResultSchema,
   SearchEntitiesSchema,
   SessionSchema,
@@ -17,6 +18,12 @@ export const search = async (query: string) => {
   const res = await api.get(`/game/search?q=${query}`)
 
   return SearchEntitiesSchema.parse(res.data)
+}
+
+export const getAlbums = async () => {
+  const res = await api.get(`/game/albums`)
+
+  return AlbumsCoversSchema.parse(res.data)
 }
 
 export const postGuess = async (

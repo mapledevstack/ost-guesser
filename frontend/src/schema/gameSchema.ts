@@ -1,3 +1,4 @@
+import { SUPABASE_URL } from "@/constants/env"
 import z from "zod"
 
 export const GuessSchema = z.object({
@@ -41,6 +42,12 @@ export const SearchEntitySchema = z.object({
 export const PostGuessRequestSchema = z.object({
   sessionId: z.string(),
   guesses: GuessesSchema,
+})
+
+export const AlbumsCoversSchema = z.object({
+  covers: z.array(
+    z.string().transform((id) => `${SUPABASE_URL}/covers/${id}.webp`)
+  ),
 })
 
 export type Session = z.infer<typeof SessionSchema>

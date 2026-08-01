@@ -30,6 +30,10 @@ export const ensureGuestExists = async (guestId: string) => {
   await db.insert(guests).values({ id: guestId }).onConflictDoNothing()
 }
 
+export const getAlbums = async () => {
+  return db.query.albums.findMany()
+}
+
 export const searchEntities = async (query: string) => {
   return db.execute(sql`
     SELECT *

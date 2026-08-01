@@ -26,7 +26,7 @@ const DiscPlayer = ({
   const { data: session } = useSession()
 
   const albumId = session?.answer?.albumId
-  const coverUrl = `${SUPABASE_URL}/covers/${albumId}.jpg`
+  const coverUrl = `${SUPABASE_URL}/covers/${albumId}.webp`
 
   const radius = 42
   const circumference = 2 * Math.PI * radius

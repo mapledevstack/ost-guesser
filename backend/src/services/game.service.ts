@@ -5,6 +5,7 @@ import { MAX_GUESSES } from "../constants/game.js"
 import { BAD_REQUEST, NOT_FOUND } from "../constants/http.js"
 import {
   createDailyGame,
+  getAlbums,
   getDailyGameByDate,
   getRandomTrack,
   searchEntities,
@@ -28,6 +29,14 @@ export const searchService = async (query: string) => {
   const { rows } = await searchEntities(query)
 
   return rows
+}
+
+export const getAlbumsService = async () => {
+  const albums = await getAlbums()
+
+  return {
+    covers: albums.map((album) => album.id),
+  }
 }
 
 type StartGameServiceType = {

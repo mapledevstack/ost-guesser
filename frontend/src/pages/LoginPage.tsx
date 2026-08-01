@@ -38,7 +38,7 @@ const LoginPage = () => {
       <div
         className="absolute -inset-3 bg-cover bg-center transition-transform duration-300 ease-out"
         style={{
-          backgroundImage: "url('/images/bg.jpg')",
+          backgroundImage: "url('/images/bg.webp')",
           transform: `translate(${position.x * 5}px, ${position.y * 5}px)`,
         }}
       />

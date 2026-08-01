@@ -1,5 +1,6 @@
 import { Router } from "express"
 import {
+  getAlbumsController,
   guessGameController,
   searchController,
   startGameController,
@@ -8,6 +9,7 @@ import {
 const router = Router()
 
 router.get("/search", searchController)
+router.get("/albums", getAlbumsController)
 
 router.get("/:mode", startGameController)
 router.post("/:mode/guess", guessGameController)
