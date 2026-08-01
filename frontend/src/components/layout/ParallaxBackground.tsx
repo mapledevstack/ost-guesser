@@ -55,7 +55,7 @@ const ParallaxBackground = ({
         className="absolute inset-0 transition-opacity duration-1000 ease-out"
         style={{
           opacity: visible ? 0.45 : 1,
-          background: "linear-gradient(to bottom, black, var(--background))",
+          background: "linear-gradient(to bottom, black, var(--background)) ",
         }}
       />
     </>

@@ -30,10 +30,11 @@ const AvatarDropdown = () => {
               size="icon"
               className="cursor-pointer rounded-full"
             >
-              <Avatar size="xl">
+              <Avatar size="2xl">
                 <AvatarImage
                   src={user?.avatarUrl ?? undefined}
                   alt="user avatar"
+                  className="border-4 border-primary bg-sidebar-primary"
                 />
                 <AvatarFallback>
                   <CircleUser className="size-full" />
