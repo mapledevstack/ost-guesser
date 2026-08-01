@@ -9,9 +9,9 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "../ui/dialog"
-import avatarUrls from "@/data/avatarUrls"
 import { Button } from "../ui/button"
 import { cn } from "@/utils/cn"
+import avatars from "@/data/avatars.json"
 
 type Props = {
   avatarUrl: string
@@ -19,6 +19,8 @@ type Props = {
 }
 
 const AvatarSelector = ({ avatarUrl, setAvatarUrl }: Props) => {
+  const avatarUrls = avatars.map((avatar) => avatar.image)
+
   return (
     <Dialog>
       <DialogTrigger>
@@ -50,7 +52,7 @@ const AvatarSelector = ({ avatarUrl, setAvatarUrl }: Props) => {
               )}
               onClick={() => setAvatarUrl(url)}
             >
-              <AvatarImage src={avatarUrl} alt="user avatar" />
+              <AvatarImage src={url} alt="user avatar" />
               <AvatarFallback>
                 <CircleUser className="size-full" />
               </AvatarFallback>
