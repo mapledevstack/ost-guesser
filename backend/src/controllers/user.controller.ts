@@ -32,4 +32,6 @@ export const updateMeController = catchErrors(async (req, res) => {
   }
 
   await updateMeService(userId, values)
+
+  return res.sendStatus(204)
 })

@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Field, FieldLabel, FieldSeparator } from "../ui/field"
 import { Input } from "../ui/input"
 import { Button } from "../ui/button"
@@ -8,6 +8,7 @@ import { DialogClose, DialogFooter } from "../ui/dialog"
 import useUpdateProfile from "@/hooks/useUpdateProfile"
 import { Spinner } from "../ui/spinner"
 import useMe from "@/hooks/useMe"
+import { toast, Toaster } from "../ui/toast"
 
 const EditProfile = () => {
   const { data: user } = useMe()
@@ -15,7 +16,16 @@ const EditProfile = () => {
   const [displayName, setDisplayName] = useState<string>(user.displayName ?? "")
   const [avatarUrl, setAvatarUrl] = useState<string>(user.avatarUrl ?? "")
 
-  const { mutate: updateProfile, isPending } = useUpdateProfile()
+  const { mutate: updateProfile, isPending, isSuccess } = useUpdateProfile()
+
+  useEffect(() => {
+    if (isSuccess) {
+      toast.add({
+        type: "success",
+        description: "Profile updated successfully.",
+      })
+    }
+  }, [isSuccess])
 
   return (
     <div className="grid grid-cols-[30%_1fr] gap-6">
@@ -52,6 +62,7 @@ const EditProfile = () => {
           </Button>
         </DialogFooter>
       </Field>
+      <Toaster />
     </div>
   )
 }
