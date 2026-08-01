@@ -65,7 +65,7 @@ const DiscPlayer = ({
       <div
         className="absolute inset-[6%] size-[88%]"
         style={{
-          animation: "spin 12s linear infinite",
+          animation: "spin 24s linear infinite",
           animationPlayState: isPlaying ? "running" : "paused",
         }}
       >

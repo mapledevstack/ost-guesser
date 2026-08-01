@@ -24,9 +24,14 @@ const PlayerPanel = () => {
 
   return (
     <div className="relative flex min-h-screen w-full flex-col items-center justify-center gap-4">
-      <div className="absolute top-16 z-10 text-3xl font-extrabold tracking-wide text-sidebar-primary flex items-center gap-4">
+      <div className="absolute top-16 z-10 flex items-center gap-4 font-[cinzel] text-3xl font-black tracking-wide text-sidebar-primary">
         <h1>{session?.answer?.title}</h1>
-        <a href={`https://www.youtube.com/watch?v=${session?.answer?.id}`} target="_blank" rel="noopener noreferrer" className={cn("hidden", session?.answer?.id && "block")}>
+        <a
+          href={`https://www.youtube.com/watch?v=${session?.answer?.id}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={cn("hidden", session?.answer?.id && "block")}
+        >
           <SiYoutubemusic className="size-10 text-red-500" />
         </a>
       </div>
@@ -43,8 +48,8 @@ const PlayerPanel = () => {
         disabled={disabled}
       />
 
-      <div className="z-10 flex flex-col items-center gap-6 ">
-        <div className="flex items-center gap-3 justify-center">
+      <div className="z-10 flex flex-col items-center gap-6">
+        <div className="flex items-center justify-center gap-3">
           <Volume2 className="size-5 shrink-0" />
           <input
             type="range"
@@ -57,7 +62,6 @@ const PlayerPanel = () => {
             className="w-36 cursor-pointer accent-primary disabled:cursor-not-allowed"
           />
         </div>
-
       </div>
     </div>
   )

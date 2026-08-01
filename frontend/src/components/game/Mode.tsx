@@ -10,7 +10,7 @@ const Mode = ({ mode }: Props) => {
   const navigate = useNavigate()
 
   return (
-    <div className="flex w-md items-center justify-around rounded-lg bg-muted p-1 lg:w-lg">
+    <div className="flex w-sm items-center justify-around rounded-lg bg-muted p-1 lg:w-sm">
       <Button
         variant="ghost"
         onClick={() => navigate({ to: "/" })}
