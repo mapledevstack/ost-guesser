@@ -1,13 +1,13 @@
-import { updateUserData } from "@/api/userApi"
+import { updateMe } from "@/api/userApi"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 
 const useUpdateProfile = () => {
   const queryClient = useQueryClient()
 
   return useMutation({
-    mutationFn: updateUserData,
+    mutationFn: updateMe,
     onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["user"] })
+      queryClient.invalidateQueries({ queryKey: ["me"] })
     },
   })
 }

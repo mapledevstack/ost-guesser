@@ -12,13 +12,13 @@ import {
 import { Button } from "../ui/button"
 import useLogout from "@/hooks/useLogout"
 import { Spinner } from "../ui/spinner"
-import useUser from "@/hooks/useAuthUser"
 import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog"
 import EditProfile from "./EditProfile"
+import useMe from "@/hooks/useMe"
 
 const AvatarDropdown = () => {
   const { mutate: logout, isPending } = useLogout()
-  const { data: user } = useUser()
+  const { data: user } = useMe()
 
   return (
     <Dialog>
@@ -46,11 +46,9 @@ const AvatarDropdown = () => {
           <DropdownMenuGroup>
             <DropdownMenuLabel>
               <div className="flex flex-col">
-                <span className="truncate font-medium">
-                  {user?.displayName}
-                </span>
+                <span className="truncate font-medium">{user.displayName}</span>
                 <span className="truncate text-xs text-muted-foreground">
-                  {user?.email}
+                  {user.email}
                 </span>
               </div>
             </DropdownMenuLabel>

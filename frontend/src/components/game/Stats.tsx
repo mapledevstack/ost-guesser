@@ -1,12 +1,10 @@
-import useUser from "@/hooks/useAuthUser"
 import { useGame } from "@/hooks/useGame"
 import Score from "./Score"
+import useMe from "@/hooks/useMe"
 
 const Stats = () => {
-  const { data: user } = useUser()
+  const { data: user } = useMe()
   const { mode } = useGame()
-
-  if (!user) return null
 
   const dailyStats = user.gameStats.daily
   const endlessStats = user.gameStats.endless

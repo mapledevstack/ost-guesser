@@ -45,7 +45,7 @@ type UpdateProfileServiceType = {
   avatarUrl?: string
 }
 
-export const updateProfileService = async (
+export const updateMeService = async (
   userId: string,
   { displayName, avatarUrl }: UpdateProfileServiceType,
 ) => {
@@ -58,13 +58,7 @@ export const updateProfileService = async (
     ...(avatarUrl !== undefined && { avatarUrl }),
   }
 
-  const updatedUser = await updateUser(userId, values)
-
-  return {
-    id: updatedUser.id,
-    displayName: updatedUser.displayName,
-    avatarUrl: updatedUser.avatarUrl,
-  }
+  await updateUser(userId, values)
 }
 
 export const createGuestService = async () => {

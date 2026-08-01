@@ -1,4 +1,3 @@
-import useUser from "@/hooks/useAuthUser"
 import { useState } from "react"
 import { Field, FieldLabel, FieldSeparator } from "../ui/field"
 import { Input } from "../ui/input"
@@ -8,18 +7,15 @@ import AvatarSelector from "./AvatarSelector"
 import { DialogClose, DialogFooter } from "../ui/dialog"
 import useUpdateProfile from "@/hooks/useUpdateProfile"
 import { Spinner } from "../ui/spinner"
+import useMe from "@/hooks/useMe"
 
 const EditProfile = () => {
-  const { data: user } = useUser()
+  const { data: user } = useMe()
 
-  const [displayName, setDisplayName] = useState<string>(
-    user?.displayName ?? ""
-  )
-  const [avatarUrl, setAvatarUrl] = useState<string>(user?.avatarUrl ?? "")
+  const [displayName, setDisplayName] = useState<string>(user.displayName ?? "")
+  const [avatarUrl, setAvatarUrl] = useState<string>(user.avatarUrl ?? "")
 
   const { mutate: updateProfile, isPending } = useUpdateProfile()
-
-  if (!user) return null
 
   return (
     <div className="grid grid-cols-[30%_1fr] gap-6">

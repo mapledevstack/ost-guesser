@@ -12,6 +12,7 @@ export const MeSchema = z.union([
 ])
 
 export const UserSchema = z.object({
+  type: z.enum(["user", "guest"]),
   id: z.string(),
   displayName: z.string().nullable(),
   avatarUrl: z.string().nullable(),

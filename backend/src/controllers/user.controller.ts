@@ -5,24 +5,24 @@ import { UpdateProfileSchema } from "../schema/user.schema.js"
 import {
   getGuestByIdService,
   getUserByIdService,
-  updateProfileService,
+  updateMeService,
 } from "../services/user.service.js"
-import type { RequestHandler } from "express"
 
-export const getUserIdentityController: RequestHandler = (req, res) => {
-  return res.status(OK).json(req.auth)
-}
+export const getMeController = catchErrors(async (req, res) => {
+  const type = req.auth.type
 
-export const getProfileController = catchErrors(async (req, res) => {
   const profile =
-    req.auth.type === "guest"
+    type === "guest"
       ? await getGuestByIdService(req.auth.guestId)
       : await getUserByIdService(req.auth.userId)
 
-  return res.status(OK).json(profile)
+  return res.status(OK).json({
+    type,
+    ...profile,
+  })
 })
 
-export const updateProfile = catchErrors(async (req, res) => {
+export const updateMeController = catchErrors(async (req, res) => {
   const userId = getAuthUser(req)
   const { displayName, avatarUrl } = UpdateProfileSchema.parse(req.body)
 
@@ -31,7 +31,5 @@ export const updateProfile = catchErrors(async (req, res) => {
     ...(avatarUrl && { avatarUrl }),
   }
 
-  await updateProfileService(userId, values)
-
-  return res.status(OK).json(userId)
+  await updateMeService(userId, values)
 })
