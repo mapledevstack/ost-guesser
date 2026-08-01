@@ -4,6 +4,7 @@ import { Input } from "../ui/input"
 import { cn } from "@/utils/cn"
 import useGuess from "@/hooks/useGuess"
 import useSession from "@/hooks/useSession"
+import { toast, Toaster } from "../ui/toast"
 
 const Search = () => {
   const [isFocused, setIsFocused] = useState(false)
@@ -61,6 +62,20 @@ const Search = () => {
               onMouseDown={(e) => {
                 e.preventDefault()
 
+                if (
+                  session.guesses.some(
+                    (guess) =>
+                      guess.name === result.name && guess.type === result.type
+                  )
+                ) {
+                  toast.add({
+                    title: "Already guessed",
+                    description: `${result.name} was alraeady guessed`,
+                  })
+
+                  return
+                }
+
                 makeGuess({
                   sessionId: session.sessionId,
                   guesses: session.guesses.concat({
@@ -82,6 +97,7 @@ const Search = () => {
           ))
         )}
       </div>
+      <Toaster />
     </div>
   )
 }
