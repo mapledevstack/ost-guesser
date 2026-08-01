@@ -19,10 +19,17 @@ import {
   updateGameSession,
 } from "../db/queries/session.queries.js"
 import { getTrack } from "../db/queries/tracks.queries.js"
+import {
+  getGuestById,
+  getUserById,
+  updateGuestById,
+  updateUserById,
+} from "../db/queries/user.queries.js"
+import type { gameSessions } from "../db/schema.js"
 import type { GameModeType, PlayerIdentityType } from "../schema/auth.schema.js"
 import type { GuessGameType } from "../schema/game.schema.js"
 import appAssert from "../utils/appAssert.js"
-import { formatGuessResult, isCorrectGuess } from "../utils/game.js"
+import { assertSessionOwnership, isCorrectGuess } from "../utils/game.js"
 import { getCurrentDate } from "../utils/time.js"
 
 export const searchService = async (query: string) => {
@@ -39,12 +46,72 @@ export const getAlbumsService = async () => {
   }
 }
 
+type GameSession = typeof gameSessions.$inferSelect
+
+const formatGameSession = async (session: GameSession) => {
+  const result = {
+    sessionId: session.id,
+    clipUrl: `${SUPABASE_URL}/${session.trackId}.mp3`,
+    guesses: session.guesses,
+    status: session.status,
+  }
+
+  if (session.status === "playing") {
+    return result
+  }
+
+  const track = await getTrack(session.trackId)
+
+  appAssert(track, NOT_FOUND, ERROR_CODES.TRACK_NOT_FOUND)
+
+  return {
+    ...result,
+    answer: {
+      id: session.trackId,
+      title: track.title,
+      albumId: track.album.id,
+    },
+  }
+}
+
+const getDailyGame = async () => {
+  let dailyGame = await getDailyGameByDate(getCurrentDate())
+
+  if (!dailyGame) {
+    const track = await getRandomTrack()
+
+    await createDailyGame({
+      date: getCurrentDate(),
+      trackId: track.id,
+    })
+
+    dailyGame = {
+      date: getCurrentDate(),
+      trackId: track.id,
+    }
+  }
+
+  return {
+    trackId: dailyGame.trackId,
+    dailyGameDate: dailyGame.date,
+  }
+}
+
+const getEndlessGame = async () => {
+  const track = await getRandomTrack()
+
+  return {
+    trackId: track.id,
+    dailyGameDate: null,
+  }
+}
+
 type StartGameServiceType = {
   mode: GameModeType
   playerIdentity: PlayerIdentityType
 }
 
-export const startGameService = async ({
+export const getGameService = async ({
   mode,
   playerIdentity,
 }: StartGameServiceType) => {
@@ -53,65 +120,14 @@ export const startGameService = async ({
   const guestId =
     playerIdentity.type === "guest" ? playerIdentity.guestId : null
 
-  const session = await getGameSession({
-    mode,
-    userId,
-    guestId,
-  })
+  const session = await getGameSession({ mode, userId, guestId })
 
   if (session) {
-    if (session.status === "playing") {
-      return {
-        sessionId: session.id,
-        clipUrl: `${SUPABASE_URL}/${session.trackId}.mp3`,
-        guesses: session.guesses,
-        status: session.status,
-      }
-    }
-
-    const track = await getTrack(session.trackId)
-
-    appAssert(track, NOT_FOUND, ERROR_CODES.TRACK_NOT_FOUND)
-
-    return {
-      sessionId: session.id,
-      clipUrl: `${SUPABASE_URL}/${session.trackId}.mp3`,
-      guesses: session.guesses,
-      status: session.status,
-      answer: {
-        id: session.trackId,
-        title: track.title,
-        albumId: track.album.id,
-      },
-    }
+    return formatGameSession(session)
   }
 
-  let trackId: string
-  let dailyGameDate: string | null = null
-
-  if (mode === "daily") {
-    let dailyGame = await getDailyGameByDate(getCurrentDate())
-
-    if (!dailyGame) {
-      const track = await getRandomTrack()
-
-      await createDailyGame({
-        date: getCurrentDate(),
-        trackId: track.id,
-      })
-
-      dailyGame = {
-        date: getCurrentDate(),
-        trackId: track.id,
-      }
-    }
-
-    trackId = dailyGame.trackId
-    dailyGameDate = dailyGame.date
-  } else {
-    const track = await getRandomTrack()
-    trackId = track.id
-  }
+  const { trackId, dailyGameDate } =
+    mode === "daily" ? await getDailyGame() : await getEndlessGame()
 
   const newSession = await createGameSession({
     mode,
@@ -121,14 +137,8 @@ export const startGameService = async ({
     dailyGameDate,
   })
 
-  return {
-    sessionId: newSession.id,
-    clipUrl: `${SUPABASE_URL}/${trackId}.mp3`,
-    guesses: newSession.guesses,
-    status: newSession.status,
-  }
+  return formatGameSession(newSession)
 }
-
 export const processGuess = async ({
   sessionId,
   guesses,
@@ -140,21 +150,7 @@ export const processGuess = async ({
 
   appAssert(session, NOT_FOUND, ERROR_CODES.SESSION_NOT_FOUND)
 
-  if (playerIdentity.type === "guest") {
-    appAssert(
-      session.guestId === playerIdentity.guestId,
-      BAD_REQUEST,
-      ERROR_CODES.GUEST_MISMATCH,
-    )
-  }
-
-  if (playerIdentity.type === "user") {
-    appAssert(
-      session.userId === playerIdentity.userId,
-      BAD_REQUEST,
-      ERROR_CODES.USER_MISMATCH,
-    )
-  }
+  assertSessionOwnership(session, playerIdentity)
 
   appAssert(
     session.status === "playing",
@@ -172,11 +168,9 @@ export const processGuess = async ({
 
   const correct = isCorrectGuess(guess, track)
 
-  const guessCount = guesses.length
-
   const status = correct
     ? "won"
-    : guessCount >= MAX_GUESSES
+    : guesses.length >= MAX_GUESSES
       ? "lost"
       : "playing"
 
@@ -185,20 +179,75 @@ export const processGuess = async ({
     status,
   })
 
-  const result = {
-    correct,
-    status: updatedSession.status,
+  if (status !== "playing") {
+    await updateGameStats({
+      playerIdentity,
+      mode: session.mode,
+      guessCount: guesses.length,
+      guessType: guess.type,
+      status,
+    })
+  }
+
+  return {
+    sessionId: updatedSession.id,
+    clipUrl: `${SUPABASE_URL}/${session.trackId}.mp3`,
     guesses: updatedSession.guesses,
-    track,
+    status: updatedSession.status,
+  }
+}
+
+export const updateGameStats = async ({
+  playerIdentity,
+  mode,
+  guessCount,
+  guessType,
+  status,
+}: {
+  playerIdentity: PlayerIdentityType
+  mode: GameModeType
+  guessCount: number
+  guessType: GuessGameType["guesses"][number]["type"]
+  status: "won" | "lost" | "playing"
+}) => {
+  if (status === "playing") {
+    return
   }
 
-  if (result.status !== "playing") {
-    if (session.mode === "daily") {
-      await updateDailyStats({ playerIdentity, result })
-    } else {
-      await updateEndlessStats({ playerIdentity, result })
-    }
+  const player =
+    playerIdentity.type === "user"
+      ? await getUserById(playerIdentity.userId)
+      : await getGuestById(playerIdentity.guestId)
+
+  appAssert(player, NOT_FOUND, ERROR_CODES.PLAYER_NOT_FOUND)
+
+  const updatedStats =
+    mode === "daily"
+      ? updateDailyStats(player.gameStats["daily"], {
+          guessCount,
+          guessType,
+          status,
+        })
+      : updateEndlessStats(player.gameStats["endless"], {
+          guessCount,
+          guessType,
+          status,
+        })
+
+  const updatedGameStats = {
+    ...player.gameStats,
+    [mode]: updatedStats,
   }
 
-  return formatGuessResult(result)
+  if (playerIdentity.type === "user") {
+    await updateUserById(playerIdentity.userId, {
+      gameStats: updatedGameStats,
+    })
+  } else {
+    await updateGuestById(playerIdentity.guestId, {
+      gameStats: updatedGameStats,
+    })
+  }
+
+  return updatedGameStats
 }

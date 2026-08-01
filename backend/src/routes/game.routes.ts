@@ -1,9 +1,9 @@
 import { Router } from "express"
 import {
   getAlbumsController,
+  getGameController,
   guessGameController,
   searchController,
-  startGameController,
 } from "../controllers/game.controller.js"
 
 const router = Router()
@@ -11,7 +11,7 @@ const router = Router()
 router.get("/search", searchController)
 router.get("/albums", getAlbumsController)
 
-router.get("/:mode", startGameController)
+router.get("/:mode", getGameController)
 router.post("/:mode/guess", guessGameController)
 
 export default router

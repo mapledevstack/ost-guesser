@@ -23,15 +23,10 @@ export const SessionSchema = z.object({
 })
 
 export const GuessResultSchema = z.object({
-  correct: z.boolean(),
+  sessionId: z.uuid(),
   status: z.enum(["playing", "won", "lost"]),
   guesses: z.array(GuessSchema),
-  answer: z
-    .object({
-      id: z.string(),
-      title: z.string(),
-    })
-    .optional(),
+  clipUrl: z.url(),
 })
 
 export const SearchEntitySchema = z.object({

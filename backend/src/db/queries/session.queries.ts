@@ -1,15 +1,12 @@
-import { ERROR_CODES } from "../../constants/appErrorCodes.js"
-import { NOT_FOUND } from "../../constants/http.js"
 import type {
   GameModeType,
   PlayerIdentityType,
 } from "../../schema/auth.schema.js"
-import type { GuessResult } from "../../schema/game.schema.js"
-import appAssert from "../../utils/appAssert.js"
+import type { GuessGameType, GuessResult } from "../../schema/game.schema.js"
 import { calculateScore } from "../../utils/game.js"
 import { getCurrentDate } from "../../utils/time.js"
 import db from "../index.js"
-import { gameSessions } from "../schema.js"
+import { gameSessions, users } from "../schema.js"
 import { eq } from "drizzle-orm"
 
 type GameSessionType = typeof gameSessions.$inferInsert
@@ -61,8 +58,8 @@ export const getGameSession = async ({
         where: {
           mode,
           userId,
-          status: "playing",
         },
+        orderBy: (gameSessions, { desc }) => [desc(gameSessions.createdAt)],
       })
     }
 
@@ -71,8 +68,8 @@ export const getGameSession = async ({
         where: {
           mode,
           guestId,
-          status: "playing",
         },
+        orderBy: (gameSessions, { desc }) => [desc(gameSessions.createdAt)],
       })
     }
   }
@@ -109,93 +106,69 @@ export const updateGameSession = async (
   return session
 }
 
-const getPlayerGameStats = async (playerIdentity: PlayerIdentityType) => {
-  if (playerIdentity.type === "user") {
-    const user = await db.query.users.findFirst({
-      where: {
-        id: playerIdentity.userId,
-      },
-    })
-
-    return user?.gameStats
-  }
-
-  const guest = await db.query.guests.findFirst({
-    where: {
-      id: playerIdentity.guestId,
-    },
-  })
-
-  return guest?.gameStats
-}
-
 type UpdateStatsType = {
   playerIdentity: PlayerIdentityType
   result: GuessResult
 }
 
-export const updateDailyStats = async ({
-  playerIdentity,
-  result,
-}: UpdateStatsType) => {
-  const gameStats = await getPlayerGameStats(playerIdentity)
+type UpdateStatsInput = {
+  guessCount: number
+  guessType: GuessGameType["guesses"][number]["type"]
+  status: "won" | "lost"
+}
 
-  appAssert(gameStats, NOT_FOUND, ERROR_CODES.PLAYER_NOT_FOUND)
+type DailyGameStats = (typeof users.$inferSelect)["gameStats"]["daily"]
+type EndlessGameStats = (typeof users.$inferSelect)["gameStats"]["endless"]
 
-  if (result.status === "won") {
-    gameStats.daily.gamesPlayed++
-    gameStats.daily.currentStreak++
-    gameStats.daily.bestStreak = Math.max(
-      gameStats.daily.bestStreak,
-      gameStats.daily.currentStreak,
-    )
+export const updateDailyStats = (
+  stats: DailyGameStats,
+  { guessCount, guessType, status }: UpdateStatsInput,
+): DailyGameStats => {
+  const gamesPlayed = stats.gamesPlayed + 1
 
-    const latestGuess = result.guesses.at(-1)
-
-    if (latestGuess) {
-      gameStats.daily.score += calculateScore(
-        result.guesses.length,
-        latestGuess.type,
-      )
+  if (status === "lost") {
+    return {
+      ...stats,
+      gamesPlayed,
+      currentStreak: 0,
     }
   }
 
-  if (result.status === "lost") {
-    gameStats.daily.gamesPlayed++
-    gameStats.daily.currentStreak = 0
+  const currentStreak = stats.currentStreak + 1
+  const score = calculateScore(guessCount, guessType)
+
+  return {
+    ...stats,
+    gamesPlayed,
+    currentStreak,
+    bestStreak: Math.max(stats.bestStreak, currentStreak),
+    score: stats.score + score,
   }
 }
 
-export const updateEndlessStats = async ({
-  playerIdentity,
-  result,
-}: UpdateStatsType) => {
-  const gameStats = await getPlayerGameStats(playerIdentity)
+export const updateEndlessStats = (
+  stats: EndlessGameStats,
+  { guessCount, guessType, status }: UpdateStatsInput,
+): EndlessGameStats => {
+  const gamesPlayed = stats.gamesPlayed + 1
 
-  appAssert(gameStats, NOT_FOUND, ERROR_CODES.PLAYER_NOT_FOUND)
-
-  if (result.status === "won") {
-    gameStats.endless.gamesPlayed++
-
-    const latestGuess = result.guesses.at(-1)
-
-    if (latestGuess) {
-      const score = calculateScore(result.guesses.length, latestGuess.type)
-
-      gameStats.endless.totalScore += score
-      gameStats.endless.bestScore = Math.max(gameStats.endless.bestScore, score)
+  if (status === "lost") {
+    return {
+      ...stats,
+      gamesPlayed,
+      currentStreak: 0,
     }
-
-    gameStats.endless.currentStreak++
-
-    gameStats.endless.bestStreak = Math.max(
-      gameStats.endless.bestStreak,
-      gameStats.endless.currentStreak,
-    )
   }
 
-  if (result.status === "lost") {
-    gameStats.endless.gamesPlayed++
-    gameStats.endless.currentStreak = 0
+  const currentStreak = stats.currentStreak + 1
+  const score = calculateScore(guessCount, guessType)
+
+  return {
+    ...stats,
+    gamesPlayed,
+    currentStreak,
+    bestStreak: Math.max(stats.bestStreak, currentStreak),
+    totalScore: stats.totalScore + score,
+    bestScore: Math.max(stats.bestScore, score),
   }
 }

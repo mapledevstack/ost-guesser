@@ -59,3 +59,33 @@ export const updateUser = async (
 
   return user
 }
+
+export const updateUserById = async (
+  id: string,
+  values: Partial<CreateUserInput>,
+) => {
+  const [user] = await db
+    .update(users)
+    .set(values)
+    .where(eq(users.id, id))
+    .returning()
+
+  appAssert(user, INTERNAL_SERVER_ERROR, "Failed to update user")
+
+  return user
+}
+
+export const updateGuestById = async (
+  id: string,
+  values: Partial<CreateGuestInput>,
+) => {
+  const [guest] = await db
+    .update(guests)
+    .set(values)
+    .where(eq(guests.id, id))
+    .returning()
+
+  appAssert(guest, INTERNAL_SERVER_ERROR, "Failed to update guest")
+
+  return guest
+}

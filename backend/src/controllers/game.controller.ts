@@ -7,7 +7,7 @@ import {
 import {
   searchService,
   processGuess,
-  startGameService,
+  getGameService,
   getAlbumsService,
 } from "../services/game.service.js"
 import catchErrors from "../utils/catchErrors.js"
@@ -26,17 +26,13 @@ export const getAlbumsController = catchErrors(async (req, res) => {
   return res.status(OK).json(results)
 })
 
-export const startGameController = catchErrors(async (req, res) => {
+export const getGameController = catchErrors(async (req, res) => {
   const mode = GameModeSchema.parse(req.params.mode)
   const playerIdentity = req.auth
 
-  const { sessionId, clipUrl, guesses, status, answer } =
-    await startGameService({
-      mode,
-      playerIdentity,
-    })
+  const result = await getGameService({ mode, playerIdentity })
 
-  return res.status(OK).json({ sessionId, clipUrl, guesses, status, answer })
+  return res.status(OK).json(result)
 })
 
 export const guessGameController = catchErrors(async (req, res) => {

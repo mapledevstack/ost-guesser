@@ -74,6 +74,7 @@ export type GuessResult = {
   }
 }
 
+export type StatusType = "playing" | "won" | "lost"
 export type CompleteGameType = z.infer<typeof GuessGameRequestSchema>
 export type AuthType = z.infer<typeof AuthSchema>
 export type DailyStatsType = z.infer<typeof DailyStatsSchema>
