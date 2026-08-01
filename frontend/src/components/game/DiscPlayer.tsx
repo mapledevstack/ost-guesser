@@ -2,7 +2,7 @@ import { Pause, Play, RotateCcw } from "lucide-react"
 import { Button } from "../ui/button"
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip"
 import useSession from "@/hooks/useSession"
-import { SUPABASE_URL } from "@/constants/env"
+import { getAlbumCoverUrl } from "@/utils/helpers"
 
 type Props = {
   progress: number
@@ -26,9 +26,10 @@ const DiscPlayer = ({
   const { data: session } = useSession()
 
   const albumId = session?.answer?.albumId
-  const coverUrl = `${SUPABASE_URL}/covers/${albumId}.webp`
+  const coverUrl = getAlbumCoverUrl(albumId || "")
 
-  const radius = 42
+  // Progress ring
+  const radius = 44
   const circumference = 2 * Math.PI * radius
   const offset = circumference * (1 - progress)
 
@@ -38,6 +39,14 @@ const DiscPlayer = ({
 
     const x = event.clientX - (rect.left + rect.width / 2)
     const y = event.clientY - (rect.top + rect.height / 2)
+
+    const distance = Math.sqrt(x * x + y * y)
+    const vinylRadius = rect.width * 0.44
+
+    // Ignore clicks outside the vinyl
+    if (distance > vinylRadius) {
+      return
+    }
 
     let degrees = (Math.atan2(y, x) * 180) / Math.PI
 
@@ -51,20 +60,50 @@ const DiscPlayer = ({
   }
 
   return (
-    <div className="relative size-96">
-      {albumId && (
-        <div
-          className="absolute inset-0 rounded-full bg-cover bg-center"
-          style={{
-            backgroundImage: `url(${coverUrl})`,
-          }}
+    <div className="relative size-120">
+      {/* Vinyl + album cover */}
+      <div
+        className="absolute inset-[6%] size-[88%]"
+        style={{
+          animation: "spin 12s linear infinite",
+          animationPlayState: isPlaying ? "running" : "paused",
+        }}
+      >
+        {/* Vinyl */}
+        <img
+          src="/images/vinyl.webp"
+          alt="vinyl"
+          className="absolute inset-0 size-full object-contain"
         />
-      )}
+
+        {/* Album cover */}
+        {albumId && (
+          <img
+            src={coverUrl}
+            alt=""
+            className="absolute top-1/2 left-1/2 size-[65%] -translate-x-1/2 -translate-y-1/2 rounded-full object-cover"
+          />
+        )}
+      </div>
+
+      {/* Progress ring */}
       <svg
-        className="absolute inset-0 size-full -rotate-90"
+        className="absolute inset-0 size-full -rotate-90 cursor-pointer"
         viewBox="0 0 100 100"
         onClick={handleCircleClick}
       >
+        {/* Background track */}
+        <circle
+          cx="50"
+          cy="50"
+          r={radius}
+          fill="transparent"
+          stroke="currentColor"
+          strokeWidth="2"
+          className="text-muted/30"
+        />
+
+        {/* Progress */}
         <circle
           cx="50"
           cy="50"
@@ -81,13 +120,14 @@ const DiscPlayer = ({
         />
       </svg>
 
+      {/* Center controls */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <Tooltip>
           <TooltipTrigger
             render={
               <Button
                 onClick={hasEnded ? onReplay : onPlay}
-                className="size-12 rounded-full"
+                className="size-14 rounded-full bg-sidebar-primary/50"
                 disabled={disabled}
               >
                 {isPlaying ? (

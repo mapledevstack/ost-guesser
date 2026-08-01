@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import ParallaxBackground from "@/components/layout/ParallaxBackground"
 import { Button } from "@/components/ui/button"
 import {
   Card,
@@ -15,38 +15,10 @@ const handleLogin = () => {
 }
 
 const LoginPage = () => {
-  const [position, setPosition] = useState({ x: 0, y: 0 })
-
-  useEffect(() => {
-    const handleMouseMove = (event: MouseEvent) => {
-      const x = (event.clientX / window.innerWidth - 0.5) * 2
-      const y = (event.clientY / window.innerHeight - 0.5) * 2
-
-      setPosition({ x, y })
-    }
-
-    window.addEventListener("mousemove", handleMouseMove)
-
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove)
-    }
-  }, [])
-
   return (
     <div className="relative flex min-h-screen items-center justify-center overflow-hidden">
-      {/* Background */}
-      <div
-        className="absolute -inset-3 bg-cover bg-center transition-transform duration-300 ease-out"
-        style={{
-          backgroundImage: "url('/images/bg.webp')",
-          transform: `translate(${position.x * 5}px, ${position.y * 5}px)`,
-        }}
-      />
+      <ParallaxBackground src="/images/bg.webp" />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/20" />
-
-      {/* Login card */}
       <Card className="relative z-10 w-full max-w-sm py-4 text-center">
         <CardHeader>
           <CardTitle>Sign in</CardTitle>

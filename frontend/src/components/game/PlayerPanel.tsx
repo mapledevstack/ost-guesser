@@ -34,8 +34,8 @@ const PlayerPanel = () => {
         disabled={disabled}
       />
 
-      <div className="flex items-center gap-4">
-        <Volume2 className="size-5" />
+      <div className="z-10 flex items-center gap-3">
+        <Volume2 className="size-5 shrink-0" />
 
         <input
           type="range"
