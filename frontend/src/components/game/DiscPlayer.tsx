@@ -6,6 +6,7 @@ import { getAlbumCoverUrl } from "@/utils/helpers"
 
 type Props = {
   progress: number
+  maxProgress: number
   isPlaying: boolean
   hasEnded: boolean
   onPlay: () => void
@@ -16,6 +17,7 @@ type Props = {
 
 const DiscPlayer = ({
   progress,
+  maxProgress,
   isPlaying,
   hasEnded,
   onPlay,
@@ -28,10 +30,11 @@ const DiscPlayer = ({
   const albumId = session?.answer?.albumId
   const coverUrl = getAlbumCoverUrl(albumId || "")
 
-  // Progress ring
   const radius = 44
   const circumference = 2 * Math.PI * radius
-  const offset = circumference * (1 - progress)
+
+  const progressOffset = circumference * (1 - progress)
+  const maxProgressOffset = circumference * (1 - maxProgress)
 
   const handleCircleClick = (event: React.MouseEvent<SVGSVGElement>) => {
     const svg = event.currentTarget
@@ -43,7 +46,6 @@ const DiscPlayer = ({
     const distance = Math.sqrt(x * x + y * y)
     const vinylRadius = rect.width * 0.44
 
-    // Ignore clicks outside the vinyl
     if (distance > vinylRadius) {
       return
     }
@@ -103,7 +105,23 @@ const DiscPlayer = ({
           className="text-muted/30"
         />
 
-        {/* Progress */}
+        {/* Reveal limit */}
+        <circle
+          cx="50"
+          cy="50"
+          r={radius}
+          fill="transparent"
+          stroke="currentColor"
+          strokeWidth="3"
+          strokeLinecap="round"
+          className="text-sidebar-primary/20"
+          style={{
+            strokeDasharray: circumference,
+            strokeDashoffset: maxProgressOffset,
+          }}
+        />
+
+        {/* Current progress */}
         <circle
           cx="50"
           cy="50"
@@ -115,7 +133,7 @@ const DiscPlayer = ({
           className="text-primary"
           style={{
             strokeDasharray: circumference,
-            strokeDashoffset: offset,
+            strokeDashoffset: progressOffset,
           }}
         />
       </svg>

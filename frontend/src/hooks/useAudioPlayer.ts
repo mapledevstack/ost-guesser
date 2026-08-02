@@ -3,18 +3,25 @@ import { useCallback, useEffect, useRef, useState } from "react"
 type UseAudioPlayerOptions = {
   initialVolume?: number
   src?: string
+  maxDuration: number
 }
 
 const useAudioPlayer = ({
   initialVolume = 0.5,
   src,
-}: UseAudioPlayerOptions = {}) => {
+  maxDuration,
+}: UseAudioPlayerOptions) => {
   const audioRef = useRef<HTMLAudioElement>(null)
+  const currentSrcRef = useRef(src)
+  const previousMaxDurationRef = useRef(maxDuration)
 
   const [isPlaying, setIsPlaying] = useState(false)
   const [volume, setVolumeState] = useState(initialVolume)
   const [progress, setProgress] = useState(0)
+  const [duration, setDuration] = useState(0)
   const [hasEnded, setHasEnded] = useState(false)
+
+  const maxProgress = duration ? Math.min(maxDuration / duration, 1) : 0
 
   const togglePlay = useCallback(() => {
     const audio = audioRef.current
@@ -37,18 +44,24 @@ const useAudioPlayer = ({
     setProgress(0)
     setHasEnded(false)
 
-    void audio.play()
+    void audio.play().catch((error) => {
+      console.error("Failed to play audio:", error)
+    })
   }, [])
 
-  const seek = useCallback((value: number) => {
-    const audio = audioRef.current
-    if (!audio?.duration) return
+  const seek = useCallback(
+    (value: number) => {
+      const audio = audioRef.current
+      if (!audio?.duration) return
 
-    const nextProgress = Math.max(0, Math.min(1, value))
+      const nextProgress = Math.max(0, Math.min(1, value))
+      const nextTime = Math.min(nextProgress * audio.duration, maxDuration)
 
-    audio.currentTime = nextProgress * audio.duration
-    setProgress(nextProgress)
-  }, [])
+      audio.currentTime = nextTime
+      setProgress(nextTime / audio.duration)
+    },
+    [maxDuration]
+  )
 
   const setVolume = useCallback((value: number) => {
     const nextVolume = Math.max(0, Math.min(1, value))
@@ -60,15 +73,20 @@ const useAudioPlayer = ({
     }
   }, [])
 
+  // Load/reset audio when source changes
   useEffect(() => {
     const audio = audioRef.current
     if (!audio) return
+
+    currentSrcRef.current = src
+    previousMaxDurationRef.current = maxDuration
 
     audio.pause()
     audio.currentTime = 0
 
     setIsPlaying(false)
     setProgress(0)
+    setDuration(0)
     setHasEnded(false)
 
     if (src) {
@@ -85,9 +103,12 @@ const useAudioPlayer = ({
     const audio = audioRef.current
     if (!audio) return
 
+    const handleLoadedMetadata = () => {
+      setDuration(audio.duration)
+    }
+
     const handlePlay = () => {
       setIsPlaying(true)
-      setHasEnded(false)
     }
 
     const handlePause = () => {
@@ -100,16 +121,40 @@ const useAudioPlayer = ({
       setProgress(1)
     }
 
+    audio.addEventListener("loadedmetadata", handleLoadedMetadata)
     audio.addEventListener("play", handlePlay)
     audio.addEventListener("pause", handlePause)
     audio.addEventListener("ended", handleEnded)
 
     return () => {
+      audio.removeEventListener("loadedmetadata", handleLoadedMetadata)
       audio.removeEventListener("play", handlePlay)
       audio.removeEventListener("pause", handlePause)
       audio.removeEventListener("ended", handleEnded)
     }
   }, [src])
+
+  // Auto-play when reveal duration increases
+  useEffect(() => {
+    if (currentSrcRef.current !== src) return
+
+    if (previousMaxDurationRef.current === maxDuration) return
+
+    previousMaxDurationRef.current = maxDuration
+
+    const audio = audioRef.current
+    if (!audio || !audio.duration) return
+
+    audio.pause()
+    audio.currentTime = 0
+
+    setProgress(0)
+    setHasEnded(false)
+
+    void audio.play().catch((error) => {
+      console.error("Failed to play audio:", error)
+    })
+  }, [maxDuration, src])
 
   // Progress
   useEffect(() => {
@@ -121,6 +166,16 @@ const useAudioPlayer = ({
       const audio = audioRef.current
 
       if (audio?.duration) {
+        if (audio.currentTime >= maxDuration) {
+          audio.pause()
+          audio.currentTime = maxDuration
+
+          setProgress(maxDuration / audio.duration)
+          setHasEnded(true)
+
+          return
+        }
+
         setProgress(audio.currentTime / audio.duration)
       }
 
@@ -132,7 +187,7 @@ const useAudioPlayer = ({
     return () => {
       cancelAnimationFrame(frameId)
     }
-  }, [isPlaying])
+  }, [isPlaying, maxDuration])
 
   // Initial volume
   useEffect(() => {
@@ -145,7 +200,12 @@ const useAudioPlayer = ({
       if (event.code !== "Space" || !event.ctrlKey) return
 
       event.preventDefault()
-      togglePlay()
+
+      if (hasEnded) {
+        replay()
+      } else {
+        togglePlay()
+      }
     }
 
     window.addEventListener("keydown", handleKeyDown)
@@ -153,13 +213,14 @@ const useAudioPlayer = ({
     return () => {
       window.removeEventListener("keydown", handleKeyDown)
     }
-  }, [togglePlay])
+  }, [hasEnded, replay, togglePlay])
 
   return {
     audioRef,
     isPlaying,
     volume,
     progress,
+    maxProgress,
     hasEnded,
     togglePlay,
     replay,

@@ -4,21 +4,27 @@ import useAudioPlayer from "@/hooks/useAudioPlayer"
 import DiscPlayer from "./DiscPlayer"
 import { SiYoutubemusic } from "react-icons/si"
 import { cn } from "@/utils/cn"
+import { CLIP_DURATIONS } from "@/constants/game"
 
 const PlayerPanel = () => {
   const { data: session, isLoading } = useSession()
+  const clipDuration = CLIP_DURATIONS[session?.guesses?.length ?? 0] ?? 24
 
   const {
     audioRef,
     isPlaying,
     volume,
     progress,
+    maxProgress,
     hasEnded,
     togglePlay,
     replay,
     seek,
     setVolume,
-  } = useAudioPlayer({ src: session?.clipUrl })
+  } = useAudioPlayer({
+    src: session?.clipUrl,
+    maxDuration: clipDuration,
+  })
 
   const disabled = isLoading || !session
 
@@ -42,6 +48,7 @@ const PlayerPanel = () => {
         hasEnded={hasEnded}
         isPlaying={isPlaying}
         progress={progress}
+        maxProgress={maxProgress}
         onPlay={togglePlay}
         onReplay={replay}
         onSeek={seek}
